@@ -8,7 +8,7 @@ export const getExtension = (mimeType: string): string => {
         case 'image/png':
             return 'png';
         case 'image/jpeg':
-            return 'jpeg'
+            return 'jpeg';
         case 'image/gif':
             return 'gif';
         case 'image/bmp':
