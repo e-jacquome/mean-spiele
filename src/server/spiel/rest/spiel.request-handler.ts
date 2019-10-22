@@ -68,7 +68,7 @@ class SpielRequestHandler {
     async find(req: Request, res: Response) {
         const { query } = req;
         logger.debug(
-            `SpielRequestHandler.find(): queryParams=${JSON.stringigy(query)}`,
+            `SpielRequestHandler.find(): queryParams=${JSON.stringify(query)}`,
         );
 
         let spiele: Array<mongoose.Document> = [];
@@ -101,4 +101,30 @@ class SpielRequestHandler {
         res.json(payload);
     }
 
+    private toJsonPayload(spiel: mongoose.Document): any {
+        const {
+            titel,
+            rating,
+            art,
+            verlag,
+            preis,
+            rabatt,
+            lieferbar,
+            datum,
+            schlagwoerter,
+            autoren,
+        } = spiel as any;
+        return {
+            titel,
+            rating,
+            art,
+            verlag,
+            preis,
+            rabatt,
+            lieferbar,
+            datum,
+            schlagwoerter,
+            autoren,
+        };
+    }
 }
