@@ -145,7 +145,7 @@ export class SpielService {
         const spielDb = await Spiel.findById(spiel._id);
         if (spielDb === null) {
             return Promise.reject(
-                new SpielNotExistsError(`Kein Spiel mit ID ${buch._id}`),
+                new SpielNotExistsError(`Kein Spiel mit ID ${spiel._id}`),
             );
         }
         if (version < spielDb.toObject().__v) {
