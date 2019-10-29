@@ -28,7 +28,7 @@ export class SpielServiceMock {
     }
 
     async remove(id: string) {
-        logger.info(`ID des geloeschten Buches: ${id}`)`;`
+        logger.info(`ID des geloeschten Buches: ${id}`);
     }
 
     private readonly toSpielDocument = (spielJSON: any): Document =>
