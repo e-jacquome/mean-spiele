@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "Benutzerkennungen",
+    "description": "Benutzerkennungen mit Passwoerter und Rollen",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "_id": {
+                "description": "ID",
+                "type": "string",
+                "pattern": "^[0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{12}$"
+            },
+            "username": {
+                "description": "Benutzername bzw. Loginname",
+                "type": "string",
+                "minLength": 2
+            },
+            "password": {
+                "type": "string",
+                "minLength": 60,
+                "maxLength": 60
+            },
+            "email": {
+                "type": "string",
+                "format":"email"
+            },
+            "roles": {
+                "description": "Rollen",
+                "type": "array",
+                "items": {
+                    "type": "string",
+                    "enum": [
+                        "admin",
+                        "mitarbeiter",
+                        "abteilungsleiter",
+                        "kunde",
+                        "servicemitarbeiter"
+                    ]
+                },
+                "uniqueItems": true
+            }
+        },
+        "required": [
+            "_id",
+            "username",
+            "password",
+            "email"
+        ],
+        "additionalProperties": false
+    },
+    "uniqueItems": true
+}

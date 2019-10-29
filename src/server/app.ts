@@ -27,3 +27,13 @@ import {
     update,
     upload,
 } from './spiel/rest';
+import { index, neuesSpiel, suche } from './spiel/html';
+import { isAdmin, isAdminMitarbeiter, login, validateJwt } from './auth/rest';
+// Einlesen von application/json im Request-Rumpf
+// Fuer multimediale Daten (Videos, Bilder, Audios): raw-body
+import { json, urlencoded } from 'body-parser';
+import { graphqlSchema } from './spiel/graphql/graphqlSchema';
+import { helmetHandlers } from './security';
+import { join } from 'path';
+
+const { Router } = express;
