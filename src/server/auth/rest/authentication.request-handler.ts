@@ -32,7 +32,7 @@ class AuthenticationRequestHandler {
                 err instanceof TokenInvalidError ||
                 err instanceof AuthorizationInvalidError
             ) {
-                logger.debug (
+                logger.debug(
                     `AuthRequestHandler.validateJwt(): 401: ${err.name}, ${err.message}`,
                 );
                 res.sendStatus(HttpStatus.UNAUTHORIZED);
@@ -40,7 +40,7 @@ class AuthenticationRequestHandler {
             }
             if (err instanceof TokenExpiredError) {
                 logger.debug(`AuthRequestHandler.validateJwt(): 401`);
-                res.header ( 
+                res.header(
                     'WWW-Authenticate',
                     'Bearer realm = "hska.de", error="invalid_token", error_description="The access token expired"',
                 );
@@ -70,7 +70,7 @@ class AuthenticationRequestHandler {
     }
 }
 
-const handler= new AuthenticationRequestHandler();
+const handler = new AuthenticationRequestHandler();
 
 export const login = (req: Request, res: Response) => handler.login(req, res);
 
