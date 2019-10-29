@@ -18,4 +18,4 @@ export const getExtension = (mimeType: string): string => {
         default:
             return '';
     }
-}
+};

@@ -25,7 +25,7 @@ export class SpielService {
             return this.mock.findById(id);
         }
         logger.debug(`SpielService.findById(): id= ${id}`);
-        //Pattern "Active Record" 
+        //Pattern "Active Record"
         return Spiel.findById(id);
     }
 
@@ -44,7 +44,7 @@ export class SpielService {
         const { titel, solo, team, ...dbQuery } = query;
 
         //JSON-Objekt von Express asynchron suchen
-        if (titel !== undefined ) {
+        if (titel !== undefined) {
             //Titel in der Query auch Teilstring des Titels möglich,
             //Regulärer Ausdruck i = incase sensitive, u = unicode support
             dbQuery.titel = RegExp(titel, 'iu');
@@ -65,7 +65,7 @@ export class SpielService {
 
         return Spiel.find(dbQuery);
     }
-    
+
     async create(spiel: Document) {
         if (this.mock !== undefined) {
             return this.mock.create(spiel);
@@ -85,7 +85,7 @@ export class SpielService {
         session.startTransaction();
 
         const { titel }: { titel: string } = spiel as any;
-        let tmp = await Spiel.findOne({ titel }); 
+        let tmp = await Spiel.findOne({ titel });
         if (tmp !== null) {
             return Promise.reject(
                 new TitelExistsError(`Der Titel "${titel}" existiert bereits.`),
@@ -99,7 +99,7 @@ export class SpielService {
         session.endSession();
 
         logger.debug(
-            `SpielService.create(): spielSaved=${JSON.stringify(spielSaved)}`
+            `SpielService.create(): spielSaved=${JSON.stringify(spielSaved)}`,
         );
 
         return spielSaved;
@@ -133,7 +133,7 @@ export class SpielService {
         }
 
         const { titel }: { titel: string } = spiel as any;
-        const tmp = await Spiel.findOne ({ titel });
+        const tmp = await Spiel.findOne({ titel });
         if (tmp !== null && tmp._id !== spiel._id) {
             return Promise.reject(
                 new TitelExistsError(
@@ -178,12 +178,10 @@ export class SpielService {
 
         const spielPromise = Spiel.findByIdAndRemove(id);
 
-        return spielPromise.then(spiel => 
+        return spielPromise.then(spiel =>
             logger.debug(
                 `SpielService.remove(): geloescht=${JSON.stringify(spiel)}`,
             ),
         );
     }
 }
-
-

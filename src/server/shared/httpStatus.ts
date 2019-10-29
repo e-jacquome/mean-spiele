@@ -9,6 +9,6 @@ export enum HttpStatus {
     NOT_FOUND = 404,
     NOT_ACCEPTABLE = 406,
     PRECONDITION_FAILED = 412,
-    INTERNAL_ERROR  = 500,
+    INTERNAL_ERROR = 500,
     NOT_YET_IMPLEMENTED = 501,
 }

@@ -43,7 +43,7 @@ const rateLimitOptions: RateLimit.Options = {
     max: MAX_REQUESTS_PER_WINDOW,
 };
 const limiter = new RateLimit(rateLimitOptions);
-const uploader = multer ({dest: uploadDir});
+const uploader = multer({ dest: uploadDir });
 
 export const PATHS = {
     buecher: './buecher',
@@ -72,11 +72,7 @@ class App {
             this.app.use(helmet.hidePoweredBy());
         }
 
-        this.app.use(
-            ...helmetHandlers,
-            compression(),
-            limiter,
-        );
+        this.app.use(...helmetHandlers, compression(), limiter);
     }
 
     private routes() {
@@ -104,10 +100,10 @@ class App {
             );
 
         const idParam = 'id';
-        router 
+        router
             .param(idParam, validateUUID)
             .get(`/:${idParam}`, findById)
-            .put (
+            .put(
                 `/${idParam}`,
                 validateJwt,
                 validateContentType,
@@ -116,7 +112,7 @@ class App {
                 update,
             )
             .delete(`/:${idParam}`, validateJwt, isAdmin, deleteFn)
-            .put (
+            .put(
                 `/:${idParam}/media`,
                 validateJwt,
                 isAdminMitarbeiter,
@@ -125,7 +121,7 @@ class App {
             )
             .get(`/:${idParam}/media`, download);
 
-        this.app.use(PATHS.buecher,router);
+        this.app.use(PATHS.buecher, router);
     }
 
     private verlagRoutes() {
@@ -159,7 +155,7 @@ class App {
         router.route('/').get(index);
         router.route('/suche').get(suche);
         router.route('/neues-spiel').get(neuesSpiel);
-        
+
         this.app.use(PATHS.html, router);
         this.app.set('viw engine', 'ejs');
         this.app.set('view', join(__dirname, 'view'));

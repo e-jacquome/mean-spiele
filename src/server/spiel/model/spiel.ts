@@ -1,6 +1,6 @@
 import { Document, Schema, model } from 'mongoose';
 import { MAX_RATING, autoIndex, optimistic } from '../../shared';
-import {isURL, isUUID } from 'validator';
+import { isURL, isUUID } from 'validator';
 
 export const schema = new Schema(
     {
@@ -19,7 +19,7 @@ export const schema = new Schema(
         autoren: [Schema.Types.Mixed],
     },
     {
-        toJSON: {getters: true, virtuals: false},
+        toJSON: { getters: true, virtuals: false },
         timestamps: true,
         autoIndex,
     },
@@ -47,7 +47,7 @@ export const validateSpiel = (spiel: any) => {
     if (isEmpty(titel)) {
         err.titel = 'Ein Spiel muss einen Titel haben.';
     } else if (!/^\w.*/u.test(titel)) {
-        err.titel = 
+        err.titel =
             'Ein Spieltitel muss mit einem Buchstaben, einer Ziffer oder _ beginnen.';
     }
     if (isEmpty(art)) {
@@ -61,4 +61,4 @@ export const validateSpiel = (spiel: any) => {
 
     //Wenn es keinen Fehler gab wird undefined returned, sonst err.
     return Object.keys(err).length === 0 ? undefined : err;
-}
+};

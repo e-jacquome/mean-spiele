@@ -1,35 +1,33 @@
 import * as gridFsStream from 'gridfs-stream';
 import * as mongo from 'mongodb';
 import { HttpStatus, downloadDir, getExtension, logger } from '../../shared';
-import { Spiel } from "../model/spiel";
+import { Spiel } from '../model/spiel';
 import { connection } from 'mongoose';
 import { join } from 'path';
 import stringify from 'fast-safe-stringify';
 import { createReadStream, createWriteStream, unlink } from 'fs-extra';
 import { http } from 'winston';
 
-
-
 export class SpielMultimediaService {
     async save(id: string, filePath: string, mimetype: string) {
         logger.debug(
             `SpielMultimediaService.save(): id = ${id}, ` +
-            `filePath=${filePath}, mimetype=${mimetype}`,
+                `filePath=${filePath}, mimetype=${mimetype}`,
         );
         if (filePath === undefined) {
             return false;
         }
-        
+
         const spiel = await Spiel.findById(id);
         if (spiel === null) {
             return false;
         }
 
         const gfs = gridFsStream(connection.db, mongo);
-        gfs.remove({ filename: id}, err => {
+        gfs.remove({ filename: id }, err => {
             if (err !== undefined) {
                 logger.error(
-                    `SpielMultimediaService.save(): Error: ${stringify(err)}`
+                    `SpielMultimediaService.save(): Error: ${stringify(err)}`,
                 );
                 throw err;
             }
@@ -45,8 +43,8 @@ export class SpielMultimediaService {
 
         const closeFn = (file: any) => {
             logger.debug(
-            'SpielMultimediaService.save(): ' +
-            `In GridFS gespeichert: ${file.filename}`,
+                'SpielMultimediaService.save(): ' +
+                    `In GridFS gespeichert: ${file.filename}`,
             );
             unlink(filePath)
                 .then(() =>
@@ -70,7 +68,9 @@ export class SpielMultimediaService {
         sendFileCb: (pathname: string) => void,
         sendErrCb: (statuscode: number) => void,
     ) {
-        logger.debug(`SpielMultimediaService.findMedia(): filename ${filename}`);
+        logger.debug(
+            `SpielMultimediaService.findMedia(): filename ${filename}`,
+        );
         if (filename === undefined) {
             sendErrCb(HttpStatus.NOT_FOUND);
             return;
@@ -82,7 +82,9 @@ export class SpielMultimediaService {
             return;
         }
         logger.debug(
-            `SpielMultimediaService.findMedia(): spiel=${JSON.stringify(spiel)}`,
+            `SpielMultimediaService.findMedia(): spiel=${JSON.stringify(
+                spiel,
+            )}`,
         );
 
         const gfs = gridFsStream(connection.db, mongo);
@@ -92,8 +94,8 @@ export class SpielMultimediaService {
         readstream.on('error', (err: any) => {
             if (
                 err.name === 'MongoError' &&
-                err.message === 
-                `file with id ${filename} not opened for writing`
+                err.message ===
+                    `file with id ${filename} not opened for writing`
             ) {
                 sendErrCb(HttpStatus.NOT_FOUND);
             } else {

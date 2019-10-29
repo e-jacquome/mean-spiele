@@ -8,5 +8,4 @@ fixme({
     file_patterns: ['**/*.ts'],
     file_encoding: 'utf8',
     line_length_limit: 200,
-
 });

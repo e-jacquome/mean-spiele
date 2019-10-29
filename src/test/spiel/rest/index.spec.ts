@@ -26,20 +26,18 @@ import('chai-string')
 const { host } = SERVER_CONFIG;
 
 let server: http.Server;
- before(async () => {
-     await connectDB();
+before(async () => {
+    await connectDB();
 
-     server = app.listen(0, host, () => {
-         logger.info(`Node ${process.version}`);
-         const address = server.address();
-         if (address !== null && typeof address !== 'string') {
-             logger.info(
-                 `Testserver läuft: http://${host}:${address.port}`,
-             );
-         }
-         server.emit('testServerStarted');
-     });
- });
+    server = app.listen(0, host, () => {
+        logger.info(`Node ${process.version}`);
+        const address = server.address();
+        if (address !== null && typeof address !== 'string') {
+            logger.info(`Testserver läuft: http://${host}:${address.port}`);
+        }
+        server.emit('testServerStarted');
+    });
+});
 
 // Testdaten
 
@@ -161,7 +159,6 @@ describe('GET /spiele', () =>
             });
     }));
 
-    
 describe('GET /spiele/:id', () => {
     it('Spiel zu vorhandener ID', (done: MochaDone) => {
         request(server)

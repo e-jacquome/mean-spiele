@@ -10,7 +10,7 @@ export class AuthorizationInvalidError implements Error {
 
 export class TokenInvalidError implements Error {
     name = 'TokenInvalidError';
-    
+
     constructor(public message: string) {
         logger.silly('TokenInvaidError.constructor()');
     }

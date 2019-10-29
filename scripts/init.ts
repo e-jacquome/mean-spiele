@@ -14,14 +14,13 @@ fs.copy(jsonSrc, jsonDist, err => {
     if (err !== undefined && err !== null) {
         console.error(err);
     }
-
 });
 
 // PEM-Dateien fuerr JWT kopieren
 const jwtPemSrc = path.join(serverSrc, 'auth', 'service', 'jwt');
 const jwtPemDist = path.join(serverDist, 'auth', 'service', 'jwt');
-fs.copy(jwtPemSrc, jwtPemDist, err =>{
-    if (err !== undefined && err!== null) {
+fs.copy(jwtPemSrc, jwtPemDist, err => {
+    if (err !== undefined && err !== null) {
         console.error(err);
     }
 });
@@ -30,14 +29,14 @@ fs.copy(jwtPemSrc, jwtPemDist, err =>{
 const httpsSrc = path.join(config, 'https');
 const httpsDist = path.join(serverDist, 'shared', 'config');
 fs.copy(httpsSrc, httpsDist, err => {
-    if(err !== undefined && err !== null) {
+    if (err !== undefined && err !== null) {
         console.error(err);
     }
 });
 
 // Zertifikatsdatei fuer MongoDB kopieren
 const mongoSrc = path.join(config, 'db', 'certificate.cer');
-const mongoDist = path.join(serverDist, 'shared','config','certificate.cer');
+const mongoDist = path.join(serverDist, 'shared', 'config', 'certificate.cer');
 fs.copy(mongoSrc, mongoDist, err => {
     if (err !== undefined && err !== null) {
         console.error(err);
@@ -45,9 +44,9 @@ fs.copy(mongoSrc, mongoDist, err => {
 });
 
 // Konfig-Dateien fuer Nodemon kopieren
-const nodemonSrc = path.join(config,'nodemon');
+const nodemonSrc = path.join(config, 'nodemon');
 fs.copy(nodemonSrc, serverDist, err => {
-    if(err !== undefined && err !== null) {
+    if (err !== undefined && err !== null) {
         console.error(err);
     }
 });
@@ -69,7 +68,7 @@ fs.copy(viewsSrc, viewsDist, err => {
 const publicSrc = path.join(serverSrc, 'path');
 const publicDist = path.join(serverDist, 'public');
 fs.copy(publicSrc, publicDist, err => {
-    if(err !== undefined && err !== null)  {
+    if (err !== undefined && err !== null) {
         console.error(err);
     }
 });
@@ -86,7 +85,7 @@ const bootstrapCssDist = path.join(
     serverDist,
     'public',
     'css',
-    'bootstrap.min.js'
+    'bootstrap.min.js',
 );
 fs.copy(bootstrapCssSrc, bootstrapCssDist, err => {
     if (err !== undefined && err !== null) {
@@ -105,7 +104,6 @@ const bootstrapJsDist = path.join(
     'public',
     'js',
     'bootstrap.min.js',
-
 );
 fs.copy(bootstrapJsSrc, bootstrapJsDist, err => {
     if (err !== undefined && err !== null) {
@@ -120,7 +118,7 @@ const jquerySrc = path.join(
 );
 const jqueryDist = path.join(serverDist, 'public', 'js', 'jquery.slim.min.js');
 fs.copy(jquerySrc, jqueryDist, err => {
-    if(err!== undefined && err !== null) {
+    if (err !== undefined && err !== null) {
         console.error(err);
     }
 });
@@ -137,8 +135,8 @@ fs.copy(popperSrc, popperDist, err => {
     }
 });
 
-const fontawesomeSrc = path.join ('config', 'fontawesome', 'all.min.js');
-const fontawesomeDist = path.join (serverDist, 'public', 'js', 'all.min.js');
+const fontawesomeSrc = path.join('config', 'fontawesome', 'all.min.js');
+const fontawesomeDist = path.join(serverDist, 'public', 'js', 'all.min.js');
 fs.copy(fontawesomeSrc, fontawesomeDist, err => {
     if (err !== undefined && err !== null) {
         console.error(err);

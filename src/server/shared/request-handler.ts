@@ -46,8 +46,8 @@ class SharedRequestHandler {
         });
         next();
     }
-    
-    validateUUID(_:Request, res: Response, next: NextFunction, id: any) {
+
+    validateUUID(_: Request, res: Response, next: NextFunction, id: any) {
         if (validator.isUUID(id)) {
             logger.debug('SharedRequestHandler.validateUUID(): isUUID');
             next();
@@ -76,7 +76,7 @@ class SharedRequestHandler {
         );
     }
 
-    notFound(_:Request, res: Response) {
+    notFound(_: Request, res: Response) {
         res.sendStatus(HttpStatus.NOT_FOUND);
     }
 
@@ -115,7 +115,7 @@ export const validateUUID = (
     id: any,
 ) => handler.validateUUID(req, res, next, id);
 
-export const notFound = (req: Request, res: Response) => 
+export const notFound = (req: Request, res: Response) =>
     handler.notFound(req, res);
 
 export const internalError = (err: any, req: Request, res: Response) =>

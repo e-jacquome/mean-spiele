@@ -5,13 +5,10 @@ import { createLogger, format, transports } from 'winston';
 
 const { combine, simple, timestamp } = format;
 
-const commonFormat = combine(
-    timestamp(),
-    simple(),
-);
+const commonFormat = combine(timestamp(), simple());
 
 const { NODE_ENV } = process.env;
-const consoleOptions =  {level: NODE_ENV === 'production' ? 'error' : 'info'};
+const consoleOptions = { level: NODE_ENV === 'production' ? 'error' : 'info' };
 const fileOptions = {
     filename: 'server.log',
     level: 'debug',

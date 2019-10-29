@@ -2,7 +2,7 @@
 import * as helmet from 'helmet';
 
 export const helmetHandlers = [
-     /* eslint-disable quotes */
+    /* eslint-disable quotes */
     helmet.contentSecurityPolicy({
         directives: {
             defaultSrc: ["https: 'self'"],
@@ -18,4 +18,4 @@ export const helmetHandlers = [
     helmet.hsts(),
     helmet.noSniff(),
     helmet.noCache(),
-]
+];

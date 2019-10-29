@@ -7,8 +7,8 @@ const spielService = new SpielService();
 
 const findSpiele = (titel: string) => {
     return titel === undefined
-    ? spielService.find({})
-    : spielService.find({ titel });
+        ? spielService.find({})
+        : spielService.find({ titel });
 };
 
 const query: IResolverObject = {
@@ -42,7 +42,7 @@ const updateSpiel = (spiel: ISpiel) => {
     const spielDocument = new Spiel(spiel);
     return spielService.update(spielDocument, spiel.version.toString());
 };
-const deleteSpiel = async (id:string) => {
+const deleteSpiel = async (id: string) => {
     await spielService.remove(id);
 };
 

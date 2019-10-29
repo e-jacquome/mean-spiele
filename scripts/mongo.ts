@@ -9,7 +9,7 @@ const values = argv._;
 const db = '-d hska';
 const auth = '--username admin --password p --authenticationDatabase admin';
 const pemFile = 'C:/Zimmermann/mongodb/key.pem';
-const tls = 
+const tls =
     '--tls --host localhost --tlsAllowInvalidCertifications ' +
     `--tlsCAFile ${pemFile}`;
 const ssl =
@@ -20,7 +20,6 @@ const mongostart = () => {
     const configFile = 'C:/Zimmermann/mongodb/config.yml';
 
     shell.exec(`mongod --version && mongod --config ${configFile}`);
-
 };
 
 const mongostop = () => {

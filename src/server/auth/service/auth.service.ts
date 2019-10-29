@@ -1,6 +1,6 @@
 import * as uuidv4 from 'uuid/v4';
 import { Header, SignOptions, Signature, decode, sign, verify } from 'jws';
-import {JWT_CONFIG, SALT_ROUNDS, alg, logger } from '../../shared';
+import { JWT_CONFIG, SALT_ROUNDS, alg, logger } from '../../shared';
 import { compare, hash } from 'bcrypt';
 import { Request } from 'express';
 import { RolesService } from './roles.service';
@@ -122,8 +122,8 @@ export class AuthService {
         return loginResult;
     }
 
-     /* eslint-disable max-lines-per-function,max-statements */
-     validateJwt(req: Request) {
+    /* eslint-disable max-lines-per-function,max-statements */
+    validateJwt(req: Request) {
         // Die "Field Names" beim Request Header unterscheiden nicht zwischen
         // Gross- und Kleinschreibung (case-insensitive)
         // https://tools.ietf.org/html/rfc7230
