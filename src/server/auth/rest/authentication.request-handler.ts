@@ -13,7 +13,7 @@ class AuthenticationRequestHandler {
     async login(req: Request, res: Response) {
         const loginResult = await this.authService.login(req);
         if (loginResult === undefined) {
-            logger.debug(`AuthRequestHandler.login(): 401`);
+            logger.debug('AuthRequestHandler.login(): 401');
             res.sendStatus(HttpStatus.UNAUTHORIZED);
             return;
         }
@@ -39,7 +39,7 @@ class AuthenticationRequestHandler {
                 return;
             }
             if (err instanceof TokenExpiredError) {
-                logger.debug(`AuthRequestHandler.validateJwt(): 401`);
+                logger.debug('AuthRequestHandler.validateJwt(): 401');
                 res.header(
                     'WWW-Authenticate',
                     'Bearer realm = "hska.de", error="invalid_token", error_description="The access token expired"',
@@ -54,18 +54,18 @@ class AuthenticationRequestHandler {
             return;
         }
 
-        logger.debug(`AuthRequestHandler.validateJwt(): ok`);
+        logger.debug('AuthRequestHandler.validateJwt(): ok');
         next();
     }
 
     isLoggedIn(req: Request, res: Response, next: NextFunction) {
         if (!this.authService.isLoggedIn(req)) {
-            logger.debug(`AuthRequestHandler.isLoggedIn(): 401`);
+            logger.debug('AuthRequestHandler.isLoggedIn(): 401');
             res.sendStatus(HttpStatus.UNAUTHORIZED);
             return;
         }
 
-        logger.debug(`AuthRequestHAndler.isLoggedIn(): ok`);
+        logger.debug('AuthRequestHAndler.isLoggedIn(): ok');
         next();
     }
 }

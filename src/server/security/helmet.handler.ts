@@ -1,4 +1,4 @@
-//Eine Alternative wäre Lusca
+// Eine Alternative wäre Lusca
 import * as helmet from 'helmet';
 
 export const helmetHandlers = [
