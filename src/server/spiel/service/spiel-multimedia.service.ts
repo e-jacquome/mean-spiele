@@ -89,7 +89,7 @@ export class SpielMultimediaService {
 
         const gfs = gridFsStream(connection.db, mongo);
 
-        // Einlesen von GridFS 
+        // Einlesen von GridFS
         const readstream = gfs.createReadStream({ filename });
         readstream.on('error', (err: any) => {
             if (

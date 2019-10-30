@@ -9,12 +9,12 @@ export class UsersService {
     );
 
     constructor() {
-        //Validierung durch Ajv
+        // Validierung durch Ajv
         const ajv = new Ajv({ allErrors: true, verbose: true });
         const schema = JSON.parse(
             readFileSync(join(__dirname, 'json', 'users.schema.json'), 'utf-8'),
         );
-        //Nicht asynchron
+        // Nicht asynchron
         const valid = ajv.validate(schema, this.users) as boolean;
         if (!valid) {
             logger.error(`${JSON.stringify(ajv.errors)}`);

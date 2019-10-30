@@ -2,7 +2,7 @@ import 'source-map-support/register';
 import * as http from 'http';
 import * as https from 'https';
 import * as os from 'os';
-import { SERVER_CONFIG, connectDB, logger, HttpStatus } from './shared';
+import { HttpStatus, SERVER_CONFIG, connectDB, logger } from './shared';
 import { app } from './app';
 import { connection } from 'mongoose';
 
@@ -10,14 +10,14 @@ const { cert, host, key, port } = SERVER_CONFIG;
 const credentials = { key, cert };
 
 const sigintCb = () => {
-    logger.info(`Server wird heruntergefahren...`);
+    logger.info('Server wird heruntergefahren...');
     connection.close(() => process.exit(0));
 };
 
 const unhandledRejectionCb = (err: any) => {
     logger.error(err);
     logger.info(
-        `Verbindung zu MongoDB wird wegen "unhandleRejection" geschlossen.`,
+        'Verbindung zu MongoDB wird wegen "unhandleRejection" geschlossen.',
     );
     connection.close(() => process.exit(2));
 };

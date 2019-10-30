@@ -1,14 +1,13 @@
 import * as uuid from 'uuid/v4';
-import { Document, startSession } from 'mongoose';
-import { logger, mockDB } from '../../shared';
 import {
     SpielNotExistsError,
     TitelExistsError,
     ValidationError,
     VersionInvalidError,
 } from './exceptions';
-import { Spiel, validateSpiel } from '../model/spiel';
 import { SpielServiceMock } from './mock';
+import { Document, startSession } from 'mongoose';
+import { logger, mockDB } from '../../shared';
 
 /* eslint-disable require-await */
 export class SpielService {
@@ -105,7 +104,7 @@ export class SpielService {
         return spielSaved;
     }
 
-     // eslint-disable-next-line max-lines-per-function,max-statements
+    // eslint-disable-next-line max-lines-per-function,max-statements
     async update(spiel: Document, versionStr: string) {
         if (this.mock !== undefined) {
             return this.mock.update(spiel);

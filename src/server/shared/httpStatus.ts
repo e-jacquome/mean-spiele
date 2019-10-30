@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
 
-
 export enum HttpStatus {
     OK = 200,
     CREATED = 201,

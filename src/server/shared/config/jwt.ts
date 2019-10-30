@@ -6,6 +6,6 @@ export const JWT_CONFIG = {
     issuer: 'https://hska.de/shop/EricJacquome',
     secret: 'p',
     // 1 Tag in Sekunden
-    expiration: 24 * 60 * 60,  // eslint-disable-line @typescript-eslint/no-magic-numbers
+    expiration: 24 * 60 * 60, // eslint-disable-line @typescript-eslint/no-magic-numbers
     bearer: 'Bearer',
 };

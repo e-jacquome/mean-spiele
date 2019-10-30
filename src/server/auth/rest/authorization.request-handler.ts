@@ -6,31 +6,31 @@ class AuthorizationRequestHandler {
     private readonly authService = new AuthService();
     isAdmin(req: Request, res: Response, next: NextFunction) {
         if (!this.hasRolle(req, res, 'admin')) {
-            logger.debug(`AuthRequestHandler.isAdmin(): false`);
+            logger.debug('AuthRequestHandler.isAdmin(): false');
             return;
         }
 
-        logger.debug(`AuthRequestHandler.isAdmin(): ok`);
+        logger.debug('AuthRequestHandler.isAdmin(): ok');
         next();
     }
 
     isMitarbeiter(req: Request, res: Response, next: NextFunction) {
         if (!this.hasRolle(req, res, 'mitarbeiter')) {
-            logger.debug(`AuthRequestHandler.isMitarbeiter(): false`);
+            logger.debug('AuthRequestHandler.isMitarbeiter(): false');
             return;
         }
 
-        logger.debug(`AuthRequestHandler.isMitarbeiter(): ok`);
+        logger.debug('AuthRequestHandler.isMitarbeiter(): ok');
         next();
     }
 
     isAdminMitarbeiter(req: Request, res: Response, next: NextFunction) {
         if (!this.hasRolle(req, res, 'admin', 'mitarbeiter')) {
-            logger.debug(`AuthRequestHAndler.isAdminMitarbeiter(): false`);
+            logger.debug('AuthRequestHAndler.isAdminMitarbeiter(): false');
             return;
         }
 
-        logger.debug(`AuthRequestHandler.isAdminMitarbeiter(): ok`);
+        logger.debug('AuthRequestHandler.isAdminMitarbeiter(): ok');
         next;
     }
 
@@ -38,19 +38,19 @@ class AuthorizationRequestHandler {
         logger.debug(`Rollen = ${JSON.stringify(roles)}`);
 
         if (!this.authService.isLoggedIn(req)) {
-            logger.debug(`AuthRequestHAndler.hasRolle(): 401`);
+            logger.debug('AuthRequestHAndler.hasRolle(): 401');
             res.sendStatus(HttpStatus.UNAUTHORIZED);
             return false;
         }
 
         if (!this.authService.hasAnyRole(req, roles)) {
-            logger.debug(`AuthRequestHandler.hasRolle(): 403`);
+            logger.debug('AuthRequestHandler.hasRolle(): 403');
             logger.debug('403');
             res.sendStatus(HttpStatus.FORBIDDEN);
             return false;
         }
 
-        logger.debug(`AuthRequestHandler.hasRolle(): ok`);
+        logger.debug('AuthRequestHandler.hasRolle(): ok');
         return true;
     }
 }
