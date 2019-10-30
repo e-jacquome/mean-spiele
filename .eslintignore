@@ -3,6 +3,6 @@ dist
 node_modules
 
 # https://github.com/typescript-eslint/typescript-eslint/issues/1033
-src/server/buch/rest/buch.request-handler.ts
+src/server/spiel/rest/spiel.request-handler.ts
 src/server/shared/config/db.ts
 src/server/shared/config/server.ts

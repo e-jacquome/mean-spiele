@@ -1,16 +1,16 @@
 import * as uuid from 'uuid/v4';
-import { Spiel, validateSpiel } from '../model/spiel';
+import { Document, startSession } from 'mongoose';
+import { logger, mockDB } from '../../shared';
 import {
     SpielNotExistsError,
     TitelExistsError,
     ValidationError,
     VersionInvalidError,
 } from './exceptions';
-import { Document, startSession } from 'mongoose';
-import { logger, mockDB } from '../../shared';
-import { SpielServiceMock, spiel } from './mock';
-import { buildSchema } from 'graphql';
+import { Spiel, validateSpiel } from '../model/spiel';
+import { SpielServiceMock } from './mock';
 
+/* eslint-disable require-await */
 export class SpielService {
     private readonly mock: SpielServiceMock | undefined;
 
@@ -25,7 +25,7 @@ export class SpielService {
             return this.mock.findById(id);
         }
         logger.debug(`SpielService.findById(): id= ${id}`);
-        //Pattern "Active Record"
+        // Pattern "Active Record"
         return Spiel.findById(id);
     }
 
@@ -43,10 +43,10 @@ export class SpielService {
 
         const { titel, solo, team, ...dbQuery } = query;
 
-        //JSON-Objekt von Express asynchron suchen
+        // JSON-Objekt von Express asynchron suchen
         if (titel !== undefined) {
-            //Titel in der Query auch Teilstring des Titels möglich,
-            //Regulärer Ausdruck i = incase sensitive, u = unicode support
+            // Titel in der Query auch Teilstring des Titels möglich,
+            //   Regulärer Ausdruck i = incase sensitive, u = unicode support
             dbQuery.titel = RegExp(titel, 'iu');
         }
 
@@ -77,7 +77,7 @@ export class SpielService {
             logger.debug(
                 `SpielService.create(): Vaidation Message: ${message}`,
             );
-            //Promise<void> als Returntype
+            // Promise<void> als Returntype
             return Promise.reject(new ValidationError(message));
         }
 
@@ -85,14 +85,14 @@ export class SpielService {
         session.startTransaction();
 
         const { titel }: { titel: string } = spiel as any;
-        let tmp = await Spiel.findOne({ titel });
+        const tmp = await Spiel.findOne({ titel });
         if (tmp !== null) {
             return Promise.reject(
                 new TitelExistsError(`Der Titel "${titel}" existiert bereits.`),
             );
         }
 
-        spiel._id = uuid();
+        spiel._id = uuid(); // eslint-disable-line require-atomic-updates
         const spielSaved = await spiel.save();
 
         await session.commitTransaction();
@@ -105,6 +105,7 @@ export class SpielService {
         return spielSaved;
     }
 
+     // eslint-disable-next-line max-lines-per-function,max-statements
     async update(spiel: Document, versionStr: string) {
         if (this.mock !== undefined) {
             return this.mock.update(spiel);

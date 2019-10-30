@@ -107,7 +107,7 @@ class SpielRequestHandler {
     async create(req: Request, res: Response) {
         const contentType = req.header(MIME_CONFIG.contentType);
         if (
-            contentType?.toLowerCase() !== MIME_CONFIG.json,
+            contentType?.toLowerCase() !== MIME_CONFIG.json // eslint-disable-line prettier/prettier
         ) {
             logger.debug('SpielRequestHanler.create() status=NOT_ACCEPTABLE');
             res.sendStatus(HttpStatus.NOT_ACCEPTABLE);

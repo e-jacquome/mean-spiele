@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "CommonJS",
+
+        "alwaysStrict": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "noErrorTruncation": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "preserveWatchOutput": true,
+        "removeComments": false,
+        "strict": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+
+        "lib": [
+            "es5",
+            "es2015",
+            "es2016",
+            "es2017",
+            "es2018",
+            "es2019",
+            "es2020",
+            "dom"
+        ],
+
+        "rootDir": "src",
+        "outDir": "./dist"
+    },
+    "exclude": ["config", "dist", "node_modules", "scripts", "temp"]
+}

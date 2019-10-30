@@ -1,12 +1,11 @@
 import * as gridFsStream from 'gridfs-stream';
 import * as mongo from 'mongodb';
 import { HttpStatus, downloadDir, getExtension, logger } from '../../shared';
+import { createReadStream, createWriteStream, unlink } from 'fs-extra';
 import { Spiel } from '../model/spiel';
 import { connection } from 'mongoose';
 import { join } from 'path';
 import stringify from 'fast-safe-stringify';
-import { createReadStream, createWriteStream, unlink } from 'fs-extra';
-import { http } from 'winston';
 
 export class SpielMultimediaService {
     async save(id: string, filePath: string, mimetype: string) {
@@ -37,7 +36,7 @@ export class SpielMultimediaService {
         });
         const writestream = gfs.createWriteStream({
             filename: id,
-            content_type: mimetype,
+            content_type: mimetype, // eslint-disable-line camelcase, @typescript-eslint/camelcase
         });
         createReadStream(filePath).pipe(writestream);
 
@@ -63,6 +62,7 @@ export class SpielMultimediaService {
         return true;
     }
 
+    // eslint-disable-next-line max-lines-per-function
     async findMedia(
         filename: string,
         sendFileCb: (pathname: string) => void,
@@ -89,7 +89,7 @@ export class SpielMultimediaService {
 
         const gfs = gridFsStream(connection.db, mongo);
 
-        //Einlesen von GridFS
+        // Einlesen von GridFS 
         const readstream = gfs.createReadStream({ filename });
         readstream.on('error', (err: any) => {
             if (

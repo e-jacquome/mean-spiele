@@ -17,7 +17,7 @@ class AuthorizationRequestHandler {
     isMitarbeiter(req: Request, res: Response, next: NextFunction) {
         if (!this.hasRolle(req, res, 'mitarbeiter')) {
             logger.debug(`AuthRequestHandler.isMitarbeiter(): false`);
-            return; 
+            return;
         }
 
         logger.debug(`AuthRequestHandler.isMitarbeiter(): ok`);
@@ -70,4 +70,4 @@ export const isAdminMitarbeiter = (
     req: Request,
     res: Response,
     next: NextFunction,
-) => handler.isAdminMitarbeiter(req, res, next)
+) => handler.isAdminMitarbeiter(req, res, next);

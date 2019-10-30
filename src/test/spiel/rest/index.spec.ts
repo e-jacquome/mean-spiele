@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-expressions,max-lines,max-lines-per-function,no-underscore-dangle */
 /* globals describe, it, before */
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
-//Wir benutzen Mocha als Testrunner und für Assertions Chai
+// Wir benutzen Mocha als Testrunner und für Assertions Chai
 
 import * as chai from 'chai';
 import * as http from 'http';
@@ -139,7 +139,7 @@ let token = '';
 const path = PATHS.buecher;
 const loginPath = PATHS.login;
 
-//Test-Suite
+// Test-Suite
 /* eslint-disable @typescript-eslint/no-floating-promises*/
 describe('GET /spiele', () =>
     it('Alle Spiele', (done: MochaDone) => {

@@ -2,6 +2,6 @@
 
 # https://github.com/prettier/prettier/issues/6595
 # https://github.com/prettier/prettier/issues/6574
-src/server/buch/rest/buch.request-handler.ts
+src/server/spiel/rest/spiel.request-handler.ts
 src/server/shared/config/db.ts
 src/server/shared/config/server.ts
