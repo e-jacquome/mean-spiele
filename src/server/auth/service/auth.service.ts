@@ -1,3 +1,4 @@
+/* eslint-disable max-classes-per-file,max-lines */
 import * as uuidv4 from 'uuid/v4';
 import { Header, SignOptions, Signature, decode, sign, verify } from 'jws';
 import { JWT_CONFIG, SALT_ROUNDS, alg, logger } from '../../shared';
@@ -58,6 +59,7 @@ export class AuthService {
     private readonly rolesService = new RolesService();
     private readonly usersService = new UsersService();
 
+    // eslint-disable-next-line max-lines-per-function,max-statements
     async login(req: Request) {
         logger.silly(`body: ${JSON.stringify(req.body)}`);
         const { username }: { username: string } = req.body;

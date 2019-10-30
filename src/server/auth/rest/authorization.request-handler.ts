@@ -31,7 +31,7 @@ class AuthorizationRequestHandler {
         }
 
         logger.debug('AuthRequestHandler.isAdminMitarbeiter(): ok');
-        next;
+        next();
     }
 
     private hasRolle(req: Request, res: Response, ...roles: Array<string>) {

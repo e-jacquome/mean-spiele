@@ -3,6 +3,7 @@ import { spiel, spiele } from './spiel';
 import { Document } from 'mongoose';
 import { logger } from '../../../shared';
 
+/* eslint-disable require-await */
 export class SpielServiceMock {
     async findById(id: string) {
         spiel._id = id;

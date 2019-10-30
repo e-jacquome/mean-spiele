@@ -55,7 +55,7 @@ export const validateSpiel = (spiel: any) => {
     } else if (art !== 'BRETT' && spiel.art !== 'KARTEN') {
         err.art = 'Die Art eines Spiels muss BRETT oder KARTEN sein.';
     }
-    if ((isEmpty(rating) && rating < 0) || rating > MAX_RATING) {
+    if (isPresent(rating) && (rating < 0 || rating > MAX_RATING)) {
         err.rating = `${rating} ist keine gueltige Bewertung.`;
     }
     if (isPresent(homepage) && !isURL(homepage)) {

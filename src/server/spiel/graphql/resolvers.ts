@@ -1,13 +1,15 @@
+import { IResolverObject } from 'graphql-tools/dist/Interfaces';
 import { Spiel } from '../model/spiel';
 import { SpielService } from '../service/spiel.service';
-import { IResolverObject } from 'graphql-tools/dist/Interfaces';
-import { buildSchema } from 'graphql';
 
 const spielService = new SpielService();
 
-const findSpiele = (titel: string) =>
-    titel === undefined ? spielService.find({}) : spielService.find({ titel });
-
+// eslint-disable-next-line arrow-body-style
+const findSpiele = (titel: string) => {
+    return titel === undefined
+        ? spielService.find({})
+        : spielService.find({ titel });
+};
 const query: IResolverObject = {
     spiele: (_: unknown, { titel }: any) => findSpiele(titel),
     spiel: (_: unknown, { id }: any) => spielService.findById(id),

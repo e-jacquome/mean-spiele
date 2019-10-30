@@ -5,9 +5,10 @@ import {
     ValidationError,
     VersionInvalidError,
 } from './exceptions';
-import { SpielServiceMock } from './mock';
+import { Spiel, validateSpiel } from '../model/spiel';
 import { Document, startSession } from 'mongoose';
 import { logger, mockDB } from '../../shared';
+import { SpielServiceMock } from './mock';
 
 /* eslint-disable require-await */
 export class SpielService {

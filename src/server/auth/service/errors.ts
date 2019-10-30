@@ -1,3 +1,5 @@
+/* eslint-disable max-classes-per-file */
+
 import { logger } from '../../shared';
 
 export class AuthorizationInvalidError implements Error {

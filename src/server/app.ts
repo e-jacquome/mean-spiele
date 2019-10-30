@@ -62,6 +62,7 @@ class App {
     }
 
     private config() {
+        // eslint-disable-next-line no-process-env
         if (process.env.NODE_ENV === 'development') {
             this.app.use(
                 morgan('dev'),
@@ -87,7 +88,7 @@ class App {
     }
 
     private buecherRoutes() {
-        const router = Router();
+        const router = Router(); // eslint-disable-line new-cap
         router
             .route('/')
             .get(find)
@@ -125,17 +126,17 @@ class App {
     }
 
     private verlagRoutes() {
-        const router = Router();
+        const router = Router(); // eslint-disable-line new-cap
         router.get('/', notYetImplemented);
         this.app.use(PATHS.verlag, router);
     }
 
     private loginRoutes() {
-        const router = Router();
+        const router = Router(); // eslint-disable-line new-cap
         router.route('/').post(
             urlencoded({
-                extended: false,
                 type: 'application/x-www-form-urlencoded',
+                extended: false,
             }),
             login,
         );
@@ -151,7 +152,7 @@ class App {
     }
 
     private htmlRoutes() {
-        const router = Router();
+        const router = Router(); // eslint-disable-line new-cap
         router.route('/').get(index);
         router.route('/suche').get(suche);
         router.route('/neues-spiel').get(neuesSpiel);

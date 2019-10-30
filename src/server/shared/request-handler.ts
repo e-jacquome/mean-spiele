@@ -1,9 +1,11 @@
+/* eslint-disable max-params */
+
 import * as validator from 'validator';
 import { NextFunction, Request, Response } from 'express';
 import { HttpStatus } from './httpStatus';
+import { hostname } from 'os';
 import { inspect } from 'util';
 import { logger } from './logger';
-import { hostname } from 'os';
 
 class SharedRequestHandler {
     private static readonly SPACE = 2;
