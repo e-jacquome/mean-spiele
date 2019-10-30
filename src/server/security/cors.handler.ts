@@ -2,23 +2,23 @@ import * as cors from 'cors';
 
 export const corsHandler = cors({
     origin: 'https://localhost',
-    method: ['GET', 'HEAD', 'POST', 'PUT', 'PATCH', 'DELETE'],
-    allowedHeader: [
-        'Orgin',
+    methods: ['GET', 'HEAD', 'POST', 'PUT', 'PATCH', 'DELETE'],
+    allowedHeaders: [
+        'Origin',
         'Content-Type',
         'Accept',
         'Authorization',
-        'Access-Control_Allow-Origin',
-        'Access-Control_Allow-Methods',
-        'Access-Control_Allow_Headers',
+        'Access-Control-Allow-Origin',
+        'Access-Control-Allow-Methods',
+        'Access-Control-Allow-Headers',
         'Allow',
-        'Conentnt-Length',
+        'Content-Length',
         'Date',
         'Last-Modified',
         'If-Match',
         'If-Not-Match',
-        'if_modified-Since',
+        'If-Modified-Since',
     ],
-    exposedHeader: ['Location', 'Etag'],
+    exposedHeaders: ['Location', 'ETag'],
     maxAge: 86400,
 });

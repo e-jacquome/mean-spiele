@@ -12,10 +12,7 @@ import { Request, Response } from 'express';
 import { Spiel } from '../model/spiel';
 import stringify from 'fast-safe-stringify';
 import { unlink } from 'fs';
-import { resolve } from 'dns';
-import M = require('minimatch');
-import { HttpResponse } from 'aws-sdk';
-import { http } from 'winston';
+
 
 class SpielRequestHandler {
     private readonly spielService = new SpielService();

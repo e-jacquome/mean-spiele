@@ -18,7 +18,7 @@ export class RolesService {
         }
 
         const normalizedRoles = roles.filter(
-            r => this.getNormalizedRoles(r) !== undefined,
+            r => this.getNormalizedRole(r) !== undefined,
         );
         logger.debug(`RolesService.getNormalizedRoles(): ${normalizedRoles}`);
         return normalizedRoles;
