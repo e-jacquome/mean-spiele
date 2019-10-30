@@ -1,4 +1,7 @@
+/* eslint-disable */
 import * as uuid from 'uuid/v4';
+import { Document, startSession } from 'mongoose';
+import { logger, mockDB } from '../../shared';
 import {
     SpielNotExistsError,
     TitelExistsError,
@@ -6,9 +9,8 @@ import {
     VersionInvalidError,
 } from './exceptions';
 import { Spiel, validateSpiel } from '../model/spiel';
-import { Document, startSession } from 'mongoose';
-import { logger, mockDB } from '../../shared';
 import { SpielServiceMock } from './mock';
+/* eslint-enable */
 
 /* eslint-disable require-await */
 export class SpielService {

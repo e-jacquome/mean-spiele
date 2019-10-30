@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars,@typescript-eslint/require-await */
 import * as uuid from 'uuid/v4';
 import { spiel, spiele } from './spiel';
 import { Document } from 'mongoose';

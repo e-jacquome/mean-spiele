@@ -19,7 +19,7 @@ const unhandledRejectionCb = (err: any) => {
     logger.info(
         'Verbindung zu MongoDB wird wegen "unhandleRejection" geschlossen.',
     );
-    connection.close(() => process.exit(2)); // eslint-disable-line no-process-exit,@typescript-eslint/no-floating-promises
+    connection.close(() => process.exit(1)); // eslint-disable-line no-process-exit,@typescript-eslint/no-floating-promises
 };
 
 const startServer = () => {
@@ -28,10 +28,10 @@ const startServer = () => {
         .listen(port, () => {
             const banner =
                 '\n' +
-                '_________ _____ ______   \n' +
-                '|_  | ___   __ | ___   \n' +
-                '  | | |_/ / |  /| |_/ / \n' +
-                '  | | ___  | __ | ___  \n' +
+                '  _________ _____ ______   \n' +
+                ' |_  | ___   __ | ___   \n' +
+                '   | | |_/ / |  /| |_/ / \n' +
+                '   | | ___  | __ | ___  \n' +
                 '/__/ / |_/ / |_ | |_/ / \n' +
                 '____/____/ ____/____/  \n' +
                 '\n';
