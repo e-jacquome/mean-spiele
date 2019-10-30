@@ -1,3 +1,4 @@
+/* eslint-disable max-classes-per-file */
 import { logger } from '../../shared';
 
 export class ValidationError implements Error {

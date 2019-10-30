@@ -1,13 +1,13 @@
 import { createLogger, format, transports } from 'winston';
 
-//Verschiedene Log-Levels: error, warn, info, debug, verbose, silly,...
-//Transports https://github.com/winstonjs/winston/blob/master/docs/transports.md
+// Verschiedene Log-Levels: error, warn, info, debug, verbose, silly,...
+// Transports https://github.com/winstonjs/winston/blob/master/docs/transports.md
 
 const { combine, simple, timestamp } = format;
 
 const commonFormat = combine(timestamp(), simple());
 
-const { NODE_ENV } = process.env;
+const { NODE_ENV } = process.env; // eslint-disable-line no-process-env
 const consoleOptions = { level: NODE_ENV === 'production' ? 'error' : 'info' };
 const fileOptions = {
     filename: 'server.log',

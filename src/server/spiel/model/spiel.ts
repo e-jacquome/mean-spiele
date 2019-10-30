@@ -4,7 +4,7 @@ import { isURL, isUUID } from 'validator';
 
 export const schema = new Schema(
     {
-        //MongoDB erstellt implizit einen Index fuer _id
+        // MongoDB erstellt implizit einen Index fuer _id
         _id: { type: String },
         name: { type: String, required: true, unique: true },
         rating: Number,
@@ -25,7 +25,7 @@ export const schema = new Schema(
     },
 );
 
-//Optimimstische Synchronisation druch das Feld __v für die Versionsnummer
+// Optimimstische Synchronisation druch das Feld __v für die Versionsnummer
 schema.plugin(optimistic);
 
 export const Spiel = model('Spiel', schema);
@@ -37,7 +37,7 @@ const isEmpty = (obj: string | undefined) =>
 
 export const validateSpiel = (spiel: any) => {
     const err: any = {};
-    const { titel, art, rating, verlag, homepage } = spiel;
+    const { titel, art, rating, homepage } = spiel;
 
     const spielDocument = spiel as Document;
     if (!spielDocument.isNew && !isUUID(spielDocument._id)) {
@@ -55,10 +55,13 @@ export const validateSpiel = (spiel: any) => {
     } else if (art !== 'BRETT' && spiel.art !== 'KARTEN') {
         err.art = 'Die Art eines Spiels muss BRETT oder KARTEN sein.';
     }
+    if (isEmpty(rating) && rating < 0 || rating > MAX_RATING) {
+        err.rating = `${rating} ist keine gueltige Bewertung.`;
+    }
     if (isPresent(homepage) && !isURL(homepage)) {
         err.homepage = `${homepage} ist keine gueltige URL.`;
     }
 
-    //Wenn es keinen Fehler gab wird undefined returned, sonst err.
+    // Wenn es keinen Fehler gab wird undefined returned, sonst err.
     return Object.keys(err).length === 0 ? undefined : err;
 };
