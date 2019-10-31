@@ -1,0 +1,13 @@
+{
+    "_id": "00000000-0000-0000-0000-000000000003",
+    "titel": "?!",
+    "rating": 5,
+    "art": "BRETT",
+    "verlag": "RAVENSBURGER",
+    "preis": 9999,
+    "rabatt": 99,
+    "lieferbar": true,
+    "datum": "2017-02-01T00:00:00.000Z",
+    "homepage": "anyHomepage",
+    "schlagwoerter": ["SOLO"]
+}

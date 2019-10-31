@@ -1,0 +1,12 @@
+{
+    "titel": "Testt",
+    "rating": 5,
+    "art": "KARTEN",
+    "verlag": "RAVENSBURGER",
+    "preis": 9999,
+    "rabatt": 99,
+    "lieferbar": true,
+    "datum": "2017-02-01T00:00:00.000Z",
+    "homepage": "https://test.de/",
+    "schlagwoerter": ["SOLO"]
+}

@@ -46,7 +46,7 @@ const limiter = new RateLimit(rateLimitOptions);
 const uploader = multer({ dest: uploadDir });
 
 export const PATHS = {
-    buecher: './buecher',
+    spiele: './spiele',
     verlag: './verlag',
     login: '/login',
     graphql: '/api',
@@ -77,17 +77,17 @@ class App {
     }
 
     private routes() {
-        this.buecherRoutes();
+        this.spieleRoutes();
         this.verlagRoutes();
         this.loginRoutes();
-        this.buchGraphqlRoutes();
+        this.spielGraphqlRoutes();
         this.htmlRoutes();
 
         this.app.get('*', notFound);
         this.app.use(internalError);
     }
 
-    private buecherRoutes() {
+    private spieleRoutes() {
         const router = Router(); // eslint-disable-line new-cap
         router
             .route('/')
@@ -122,7 +122,7 @@ class App {
             )
             .get(`/:${idParam}/media`, download);
 
-        this.app.use(PATHS.buecher, router);
+        this.app.use(PATHS.spiele, router);
     }
 
     private verlagRoutes() {
@@ -143,7 +143,7 @@ class App {
         this.app.use(PATHS.login, router);
     }
 
-    private buchGraphqlRoutes() {
+    private spielGraphqlRoutes() {
         const middelware = graphqlHTTP({
             schema: graphqlSchema,
             graphiql: true,

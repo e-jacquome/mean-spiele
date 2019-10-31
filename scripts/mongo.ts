@@ -34,7 +34,7 @@ const mongoimport = () => {
     const dbDir = 'config/db';
     shell.exec(
         `mongoimport --verbose ${db} ${auth} ${ssl} --stopOnError --drop ` +
-            `  --file ${dbDir}/Buch.json --maintainInsertionOrder && ` +
+            `  --file ${dbDir}/Spiel.json --maintainInsertionOrder && ` +
             `mongofiles --verbose ${db} ${auth} ${ssl} --replace ${host} ` +
             '  --local config/rest/binary/image.png --type image/png put ' +
             '  00000000-0000-0000-0000-000000000001',
@@ -43,7 +43,7 @@ const mongoimport = () => {
 
 const mongoexport = () => {
     shell.exec(
-        `mongoexport --verbose ${db} ${auth} ${ssl} --collection Buch ` +
+        `mongoexport --verbose ${db} ${auth} ${ssl} --collection Spiel ` +
             '--out EXPORT.Buch.json --pretty',
     );
 };

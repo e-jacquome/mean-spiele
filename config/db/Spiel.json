@@ -1,0 +1,122 @@
+{
+    "_id": "00000000-0000-0000-0000-000000000001",
+    "titel": "Alpha",
+    "rating": 4,
+    "art": "KARTEN",
+    "verlag": "RAVENSBURGER",
+    "preis": 11.1,
+    "rabatt": 0.011,
+    "lieferbar": true,
+    "datum": {"$date": "2019-02-01T00:00:00.000Z"},
+    "homepage": "https://hska.at/",
+    "schlagwoerter": [
+        "SOLO"
+    ],
+    "autoren": [
+		{
+			"nachname": "Alpha",
+			"vorname": "Adriana"
+		},
+		{
+			"nachname": "Alpha",
+			"vorname": "Alfred"
+		}
+	],
+    "__v": 0,
+    "createdAt": {"$date": "2019-02-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2019-02-01T00:00:00.000Z"}
+}
+{
+    "_id": "00000000-0000-0000-0000-000000000002",
+    "titel": "Beta",
+    "rating": 2,
+    "art": "BRETT",
+    "verlag": "RAVENSBURGER",
+    "preis": 22.2,
+    "rabatt": 0.022,
+    "lieferbar": true,
+    "datum": {"$date": "2019-02-02T00:00:00.000Z"},
+    "homepage": "https://hska.biz/",
+    "schlagwoerter": [
+        "SOLO"
+    ],
+    "autoren": [
+		{
+			"nachname": "Beta",
+			"vorname": "Brunhilde"
+		}
+	],
+    "__v": 0,
+    "createdAt": {"$date": "2019-02-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2019-02-01T00:00:00.000Z"}
+}
+{
+    "_id": "00000000-0000-0000-0000-000000000003",
+    "titel": "Gamma",
+    "rating": 1,
+    "art": "KARTEN",
+    "verlag": "RAVENSBURGER",
+    "preis": 33.3,
+    "rabatt": 0.033,
+    "lieferbar": true,
+    "datum": {"$date": "2019-02-03T00:00:00.000Z"},
+    "homepage": "https://hska.com/",
+    "schlagwoerter": [
+        "SOLO"
+    ],
+    "autoren":  [
+		{
+			"nachname": "Gamma",
+			"vorname": "Claus"
+		}
+	],
+    "__v": 0,
+    "createdAt": {"$date": "2019-02-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2019-02-01T00:00:00.000Z"}
+}
+{
+    "_id": "00000000-0000-0000-0000-000000000004",
+    "titel": "Delta",
+    "rating": 3,
+    "art": "KARTEN",
+    "verlag": "RAVENSBURGER",
+    "preis": 44.4,
+    "rabatt": 0.044,
+    "lieferbar": true,
+    "datum": {"$date": "2019-02-04T00:00:00.000Z"},
+    "homepage": "https://hska.de/",
+    "schlagwoerter": [],
+    "autoren": [
+		{
+			"nachname": "Delta",
+			"vorname": "Dieter"
+		}
+	],
+    "__v": 0,
+    "createdAt": {"$date": "2019-02-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2019-02-01T00:00:00.000Z"}
+}
+{
+    "_id": "00000000-0000-0000-0000-000000000005",
+    "titel": "Epsilon",
+    "rating": 2,
+    "art": "KARTEN",
+    "verlag": "RAVENSBURGER",
+    "preis": 55.5,
+    "rabatt": 0.055,
+    "lieferbar": true,
+    "datum": {"$date": "2019-02-05T00:00:00.000Z"},
+    "homepage": "https://hska.es/",
+    "schlagwoerter": [
+        "SOLO"
+    ],
+    "autoren": [
+		{
+			"nachname": "Epsilon",
+			"vorname": "Elfriede"
+		}
+	],
+    "__v": 0,
+    "createdAt": {"$date": "2019-02-01T00:00:00.000Z"},
+    "updatedAt": {"$date": "2019-02-01T00:00:00.000Z"}
+}

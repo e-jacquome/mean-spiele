@@ -1,0 +1,4 @@
+# robots.txt zu https://localhost/
+# https://wiki.selfhtml.org/wiki/Grundlagen/Robots.txt
+
+User-agent: *

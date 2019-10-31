@@ -136,7 +136,7 @@ const loginDaten: object = {
 // JWT fuer Authentifizierung
 let token = '';
 
-const path = PATHS.buecher;
+const path = PATHS.spiele;
 const loginPath = PATHS.login;
 
 // Test-Suite
