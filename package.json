@@ -1,5 +1,5 @@
 {
-  "name": "buch",
+  "name": "spiel",
   "version": "1.0.0",
   "description": "Beispiel",
   "main": "dist/server/index.js",
@@ -58,7 +58,7 @@
     "winston",
     "nodemon"
   ],
-  "author": "Juergen Zimmermann",
+  "author": "JBGB Consulting",
   "license": "GPL-3.0",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.25",
