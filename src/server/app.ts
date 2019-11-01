@@ -46,8 +46,8 @@ const limiter = new RateLimit(rateLimitOptions);
 const uploader = multer({ dest: uploadDir });
 
 export const PATHS = {
-    spiele: './spiele',
-    verlag: './verlag',
+    spiele: '/spiele',
+    verlag: '/verlag',
     login: '/login',
     graphql: '/api',
     html: '/html',
@@ -135,8 +135,8 @@ class App {
         const router = Router(); // eslint-disable-line new-cap
         router.route('/').post(
             urlencoded({
-                type: 'application/x-www-form-urlencoded',
                 extended: false,
+                type: 'application/x-www-form-urlencoded',
             }),
             login,
         );
@@ -158,9 +158,9 @@ class App {
         router.route('/neues-spiel').get(neuesSpiel);
 
         this.app.use(PATHS.html, router);
-        this.app.set('viw engine', 'ejs');
-        this.app.set('view', join(__dirname, 'view'));
-        this.app.use(express.static(join(__dirname, 'views')));
+        this.app.set('view engine', 'ejs');
+        this.app.set('views', join(__dirname, 'views'));
+        this.app.use(express.static(join(__dirname, 'public')));
     }
 }
 export const { app } = new App();

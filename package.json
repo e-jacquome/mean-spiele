@@ -152,7 +152,7 @@
     "source-map-support": "0.5.13",
     "supertest": "4.0.2",
     "tslib": "1.10.0",
-    "typescript": "3.7.0-beta"
+    "typescript": "3.6.3"
   },
   "directories": {
     "test": "test"

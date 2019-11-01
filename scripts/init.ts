@@ -1,144 +1,88 @@
-import * as fs from 'fs-extra';
-import * as path from 'path';
+// @ts-ignore
+import * as copydir from 'copy-dir';
+import * as fs from 'fs';
+import { join } from 'path';
 
 import { dir } from './shared';
 
+const { mkdirSync } = fs;
+const { copyFileSync } = fs;
+
 const { src, config, dist } = dir;
-const serverSrc = path.join(src, 'server');
-const serverDist = path.join(dist, 'server');
+const serverSrc = join(src, 'server');
+const serverDist = join(dist, 'server');
 
 // JSON-Dateien kopieren
-const jsonSrc = path.join(src, 'server');
-const jsonDist = path.join(dist, 'server');
-fs.copy(jsonSrc, jsonDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+const jsonSrc = join(serverSrc, 'auth', 'service', 'json');
+const jsonDist = join(serverDist, 'auth', 'service', 'json');
+mkdirSync(jsonDist, { recursive: true });
+copydir.sync(jsonSrc, jsonDist);
 
-// PEM-Dateien fuerr JWT kopieren
-const jwtPemSrc = path.join(serverSrc, 'auth', 'service', 'jwt');
-const jwtPemDist = path.join(serverDist, 'auth', 'service', 'jwt');
-fs.copy(jwtPemSrc, jwtPemDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+// PEM-Dateien fuer JWT kopieren
+const jwtPemSrc = join(serverSrc, 'auth', 'service', 'jwt');
+const jwtPemDist = join(serverDist, 'auth', 'service', 'jwt');
+copydir.sync(jwtPemSrc, jwtPemDist);
 
-// PEM- und Zertifikatsdateien fuer HTTPS kopieren
-const httpsSrc = path.join(config, 'https');
-const httpsDist = path.join(serverDist, 'shared', 'config');
-fs.copy(httpsSrc, httpsDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+// PEM- und Zertifikatdateien fuer HTTPS kopieren
+const httpsSrc = join(config, 'https');
+const httpsDist = join(serverDist, 'shared', 'config');
+mkdirSync(httpsDist, { recursive: true });
+copydir.sync(httpsSrc, httpsDist);
 
-// Zertifikatsdatei fuer MongoDB kopieren
-const mongoSrc = path.join(config, 'db', 'certificate.cer');
-const mongoDist = path.join(serverDist, 'shared', 'config', 'certificate.cer');
-fs.copy(mongoSrc, mongoDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+// Zertifikatdatei fuer MongoDB kopieren
+const mongoSrc = join(config, 'db', 'mongodb.cer');
+const mongoDist = join(serverDist, 'shared', 'config');
+mkdirSync(mongoDist, { recursive: true });
+copyFileSync(mongoSrc, join(mongoDist, 'mongodb.cer'));
 
 // Konfig-Dateien fuer Nodemon kopieren
-const nodemonSrc = path.join(config, 'nodemon');
-fs.copy(nodemonSrc, serverDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+const nodemonSrc = join(config, 'nodemon');
+copydir.sync(nodemonSrc, serverDist);
 
-//---------------------------------------------------------------
+// -----------------------------------------------------------------------------
 // E J S
-//--------------------------------------------------------------
+// -----------------------------------------------------------------------------
 
 // Views mit Partials
-const viewsSrc = path.join(serverSrc, 'views');
-const viewsDist = path.join(serverDist, 'views');
-fs.copy(viewsSrc, viewsDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+const viewsSrc = join(serverSrc, 'views');
+const viewsDist = join(serverDist, 'views');
+mkdirSync(viewsDist, { recursive: true });
+copydir.sync(viewsSrc, viewsDist);
 
-// Fontawesome, Bilder, Favicon, manifest.json, robots.text
-const publicSrc = path.join(serverSrc, 'path');
-const publicDist = path.join(serverDist, 'public');
-fs.copy(publicSrc, publicDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+// Fontawesome, Bilder, Favicon, manifest.json, robots.txt
+const publicSrc = join(serverSrc, 'public');
+const publicDist = join(serverDist, 'public');
+mkdirSync(publicDist, { recursive: true });
+copydir.sync(publicSrc, publicDist);
 
 // Bootstrap
-const bootstrapCssSrc = path.join(
+const bootstrapCssSrc = join(
     'node_modules',
     'bootstrap',
     'dist',
     'css',
     'bootstrap.min.css',
 );
-const bootstrapCssDist = path.join(
-    serverDist,
-    'public',
-    'css',
-    'bootstrap.min.js',
-);
-fs.copy(bootstrapCssSrc, bootstrapCssDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
-const bootstrapJsSrc = path.join(
+const cssDist = join(serverDist, 'public', 'css');
+mkdirSync(cssDist, { recursive: true });
+copyFileSync(bootstrapCssSrc, join(cssDist, 'bootstrap.min.css'));
+
+const bootstrapJsSrc = join(
     'node_modules',
     'bootstrap',
     'dist',
     'js',
     'bootstrap.min.js',
 );
-const bootstrapJsDist = path.join(
-    serverDist,
-    'public',
-    'js',
-    'bootstrap.min.js',
-);
-fs.copy(bootstrapJsSrc, bootstrapJsDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
-const jquerySrc = path.join(
-    'node_modules',
-    'jquery',
-    'dist',
-    'jquery.slim.min.js',
-);
-const jqueryDist = path.join(serverDist, 'public', 'js', 'jquery.slim.min.js');
-fs.copy(jquerySrc, jqueryDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
-const popperSrc = path.join(
-    'node_modules',
-    'popper.js',
-    'dist',
-    'popper.min.js',
-);
-const popperDist = path.join(serverDist, 'public', 'js', 'popper.min.js');
-fs.copy(popperSrc, popperDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+const jsDist = join(serverDist, 'public', 'js');
+mkdirSync(jsDist, { recursive: true });
+copyFileSync(bootstrapJsSrc, join(jsDist, 'bootstrap.min.js'));
 
-const fontawesomeSrc = path.join('config', 'fontawesome', 'all.min.js');
-const fontawesomeDist = path.join(serverDist, 'public', 'js', 'all.min.js');
-fs.copy(fontawesomeSrc, fontawesomeDist, err => {
-    if (err !== undefined && err !== null) {
-        console.error(err);
-    }
-});
+const jquerySrc = join('node_modules', 'jquery', 'dist', 'jquery.slim.min.js');
+copyFileSync(jquerySrc, join(jsDist, 'jquery.slim.min.js'));
+
+const popperSrc = join('node_modules', 'popper.js', 'dist', 'popper.min.js');
+copyFileSync(popperSrc, join(jsDist, 'popper.min.js'));
+
+const fontawesomeSrc = join('config', 'fontawesome', 'all.min.js');
+copyFileSync(fontawesomeSrc, join(jsDist, 'all.min.js'));
