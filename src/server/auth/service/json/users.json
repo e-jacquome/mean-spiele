@@ -3,13 +3,12 @@
         "_id": "20000000-0000-0000-0000-000000000001",
         "username": "admin",
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
-        "email": "admin@jbgb.de",
+        "email": "admin@hska.de",
         "roles": [
             "admin",
             "mitarbeiter",
             "abteilungsleiter",
-            "kunde",
-            "servicemitarbeiter"
+            "kunde"
         ]
     },
     {
@@ -21,8 +20,7 @@
             "admin",
             "mitarbeiter",
             "abteilungsleiter",
-            "kunde",
-            "servicemitarbeiter"
+            "kunde"
         ]
     },
     {
@@ -31,8 +29,7 @@
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
         "email": "bene.bender@jbgb.de",
         "roles": [
-            "mitarbeiter",
-            "servicemitarbeiter"
+            "mitarbeiter"
         ]
     },
     {
@@ -41,7 +38,6 @@
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
         "email": "raphael.brand@jbgb.de",
         "roles": [
-            "servicemitarbeiter",
             "kunde"
         ]
     },
@@ -51,7 +47,6 @@
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
         "email": "hjördis.goettsche@jbgb.de",
         "roles": [
-            "servicemitarbeiter",
             "kunde"
         ]
     },

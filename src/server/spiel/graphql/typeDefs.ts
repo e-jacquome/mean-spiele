@@ -33,7 +33,7 @@ export const typeDefs = `
         createSpiel(titel: String!, rating: Int, art: String, verlag: String!
             preis: Float, rabatt: Float, lieferbar: Boolean, datum: String,
             homepage: String, schlagwoerter: [String]): Spiel
-        updateSpiel(_id: ID, titel: String, rating: Int, art: String,
+        updateSpiel(_id: ID, titel: String!, rating: Int, art: String,
             verlag: String!, preis: Float, rabatt: Float, lieferbar: Boolean,
             datum: String, homepage: String,
             schlagwoerter: [String], version: Int): Boolean

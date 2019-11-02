@@ -42,7 +42,7 @@ class AuthenticationRequestHandler {
                 logger.debug('AuthRequestHandler.validateJwt(): 401');
                 res.header(
                     'WWW-Authenticate',
-                    'Bearer realm = "hska.de", error="invalid_token", error_description="The access token expired"',
+                    'Bearer realm="hska.de", error="invalid_token", error_description="The access token expired"',
                 );
                 res.status(HttpStatus.UNAUTHORIZED).send(
                     'The access token expired',

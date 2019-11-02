@@ -34,8 +34,7 @@
                         "admin",
                         "mitarbeiter",
                         "abteilungsleiter",
-                        "kunde",
-                        "servicemitarbeiter"
+                        "kunde"
                     ]
                 },
                 "uniqueItems": true

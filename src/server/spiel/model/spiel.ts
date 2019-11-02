@@ -6,7 +6,7 @@ export const schema = new Schema(
     {
         // MongoDB erstellt implizit einen Index fuer _id
         _id: { type: String },
-        name: { type: String, required: true, unique: true },
+        titel: { type: String, required: true, unique: true },
         rating: Number,
         art: String,
         verlag: { type: String, required: true },
@@ -37,7 +37,7 @@ const isEmpty = (obj: string | undefined) =>
 
 export const validateSpiel = (spiel: any) => {
     const err: any = {};
-    const { titel, art, rating, homepage } = spiel;
+    const { titel, art, rating, verlag, homepage } = spiel;
 
     const spielDocument = spiel as Document;
     if (!spielDocument.isNew && !isUUID(spielDocument._id)) {
@@ -57,6 +57,12 @@ export const validateSpiel = (spiel: any) => {
     }
     if (isPresent(rating) && (rating < 0 || rating > MAX_RATING)) {
         err.rating = `${rating} ist keine gueltige Bewertung.`;
+    }
+    if (isEmpty(verlag)) {
+        err.verlag = 'Der Verlag des Spiels muss gesetzt sein.';
+    } else if (verlag !== 'RAVENSBURGER' && verlag !== 'SCHMIDT') {
+        err.verlag =
+            'Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein.';
     }
     if (isPresent(homepage) && !isURL(homepage)) {
         err.homepage = `${homepage} ist keine gueltige URL.`;

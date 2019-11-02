@@ -50,17 +50,17 @@ class SpielRequestHandler {
             return;
         }
         logger.debug(`SpielRequestHandler.findById(): VerisionDb=${versionDb}`);
-        res.header('ETag', `"${versionDb}`);
+        res.header('ETag', `"${versionDb}"`);
 
         const baseUri = getBaseUri(req);
         const payload = this.toJsonPayload(spiel);
         //HATEOAS: Atom Links
         payload._links = {
-            self: { href: `${baseUri}/${id}`},
-            list: { href: `${baseUri}`},
-            add: { href: `${baseUri}`},
-            update: { href: `${baseUri}/${id}`},
-            remove: { href: `${baseUri}/${id}`},
+            self: { href: `${baseUri}/${id}` },
+            list: { href: `${baseUri}` },
+            add: { href: `${baseUri}` },
+            update: { href: `${baseUri}/${id}` },
+            remove: { href: `${baseUri}/${id}` },
         };
         res.json(payload);
     }
@@ -91,10 +91,10 @@ class SpielRequestHandler {
 
         const payload = [];
         for await (const spiel of spiele) {
-            const spielRessource = this.toJsonPayload(spiel);
+            const spielResource = this.toJsonPayload(spiel);
             //HATEOAS: Atom Links je Spiel
-            spielRessource._links = { self: { href: `${baseUri}/${spiel._id}`}};
-            payload.push(spielRessource);
+            spielResource._links = { self: { href: `${baseUri}/${spiel._id}` } };
+            payload.push(spielResource);
         }
 
         logger.debug(`SpielRequestHandler.find(): payload=${payload}`);
@@ -126,9 +126,13 @@ class SpielRequestHandler {
                 );
                 return;
             }
+            if (err instanceof TitelExistsError) {
+                res.status(HttpStatus.BAD_REQUEST).send(err.message);
+                return;
+            }
 
             logger.error(
-                `SpielrequestHandler.create(): error=${stringify(err)}`,
+                `SpielRequestHandler.create(): error=${stringify(err)}`,
             );
             res.sendStatus(HttpStatus.INTERNAL_ERROR);
             return;
@@ -139,10 +143,10 @@ class SpielRequestHandler {
         res.location(location);
         res.sendStatus(HttpStatus.CREATED);
     }
-
+    // eslint-disable-next-line max-lines-per-function
     async update(req: Request, res: Response) {
         const { id } = req.params;
-        logger.debug(`BuchRequestHandler.update(): id=${id}`);
+        logger.debug(`SpielRequestHandler.update(): id=${id}`);
 
         const contentType = req.header(MIME_CONFIG.contentType);
         if (
@@ -164,7 +168,7 @@ class SpielRequestHandler {
             return;
         }
         const versionHeaderLength = versionHeader.length;
-        if (versionHeaderLength < 3) {
+        if (versionHeaderLength < 3) { // eslint-disable-line @typescript-eslint/no-magic-numbers
             const msg = `Ungueltige Versionsnummer: ${versionHeader}`;
             logger.debug(
                 `SpielRequestHandler.updateI(): status=412, message=${msg}`,
@@ -288,6 +292,7 @@ class SpielRequestHandler {
                     `SpielRequestHandler.download(): geloescht: ${pathname}`,
                 );
             };
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
             res.sendFile(pathname, (__: unknown) => unlink(pathname, unlinkCb));
         };
         const cbSendErr = (statuscode: number) => res.sendStatus(statuscode);
