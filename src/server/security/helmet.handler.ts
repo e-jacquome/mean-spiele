@@ -5,7 +5,9 @@ export const helmetHandlers = [
     /* eslint-disable quotes */
     helmet.contentSecurityPolicy({
         directives: {
+            // prettier-ignore
             defaultSrc: ["https: 'self'"],
+            // prettier-ignore
             styleSrc: ["https: 'unsafe-inline'"],
             // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src
             // prettier-ignore

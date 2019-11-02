@@ -1,3 +1,4 @@
+/* eslint-disable no-invalid-this,no-process-env,no-process-exit */
 import * as mongoose from 'mongoose';
 import { join } from 'path';
 import { logger } from '../logger';

@@ -8,7 +8,7 @@ export const spiel: any = {
     rabatt: 0.011,
     lieferbar: true,
     datum: new Date('2019-10-10T00:00:00.000Z'),
-    homepage: 'https://akat.de',
+    homepage: 'https://skat.de',
     schlagwoerter: ['TEAM'],
     autoren: [
         {
@@ -38,7 +38,7 @@ export const spiele = [
         lieferbar: true,
         datum: new Date('2019-10-10T00:00:00.000Z'),
         homepage: 'https://poker.de',
-        schlagwoerter: ['TEAM'],
+        schlagwoerter: ['SOLO'],
         autoren: [
             {
                 nachname: 'Poker',

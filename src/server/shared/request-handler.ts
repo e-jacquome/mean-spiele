@@ -3,7 +3,6 @@
 import * as validator from 'validator';
 import { NextFunction, Request, Response } from 'express';
 import { HttpStatus } from './httpStatus';
-import { hostname } from 'os';
 import { inspect } from 'util';
 import { logger } from './logger';
 
@@ -27,7 +26,7 @@ class SharedRequestHandler {
         );
         logger.debug(
             `Request: hostname=${JSON.stringify(
-                hostname,
+                req.hostname,
                 undefined,
                 SharedRequestHandler.SPACE,
             )}`,

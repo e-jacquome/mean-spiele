@@ -5,14 +5,17 @@ import { createLogger, format, transports } from 'winston';
 
 const { combine, simple, timestamp } = format;
 
-const commonFormat = combine(timestamp(), simple());
+const commonFormat = combine(
+    timestamp(), 
+    simple(),
+);
 
 const { NODE_ENV } = process.env; // eslint-disable-line no-process-env
 const consoleOptions = { level: NODE_ENV === 'production' ? 'error' : 'info' };
 const fileOptions = {
     filename: 'server.log',
     level: 'debug',
-    maxxize: 250000,
+    maxsize: 250000,
     maxFiles: 3,
 };
 
