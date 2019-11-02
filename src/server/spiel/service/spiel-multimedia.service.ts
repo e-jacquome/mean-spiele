@@ -68,7 +68,9 @@ export class SpielMultimediaService {
         sendFileCb: (pathname: string) => void,
         sendErrCb: (statuscode: number) => void,
     ) {
-        logger.debug(`SpielMultimediaService.findMedia(): filename ${filename}`);
+        logger.debug(
+            `SpielMultimediaService.findMedia(): filename ${filename}`,
+        );
         if (filename === undefined) {
             sendErrCb(HttpStatus.NOT_FOUND);
             return;
@@ -80,7 +82,9 @@ export class SpielMultimediaService {
             return;
         }
         logger.debug(
-            `SpielMultimediaService.findMedia(): spiel=${JSON.stringify(spiel)}`,
+            `SpielMultimediaService.findMedia(): spiel=${JSON.stringify(
+                spiel,
+            )}`,
         );
 
         const gfs = gridFsStream(connection.db, mongo);
