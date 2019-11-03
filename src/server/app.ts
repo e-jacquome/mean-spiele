@@ -40,7 +40,6 @@ const { Router } = express;
 
 //
 
-
 const rateLimitOptions: RateLimit.Options = {
     windowMs: WINDOW_SIZE,
     max: MAX_REQUESTS_PER_WINDOW,
@@ -56,9 +55,9 @@ export const PATHS = {
     html: '/html',
 };
 // Das App- bzw. Express-Objekt ist zustaendig fuer:
-    //  * Konfiguration der Middleware
-    //  * Routing
-    // http://expressjs.com/en/api.html
+//  * Konfiguration der Middleware
+//  * Routing
+// http://expressjs.com/en/api.html
 class App {
     readonly app = express();
 

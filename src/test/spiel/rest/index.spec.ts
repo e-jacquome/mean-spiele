@@ -70,7 +70,7 @@ const neuesSpielInvalid: object = {
     schlagwoerter: [],
 };
 const neuesSpielTitelExistiert: object = {
-    titel: 'Poker',
+    titel: 'Autoscooter',
     rating: 1,
     art: 'KARTEN',
     verlag: 'POKER_VERLAG',
@@ -206,8 +206,8 @@ describe('GET /spiele/:id', () => {
 });
 
 describe('GET /spiele?...', () => {
-    it('Spiele mit einem Titel, der ein "a" enthaelt', (done: MochaDone) => {
-        const teilTitel = 'a';
+    it('Spiele mit einem Titel, der ein "e" enthaelt', (done: MochaDone) => {
+        const teilTitel = 'e';
         request(server)
             .get(`${path}?titel=${teilTitel}`)
             .expect(HttpStatus.OK)
@@ -245,7 +245,6 @@ describe('GET /spiele?...', () => {
 
     it('Mind. 1 Spiel mit dem Schlagwort "SOLO"', (done: MochaDone) => {
         const schlagwort = 'solo';
-
         request(server)
             .get(`${path}?${schlagwort}=true`)
             .expect(HttpStatus.OK)
@@ -269,15 +268,24 @@ describe('GET /spiele?...', () => {
             });
     });
 
-    it('Keine Spiele mit dem Schlagwort "team"', (done: MochaDone) => {
+    it('Min 1 Spiel mit dem Schlagwort "TEAM"', (done: MochaDone) => {
+        const schlagwort = 'team';
         request(server)
             .get(`${path}?team=true`)
-            .expect(HttpStatus.NOT_FOUND)
+            .expect(HttpStatus.OK)
+            .expect('Content-Type', /json/u)
             .end((error, response) => {
                 if (error) {
                     return done(error);
                 }
-                response.body.should.be.empty;
+                const { body } = response;
+
+                body.should.be.not.empty;
+
+                body.map((spiel: any) => spiel.schlagwoerter).forEach(
+                    (s: Array<string>) =>
+                        s.should.contain(`${schlagwort.toUpperCase()}`),
+                );
                 done();
             });
     });
