@@ -110,7 +110,7 @@ class App {
             .param(idParam, validateUUID)
             .get(`/:${idParam}`, findById)
             .put(
-                `/${idParam}`,
+                `/:${idParam}`,
                 validateJwt,
                 validateContentType,
                 isAdminMitarbeiter,

@@ -26,7 +26,7 @@ class AuthorizationRequestHandler {
 
     isAdminMitarbeiter(req: Request, res: Response, next: NextFunction) {
         if (!this.hasRolle(req, res, 'admin', 'mitarbeiter')) {
-            logger.debug('AuthRequestHAndler.isAdminMitarbeiter(): false');
+            logger.debug('AuthRequestHandler.isAdminMitarbeiter(): false');
             return;
         }
 

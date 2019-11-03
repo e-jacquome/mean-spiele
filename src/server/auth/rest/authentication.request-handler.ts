@@ -65,7 +65,7 @@ class AuthenticationRequestHandler {
             return;
         }
 
-        logger.debug('AuthRequestHAndler.isLoggedIn(): ok');
+        logger.debug('AuthRequestHandler.isLoggedIn(): ok');
         next();
     }
 }
