@@ -2,22 +2,22 @@ https://localhost:8443/api
 online
 
 {
-  buch(id: "00000000-0000-0000-0000-000000000001") {
+  spiel(id: "00000000-0000-0000-0000-000000000001") {
     titel
     art
-    isbn
+    verlag
   }
 }
 
 {
-  buecher(titel: "Alpha") {
+  spiele(titel: "Skat") {
     titel
     art
   }
 }
 
 {
-  buecher(titel: "a") {
+  spiele(titel: "a") {
     titel
     art
     schlagwoerter
@@ -25,46 +25,43 @@ online
 }
 
 {
-  buecher {
+  spiele{
     titel
     art
   }
 }
 
 mutation {
-  createBuch(
-    titel: "Test"
+  createSpiel(
+    titel: "Uno"
     rating: 1
-    art: "KINDLE"
-    verlag: "IWI_VERLAG"
-    preis: 11.1
+    art: "KARTEN"
+    verlag: "SCHMIDT"
+    preis: 9.99
     rabatt: 0.011
     lieferbar: true
     datum: null
-    isbn: "3-89722-583-2"
-    homepage: "http://test.de"
-    schlagwoerter: ["JAVASCRIPT"]
+    homepage: "http://uno.de"
+    schlagwoerter: ["TEAM"]
   ) {
     _id
   }
 }
 
 mutation {
-  updateBuch(
+  updateSpiel(
     _id: "00000000-0000-0000-0000-000000000003",
-    titel: "Geaendert",
+    titel: "NeuesBrettspiel",
     rating: 5,
-    art: "DRUCKAUSGABE",
-    verlag: "HSKA_VERLAG",
-    preis: 99.99,
+    art: "BRETT",
+    verlag: "RAVENSBURGER",
+    preis: 40.00,
     rabatt: 0.099,
     lieferbar: false,
     datum: "2018-01-31",
-    isbn: "3-8273-1552-2",
-    homepage: "https://test.te",
+    homepage: "https://brett.de",
     schlagwoerter: [
-      "JAVASCRIPT",
-      "TYPESCRIPT"
+      "SOLO"
     ]
   )
 }

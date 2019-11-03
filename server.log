@@ -1,11 +1,174 @@
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-10-31T13:41:53.979Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-10-31T13:41:53.985Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-10-31T13:41:53.985Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T13:41:55.492Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T13:41:55.500Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T13:41:55.569Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T13:41:55.585Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-10-31T13:41:57.083Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T14:26:26.447Z"}
+debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-02T14:26:26.450Z"}
+debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-02T14:26:26.450Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:26:27.086Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:26:27.092Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:26:27.132Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:26:27.139Z"}
+info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-02T14:26:28.528Z"}
+info: Node v13.0.0-rc.1 {"timestamp":"2019-11-02T14:26:28.543Z"}
+info: Testserver läuft: http://localhost:64525 {"timestamp":"2019-11-02T14:26:28.545Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.569Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.569Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.570Z"}
+debug: SpielRequestHandler.find(): queryParams={} {"timestamp":"2019-11-02T14:26:28.589Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-02T14:26:28.589Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"BRETT","verlag":"RAVENSBURGER","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://hska.biz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":[],"autoren":[{"nachname":"Delta","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Delta","rating":3,"art":"KARTEN","verlag":"RAVENSBURGER","preis":44.4,"rabatt":0.044,"lieferbar":true,"datum":"2019-02-04T00:00:00.000Z","homepage":"https://hska.de/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Epsilon","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Epsilon","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":55.5,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://hska.es/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://hska.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-02T14:26:28.674Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-02T14:26:28.681Z"}
+debug: Response time: 119.56269999999999 ms {"timestamp":"2019-11-02T14:26:28.689Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.712Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.712Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.712Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-02T14:26:28.717Z"}
+debug: SpielRequestHandler.findById(): versionHeader= undefined {"timestamp":"2019-11-02T14:26:28.717Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-02T14:26:28.718Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-02T14:26:28.718Z"}
+debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-02T14:26:28.723Z"}
+debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-02T14:26:28.724Z"}
+debug: Response time: 12.188699999999999 ms {"timestamp":"2019-11-02T14:26:28.724Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.735Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.735Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.736Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-02T14:26:28.738Z"}
+debug: SpielRequestHandler.findById(): versionHeader= undefined {"timestamp":"2019-11-02T14:26:28.739Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000999 {"timestamp":"2019-11-02T14:26:28.739Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000999 {"timestamp":"2019-11-02T14:26:28.739Z"}
+debug: SpielRequestHandler.findById(): status=NOT_FOUND {"timestamp":"2019-11-02T14:26:28.742Z"}
+debug: Response time: 7.5758 ms {"timestamp":"2019-11-02T14:26:28.743Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "if-none-match": "\"0\"",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.755Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.755Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.755Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-02T14:26:28.757Z"}
+debug: SpielRequestHandler.findById(): versionHeader= "0" {"timestamp":"2019-11-02T14:26:28.757Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-02T14:26:28.757Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-02T14:26:28.758Z"}
+debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-02T14:26:28.761Z"}
+debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-02T14:26:28.761Z"}
+debug: Response time: 7.521 ms {"timestamp":"2019-11-02T14:26:28.762Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.777Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.777Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.777Z"}
+debug: SpielRequestHandler.find(): queryParams={"titel":"a"} {"timestamp":"2019-11-02T14:26:28.782Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-02T14:26:28.782Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-02T14:26:28.782Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"BRETT","verlag":"RAVENSBURGER","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://hska.biz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":[],"autoren":[{"nachname":"Delta","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Delta","rating":3,"art":"KARTEN","verlag":"RAVENSBURGER","preis":44.4,"rabatt":0.044,"lieferbar":true,"datum":"2019-02-04T00:00:00.000Z","homepage":"https://hska.de/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://hska.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-02T14:26:28.797Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-02T14:26:28.798Z"}
+debug: Response time: 22.5083 ms {"timestamp":"2019-11-02T14:26:28.799Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.811Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.812Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.812Z"}
+debug: SpielRequestHandler.find(): queryParams={"titel":"XX"} {"timestamp":"2019-11-02T14:26:28.816Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-02T14:26:28.816Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-02T14:26:28.816Z"}
+debug: SpielRequestHandler.find(): spiele=[] {"timestamp":"2019-11-02T14:26:28.818Z"}
+debug: SpieleRequestHandler.find(): status = NOT_FOUND {"timestamp":"2019-11-02T14:26:28.818Z"}
+debug: Response time: 7.3179 ms {"timestamp":"2019-11-02T14:26:28.819Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.825Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.825Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.825Z"}
+debug: SpielRequestHandler.find(): queryParams={"solo":"true"} {"timestamp":"2019-11-02T14:26:28.827Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-02T14:26:28.827Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-02T14:26:28.827Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"BRETT","verlag":"RAVENSBURGER","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://hska.biz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://hska.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Epsilon","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Epsilon","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":55.5,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://hska.es/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-02T14:26:28.835Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-02T14:26:28.835Z"}
+debug: Response time: 10.8548 ms {"timestamp":"2019-11-02T14:26:28.836Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.848Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.848Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.848Z"}
+debug: SpielRequestHandler.find(): queryParams={"team":"true"} {"timestamp":"2019-11-02T14:26:28.853Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-02T14:26:28.853Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-02T14:26:28.853Z"}
+debug: SpielRequestHandler.find(): spiele=[] {"timestamp":"2019-11-02T14:26:28.856Z"}
+debug: SpieleRequestHandler.find(): status = NOT_FOUND {"timestamp":"2019-11-02T14:26:28.856Z"}
+debug: Response time: 8.8578 ms {"timestamp":"2019-11-02T14:26:28.856Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:28.869Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:28.869Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:28.869Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-02T14:26:29.276Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDQ3ODksImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMjc1NjkxNzEtMDM5My00Y2M3LWFjYTktMWEzOGJjNzIyYzY3IiwiZXhwIjoxNTcyNzkxMTg5fQ.EcAhwWELP0KJqkD2U_Mw3RpLgRYTGZuurwzMrslb0mapb8ToSuDcAbGDIZjS6xEJ9vEIX2WL5RxV0YKhxGMncNrLP7znogJlhgzdsCQZgBV1s6pM2JfhGIhXRgYKp-hG6FcdUGIc-70YVtXETdFiMTIKf-BqVtHOBq_WFy90ANddiF18WqB1O5qMT4fnoMvMom8yInRwqluW8qV2AcXSSNOeiPb8-LzSH_N7clgCBwKB5GnCvWj0PKrWzgSJCOjxojiDhAuBFT1Vb8sU2SoU7X_p0dRqe2NLDp1whc7IqOO5addTutGNgSX_qGtifZZedK7_ZaU4vT-CtFSxndMZeA","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-02T14:26:29.280Z"}
+debug: Response time: 411.989 ms {"timestamp":"2019-11-02T14:26:29.281Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:29.293Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:29.293Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:29.293Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-02T14:26:29.622Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDQ3ODksImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiOGRhNzc4YzgtZjg3ZC00NDRhLWE5OWEtZjdhNzQ1ODllN2U2IiwiZXhwIjoxNTcyNzkxMTg5fQ.Uy7rvogTICVpR18GWwG1-mLw51YYm2o9aUQ6X3GJt_bEiE6UTHvZhKzGxTfLr1wZACW3Q7fFx4y0IhfSyoAE7eyBl2jPo5kZxLtzVrDzjpl2MdldyuvsBWkcE1kCKA0IsSfOBFqXijthWFNj1rSdbpCsC82kjo617js5J6zAHo4WWVUhT0DvaduTf3GS1sT_CGUku-NJh_vRVJnxmKynVXypjkFUS0RXwgm0CzRrTAlF9PrHJlYL7vtZuCWnCGJbEEPiQ_upAMBQAvhgugEVDLPn2xX1Y5-o8UtfSy_f_DYUqCLxHf65X_DTmXgBr68FWeyDabiluMJmEqhidxIazA","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-02T14:26:29.624Z"}
+debug: Response time: 331.8669 ms {"timestamp":"2019-11-02T14:26:29.625Z"}
+debug: Request: headers={
+  "host": "127.0.0.1:64525",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "node-superagent/3.8.3",
+  "content-type": "application/x-www-form-urlencoded",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:26:29.637Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-02T14:26:29.637Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-02T14:26:29.637Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-02T14:26:29.969Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDQ3ODksImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjk3ZWMwMzQtZDhjMi00Nzg2LTg3MjAtZjE2MjhhZWM3M2UxIiwiZXhwIjoxNTcyNzkxMTg5fQ.W877ZRYe4NNwmk4RwXlp05ZD_RsXXtunZtbtz6GS2K3Z8INcc2ku8dgTaYk8HFKFkglfvQbaYnw6Wumd3gBAKMd4XUUwwQkvnuvRD5RaTEPfJtZeR6jsIiiKXKLQ2OqGnMV_O_WkMVZwKWdaXv5dGy1e8nxaHspsWy22JgxdR6oYvLS0KICQaAVxZBITff0MpGlkinxgNXt90BqXzmn_UlWJ336s3LIbk_t8vxIX41sALivg0eUpRrOhgU5UeazY36-VkdGcRmduoflAcY7mpcWWGb-OvCnzr98pfw4a4BL0vWGgSUZdraBxglvffEHLUA-U6DlAQGip2GUsq0WSZw","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-02T14:26:29.971Z"}
+debug: Response time: 334.5499 ms {"timestamp":"2019-11-02T14:26:29.972Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T14:27:44.692Z"}
+debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-02T14:27:44.694Z"}
+debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-02T14:27:44.694Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:27:45.417Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:27:45.423Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:27:45.462Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:27:45.468Z"}
+info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-02T14:27:46.802Z"}
 info: 
   _________ _____ ______   
  |_  | ___   __ | ___   
@@ -14,207 +177,1008 @@ info:
 /__/ / |_/ / |_ | |_/ / 
 ____/____/ ____/____/  
 
- {"timestamp":"2019-10-31T13:41:57.092Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-10-31T13:41:57.106Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-10-31T13:41:57.106Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-10-31T13:41:57.114Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-10-31T13:41:57.120Z"}
-info: Server wird heruntergefahren... {"timestamp":"2019-10-31T13:52:50.263Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-10-31T14:02:05.008Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-10-31T14:02:05.011Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-10-31T14:02:05.012Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:02:05.700Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:02:05.706Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:02:05.747Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:02:05.756Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-10-31T14:02:07.240Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-10-31T14:02:07.245Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-10-31T14:02:07.256Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-10-31T14:02:07.258Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-10-31T14:02:07.264Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-10-31T14:02:07.267Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-10-31T14:08:36.696Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-10-31T14:08:36.698Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-10-31T14:08:36.698Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:08:37.429Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:08:37.438Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:08:37.487Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:08:37.493Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-10-31T14:08:38.905Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-10-31T14:08:38.910Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-10-31T14:08:38.923Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-10-31T14:08:38.926Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-10-31T14:08:38.934Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-10-31T14:08:38.937Z"}
-info: Server wird heruntergefahren... {"timestamp":"2019-10-31T14:08:52.212Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-10-31T14:09:10.112Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-10-31T14:09:10.114Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-10-31T14:09:10.114Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:09:10.774Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:09:10.783Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:09:10.843Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:09:10.851Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-10-31T14:09:12.209Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-10-31T14:09:12.218Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-10-31T14:09:12.231Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-10-31T14:09:12.233Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-10-31T14:09:12.240Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-10-31T14:09:12.242Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-10-31T14:11:12.646Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-10-31T14:11:12.651Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-10-31T14:11:12.652Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:11:13.578Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:11:13.581Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:11:13.609Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:11:13.615Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-10-31T14:11:15.045Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-10-31T14:11:15.054Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-10-31T14:11:15.065Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-10-31T14:11:15.068Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-10-31T14:11:15.076Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-10-31T14:11:15.078Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-10-31T14:15:52.916Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-10-31T14:15:52.919Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-10-31T14:15:52.919Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:15:53.671Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:15:53.679Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-10-31T14:15:53.726Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-10-31T14:15:53.735Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-10-31T14:15:55.221Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-10-31T14:15:55.231Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-10-31T14:15:55.268Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-10-31T14:15:55.272Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-10-31T14:15:55.280Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-10-31T14:15:55.282Z"}
-info: Server wird heruntergefahren... {"timestamp":"2019-10-31T14:17:30.263Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T11:13:11.994Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-02T11:13:11.997Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-02T11:13:11.997Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T11:13:20.643Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T11:13:20.648Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T11:13:20.734Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter","servicemitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["servicemitarbeiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T11:13:20.738Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-02T11:13:23.156Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-11-02T11:13:23.167Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-02T11:13:23.188Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-02T11:13:23.193Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-02T11:13:23.203Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-02T11:13:23.204Z"}
-info: Server wird heruntergefahren... {"timestamp":"2019-11-02T11:24:36.044Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T14:10:26.752Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-02T14:10:26.754Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-02T14:10:26.754Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:10:33.445Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:10:33.449Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:10:33.497Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:10:33.502Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-02T14:10:35.996Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-11-02T14:10:36.008Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-02T14:10:36.025Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-02T14:10:36.027Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-02T14:10:36.036Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-02T14:10:36.038Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T14:18:46.975Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-02T14:18:46.987Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-02T14:18:46.987Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:18:53.218Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:18:53.225Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:18:53.270Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:18:53.277Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-02T14:18:55.419Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-11-02T14:18:55.426Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-02T14:18:55.437Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-02T14:18:55.440Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-02T14:18:55.451Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-02T14:18:55.453Z"}
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-02T14:22:52.080Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-02T14:22:52.083Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-02T14:22:52.083Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:22:52.851Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:22:52.860Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-02T14:22:52.917Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-02T14:22:52.923Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-02T14:22:54.282Z"}
-info: 
-  _________ _____ ______   
- |_  | ___   __ | ___   
-   | | |_/ / |  /| |_/ / 
-   | | ___  | __ | ___  
-/__/ / |_/ / |_ | |_/ / 
-____/____/ ____/____/  
-
- {"timestamp":"2019-11-02T14:22:54.288Z"}
-info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-02T14:22:54.300Z"}
-info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-02T14:22:54.302Z"}
-info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-02T14:22:54.309Z"}
-info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-02T14:22:54.312Z"}
+ {"timestamp":"2019-11-02T14:27:46.811Z"}
+info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-02T14:27:46.823Z"}
+info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-02T14:27:46.826Z"}
+info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-02T14:27:46.833Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-02T14:27:46.836Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:28:37.272Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:28:37.273Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:28:37.273Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-02T14:28:37.642Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDQ5MTcsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYTdlY2I5YWUtYTRjZS00MjA4LTgyNmUtNWVjYzMxZDljNmE0IiwiZXhwIjoxNTcyNzkxMzE3fQ.CHzPkHZC9QJXBY3qxm5LCi_WNcLafc4pNtBwWXu5t0BtQwbdraY1rX77giYsZux3Nwrg68DCtDLHBcHFGWaWACY5nYM8bndj6YNr58kuyLs4lNpVgvQLONJA9fcUUldx5_Q7xNvLT1Hk5qnndngx7JcmIcvfpgjy9B5yskvAxSvTgGNbPLDd7f5w7mwteUAvFDUxxEWgUVS_DTAT-U5P9Q-oTTUKHdPYQ5lELnXu-sQMfVWTF9wWFMnIkqpP7-u9gcUpOUOugxkd_AhIIv2i8dTCMvT7v3iyKWb510J6ZUvoxfSiqGccerJBH4XP1CsiSCr2GiWXVodCjt8aky729w","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-02T14:28:37.645Z"}
+debug: Response time: 375.588101 ms {"timestamp":"2019-11-02T14:28:37.648Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "30",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:28:49.640Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:28:49.641Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:28:49.642Z"}
+debug: AuthService.checkPassword(): false {"timestamp":"2019-11-02T14:28:50.077Z"}
+debug: AuthRequestHandler.login(): 401 {"timestamp":"2019-11-02T14:28:50.078Z"}
+debug: Response time: 438.01079999999996 ms {"timestamp":"2019-11-02T14:28:50.078Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:29:00.580Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:29:00.580Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:29:00.581Z"}
+debug: SpielRequestHandler.find(): queryParams={} {"timestamp":"2019-11-02T14:29:00.583Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-02T14:29:00.583Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"BRETT","verlag":"RAVENSBURGER","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://hska.biz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":[],"autoren":[{"nachname":"Delta","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Delta","rating":3,"art":"KARTEN","verlag":"RAVENSBURGER","preis":44.4,"rabatt":0.044,"lieferbar":true,"datum":"2019-02-04T00:00:00.000Z","homepage":"https://hska.de/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Epsilon","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Epsilon","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":55.5,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://hska.es/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://hska.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-02T14:29:00.607Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-02T14:29:00.609Z"}
+debug: Response time: 31.830499999999997 ms {"timestamp":"2019-11-02T14:29:00.612Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer {{login.response.body.$.token}}",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "376",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:30:18.624Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:30:18.624Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:30:18.624Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Decodieren des Token-Strings liefert kein Token-Objekt {"timestamp":"2019-11-02T14:30:18.627Z"}
+debug: Response time: 4.0281 ms {"timestamp":"2019-11-02T14:30:18.628Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:30:23.163Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:30:23.164Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:30:23.164Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-02T14:30:23.504Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDUwMjMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiZDBlOGUzMDctYmNhZi00YjkyLThjMzYtMGE5ZTlmOTBkNGEzIiwiZXhwIjoxNTcyNzkxNDIzfQ.i_N6a-PeXjn0IwR-A0tt3dn3PGYMixIVoGRVPf2Ff0Jk5bA737em2lUpSfcEdUyIz2nkdNxrCOX_KrDINF9eaaPWAXlTDWMTNml9CtwzekMu84Bhc7HtyMez4KhpJTcRvi-Jv9JsXKZ7Cre8ZDz0I0Cf_bjK5Fvqx43dnQ0oDqrVhTmarCPgPy4vPnQMS5ZxRNLaQQiEz2upUTrgYRUZigRSdjEHQoOxhaGsb1n847rNqTTuoZos8R3y4IxoClvmKKCw5KwNc0m10-_OTiy4uCwsqm62hnYstHKbNxdOjowxFYs9I5_wNRl_IZnsSO8kDqYrT6h4H0vaxqx05cTijg","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-02T14:30:23.506Z"}
+debug: Response time: 343.2294 ms {"timestamp":"2019-11-02T14:30:23.507Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDUwMjMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiZDBlOGUzMDctYmNhZi00YjkyLThjMzYtMGE5ZTlmOTBkNGEzIiwiZXhwIjoxNTcyNzkxNDIzfQ.i_N6a-PeXjn0IwR-A0tt3dn3PGYMixIVoGRVPf2Ff0Jk5bA737em2lUpSfcEdUyIz2nkdNxrCOX_KrDINF9eaaPWAXlTDWMTNml9CtwzekMu84Bhc7HtyMez4KhpJTcRvi-Jv9JsXKZ7Cre8ZDz0I0Cf_bjK5Fvqx43dnQ0oDqrVhTmarCPgPy4vPnQMS5ZxRNLaQQiEz2upUTrgYRUZigRSdjEHQoOxhaGsb1n847rNqTTuoZos8R3y4IxoClvmKKCw5KwNc0m10-_OTiy4uCwsqm62hnYstHKbNxdOjowxFYs9I5_wNRl_IZnsSO8kDqYrT6h4H0vaxqx05cTijg",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "376",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:30:27.269Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:30:27.270Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:30:27.270Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-02T14:30:27.278Z"}
+debug: Response time: 9.011099 ms {"timestamp":"2019-11-02T14:30:27.278Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDUwMjMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiZDBlOGUzMDctYmNhZi00YjkyLThjMzYtMGE5ZTlmOTBkNGEzIiwiZXhwIjoxNTcyNzkxNDIzfQ.i_N6a-PeXjn0IwR-A0tt3dn3PGYMixIVoGRVPf2Ff0Jk5bA737em2lUpSfcEdUyIz2nkdNxrCOX_KrDINF9eaaPWAXlTDWMTNml9CtwzekMu84Bhc7HtyMez4KhpJTcRvi-Jv9JsXKZ7Cre8ZDz0I0Cf_bjK5Fvqx43dnQ0oDqrVhTmarCPgPy4vPnQMS5ZxRNLaQQiEz2upUTrgYRUZigRSdjEHQoOxhaGsb1n847rNqTTuoZos8R3y4IxoClvmKKCw5KwNc0m10-_OTiy4uCwsqm62hnYstHKbNxdOjowxFYs9I5_wNRl_IZnsSO8kDqYrT6h4H0vaxqx05cTijg",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "230",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:30:36.014Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:30:36.014Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:30:36.014Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-02T14:30:36.017Z"}
+debug: Response time: 3.3893 ms {"timestamp":"2019-11-02T14:30:36.017Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDUwMjMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiZDBlOGUzMDctYmNhZi00YjkyLThjMzYtMGE5ZTlmOTBkNGEzIiwiZXhwIjoxNTcyNzkxNDIzfQ.i_N6a-PeXjn0IwR-A0tt3dn3PGYMixIVoGRVPf2Ff0Jk5bA737em2lUpSfcEdUyIz2nkdNxrCOX_KrDINF9eaaPWAXlTDWMTNml9CtwzekMu84Bhc7HtyMez4KhpJTcRvi-Jv9JsXKZ7Cre8ZDz0I0Cf_bjK5Fvqx43dnQ0oDqrVhTmarCPgPy4vPnQMS5ZxRNLaQQiEz2upUTrgYRUZigRSdjEHQoOxhaGsb1n847rNqTTuoZos8R3y4IxoClvmKKCw5KwNc0m10-_OTiy4uCwsqm62hnYstHKbNxdOjowxFYs9I5_wNRl_IZnsSO8kDqYrT6h4H0vaxqx05cTijg",
+  "if-match": "\"0\"",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "273",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:30:39.293Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:30:39.293Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:30:39.293Z"}
+error: SharedRequestHandler.internalError(): error=<ref *2> IncomingMessage {
+  _readableState: ReadableState {
+    objectMode: false,
+    highWaterMark: 16384,
+    buffer: BufferList { head: null, tail: null, length: 0 },
+    length: 0,
+    pipes: [],
+    flowing: null,
+    ended: false,
+    endEmitted: false,
+    reading: false,
+    sync: true,
+    needReadable: false,
+    emittedReadable: false,
+    readableListening: false,
+    resumeScheduled: false,
+    paused: true,
+    errorEmitted: false,
+    emitClose: true,
+    autoDestroy: false,
+    destroyed: false,
+    defaultEncoding: 'utf8',
+    awaitDrainWriters: null,
+    multiAwaitDrain: false,
+    readingMore: true,
+    decoder: null,
+    encoding: null
+  },
+  readable: true,
+  _events: [Object: null prototype] {
+    end: [Function: resetHeadersTimeoutOnReqEnd]
+  },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  socket: <ref *1> TLSSocket {
+    _tlsOptions: {
+      secureContext: [SecureContext],
+      isServer: true,
+      server: [Server],
+      requestCert: false,
+      rejectUnauthorized: true,
+      handshakeTimeout: 120000,
+      ALPNProtocols: <Buffer 08 68 74 74 70 2f 31 2e 31>,
+      SNICallback: [Function: SNICallback],
+      enableTrace: undefined
+    },
+    _secureEstablished: true,
+    _securePending: false,
+    _newSessionPending: false,
+    _controlReleased: true,
+    _SNICallback: null,
+    servername: false,
+    alpnProtocol: false,
+    authorized: false,
+    authorizationError: null,
+    encrypted: true,
+    _events: [Object: null prototype] {
+      close: [Array],
+      end: [Array],
+      secure: [Function: onServerSocketSecure],
+      _tlsError: [Function: onSocketTLSError],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 10,
+    connecting: false,
+    _hadError: false,
+    _parent: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      [Symbol(asyncId)]: 1507,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: false,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _contexts: [],
+      requestCert: false,
+      rejectUnauthorized: true,
+      ALPNProtocols: <Buffer 08 68 74 74 70 2f 31 2e 31>,
+      pfx: undefined,
+      key: <Buffer 2d 2d 2d 2d 2d 42 45 47 49 4e 20 52 53 41 20 50 52 49 56 41 54 45 20 4b 45 59 2d 2d 2d 2d 2d 0a 4d 49 49 45 70 41 49 42 41 41 4b 43 41 51 45 41 72 6a ... 1629 more bytes>,
+      passphrase: undefined,
+      cert: <Buffer 2d 2d 2d 2d 2d 42 45 47 49 4e 20 43 45 52 54 49 46 49 43 41 54 45 2d 2d 2d 2d 2d 0a 4d 49 49 45 69 6a 43 43 41 33 4b 67 41 77 49 42 41 67 49 55 64 71 ... 1585 more bytes>,
+      clientCertEngine: undefined,
+      ca: undefined,
+      minVersion: undefined,
+      maxVersion: undefined,
+      secureProtocol: undefined,
+      crl: undefined,
+      sigalgs: undefined,
+      ciphers: undefined,
+      ecdhCurve: undefined,
+      dhparam: undefined,
+      honorCipherOrder: true,
+      secureOptions: undefined,
+      sessionIdContext: 'fbd2f73293860587a41b11f1380478b6',
+      _sharedCreds: [SecureContext],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: false,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::8443',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(handshake-timeout)]: 120000,
+      [Symbol(snicallback)]: undefined,
+      [Symbol(asyncId)]: 148,
+      [Symbol(enableTrace)]: undefined
+    },
+    _server: null,
+    ssl: TLSWrap {
+      _parent: [TCP],
+      _parentWrap: [Socket],
+      _secureContext: [SecureContext],
+      reading: true,
+      onhandshakestart: [Function: onhandshakestart],
+      onhandshakedone: [Function: onhandshakedone],
+      onclienthello: [Function: loadSession],
+      oncertcb: [Function: loadSNI],
+      onnewsession: [Function: onnewsession],
+      onkeylog: [Function: onkeylog],
+      lastHandshakeTime: 175487,
+      handshakes: 0,
+      onerror: [Function: onerror],
+      _consumed: true,
+      [Symbol(owner)]: [Circular *1]
+    },
+    _requestCert: false,
+    _rejectUnauthorized: true,
+    timeout: 0,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [Circular *2],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 0
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular *1],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular *2],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      flush: [Function: flush],
+      write: [Function: write],
+      end: [Function: end],
+      on: [Function: on],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::ffff:127.0.0.1', family: 'IPv6', port: 64563 },
+    [Symbol(res)]: TLSWrap {
+      _parent: [TCP],
+      _parentWrap: [Socket],
+      _secureContext: [SecureContext],
+      reading: true,
+      onhandshakestart: [Function: onhandshakestart],
+      onhandshakedone: [Function: onhandshakedone],
+      onclienthello: [Function: loadSession],
+      oncertcb: [Function: loadSNI],
+      onnewsession: [Function: onnewsession],
+      onkeylog: [Function: onkeylog],
+      lastHandshakeTime: 175487,
+      handshakes: 0,
+      onerror: [Function: onerror],
+      _consumed: true,
+      [Symbol(owner)]: [Circular *1]
+    },
+    [Symbol(asyncId)]: 1508,
+    [Symbol(kHandle)]: TLSWrap {
+      _parent: [TCP],
+      _parentWrap: [Socket],
+      _secureContext: [SecureContext],
+      reading: true,
+      onhandshakestart: [Function: onhandshakestart],
+      onhandshakedone: [Function: onhandshakedone],
+      onclienthello: [Function: loadSession],
+      oncertcb: [Function: loadSNI],
+      onnewsession: [Function: onnewsession],
+      onkeylog: [Function: onkeylog],
+      lastHandshakeTime: 175487,
+      handshakes: 0,
+      onerror: [Function: onerror],
+      _consumed: true,
+      [Symbol(owner)]: [Circular *1]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: -1,
+      _idlePrev: null,
+      _idleNext: null,
+      _idleStart: 175487,
+      _onTimeout: null,
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: true,
+      [Symbol(refed)]: null,
+      [Symbol(asyncId)]: 1509,
+      [Symbol(triggerId)]: 148
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(error-emitted)]: false
+  },
+  httpVersionMajor: 1,
+  httpVersionMinor: 1,
+  httpVersion: '1.1',
+  complete: false,
+  headers: {
+    'content-type': 'application/json',
+    authorization: 'Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDUwMjMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiZDBlOGUzMDctYmNhZi00YjkyLThjMzYtMGE5ZTlmOTBkNGEzIiwiZXhwIjoxNTcyNzkxNDIzfQ.i_N6a-PeXjn0IwR-A0tt3dn3PGYMixIVoGRVPf2Ff0Jk5bA737em2lUpSfcEdUyIz2nkdNxrCOX_KrDINF9eaaPWAXlTDWMTNml9CtwzekMu84Bhc7HtyMez4KhpJTcRvi-Jv9JsXKZ7Cre8ZDz0I0Cf_bjK5Fvqx43dnQ0oDqrVhTmarCPgPy4vPnQMS5ZxRNLaQQiEz2upUTrgYRUZigRSdjEHQoOxhaGsb1n847rNqTTuoZos8R3y4IxoClvmKKCw5KwNc0m10-_OTiy4uCwsqm62hnYstHKbNxdOjowxFYs9I5_wNRl_IZnsSO8kDqYrT6h4H0vaxqx05cTijg',
+    'if-match': '"0"',
+    'user-agent': 'vscode-restclient',
+    'accept-encoding': 'gzip',
+    host: 'localhost:8443',
+    'content-length': '273',
+    connection: 'close'
+  },
+  rawHeaders: [
+    'Content-Type',
+    'application/json',
+    'Authorization',
+    'Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDUwMjMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiZDBlOGUzMDctYmNhZi00YjkyLThjMzYtMGE5ZTlmOTBkNGEzIiwiZXhwIjoxNTcyNzkxNDIzfQ.i_N6a-PeXjn0IwR-A0tt3dn3PGYMixIVoGRVPf2Ff0Jk5bA737em2lUpSfcEdUyIz2nkdNxrCOX_KrDINF9eaaPWAXlTDWMTNml9CtwzekMu84Bhc7HtyMez4KhpJTcRvi-Jv9JsXKZ7Cre8ZDz0I0Cf_bjK5Fvqx43dnQ0oDqrVhTmarCPgPy4vPnQMS5ZxRNLaQQiEz2upUTrgYRUZigRSdjEHQoOxhaGsb1n847rNqTTuoZos8R3y4IxoClvmKKCw5KwNc0m10-_OTiy4uCwsqm62hnYstHKbNxdOjowxFYs9I5_wNRl_IZnsSO8kDqYrT6h4H0vaxqx05cTijg',
+    'If-Match',
+    '"0"',
+    'User-Agent',
+    'vscode-restclient',
+    'Accept-Encoding',
+    'gzip',
+    'host',
+    'localhost:8443',
+    'content-length',
+    '273',
+    'Connection',
+    'close'
+  ],
+  trailers: {},
+  rawTrailers: [],
+  aborted: false,
+  upgrade: false,
+  url: '/spiele/99999999-9999-9999-9999-999999999999',
+  method: 'PUT',
+  statusCode: null,
+  statusMessage: null,
+  client: <ref *1> TLSSocket {
+    _tlsOptions: {
+      secureContext: [SecureContext],
+      isServer: true,
+      server: [Server],
+      requestCert: false,
+      rejectUnauthorized: true,
+      handshakeTimeout: 120000,
+      ALPNProtocols: <Buffer 08 68 74 74 70 2f 31 2e 31>,
+      SNICallback: [Function: SNICallback],
+      enableTrace: undefined
+    },
+    _secureEstablished: true,
+    _securePending: false,
+    _newSessionPending: false,
+    _controlReleased: true,
+    _SNICallback: null,
+    servername: false,
+    alpnProtocol: false,
+    authorized: false,
+    authorizationError: null,
+    encrypted: true,
+    _events: [Object: null prototype] {
+      close: [Array],
+      end: [Array],
+      secure: [Function: onServerSocketSecure],
+      _tlsError: [Function: onSocketTLSError],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 10,
+    connecting: false,
+    _hadError: false,
+    _parent: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      [Symbol(asyncId)]: 1507,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      paused: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      destroyed: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null
+    },
+    readable: true,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      bufferedRequest: null,
+      lastBufferedRequest: null,
+      pendingcb: 0,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: false,
+      errored: false,
+      bufferedRequestCount: 0,
+      corkedRequestsFree: [Object]
+    },
+    writable: true,
+    allowHalfOpen: false,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      _contexts: [],
+      requestCert: false,
+      rejectUnauthorized: true,
+      ALPNProtocols: <Buffer 08 68 74 74 70 2f 31 2e 31>,
+      pfx: undefined,
+      key: <Buffer 2d 2d 2d 2d 2d 42 45 47 49 4e 20 52 53 41 20 50 52 49 56 41 54 45 20 4b 45 59 2d 2d 2d 2d 2d 0a 4d 49 49 45 70 41 49 42 41 41 4b 43 41 51 45 41 72 6a ... 1629 more bytes>,
+      passphrase: undefined,
+      cert: <Buffer 2d 2d 2d 2d 2d 42 45 47 49 4e 20 43 45 52 54 49 46 49 43 41 54 45 2d 2d 2d 2d 2d 0a 4d 49 49 45 69 6a 43 43 41 33 4b 67 41 77 49 42 41 67 49 55 64 71 ... 1585 more bytes>,
+      clientCertEngine: undefined,
+      ca: undefined,
+      minVersion: undefined,
+      maxVersion: undefined,
+      secureProtocol: undefined,
+      crl: undefined,
+      sigalgs: undefined,
+      ciphers: undefined,
+      ecdhCurve: undefined,
+      dhparam: undefined,
+      honorCipherOrder: true,
+      secureOptions: undefined,
+      sessionIdContext: 'fbd2f73293860587a41b11f1380478b6',
+      _sharedCreds: [SecureContext],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      _connections: 1,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: false,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 40000,
+      _connectionKey: '6::::8443',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(handshake-timeout)]: 120000,
+      [Symbol(snicallback)]: undefined,
+      [Symbol(asyncId)]: 148,
+      [Symbol(enableTrace)]: undefined
+    },
+    _server: null,
+    ssl: TLSWrap {
+      _parent: [TCP],
+      _parentWrap: [Socket],
+      _secureContext: [SecureContext],
+      reading: true,
+      onhandshakestart: [Function: onhandshakestart],
+      onhandshakedone: [Function: onhandshakedone],
+      onclienthello: [Function: loadSession],
+      oncertcb: [Function: loadSNI],
+      onnewsession: [Function: onnewsession],
+      onkeylog: [Function: onkeylog],
+      lastHandshakeTime: 175487,
+      handshakes: 0,
+      onerror: [Function: onerror],
+      _consumed: true,
+      [Symbol(owner)]: [Circular *1]
+    },
+    _requestCert: false,
+    _rejectUnauthorized: true,
+    timeout: 0,
+    parser: HTTPParser {
+      '0': [Function: parserOnHeaders],
+      '1': [Function: parserOnHeadersComplete],
+      '2': [Function: parserOnBody],
+      '3': [Function: parserOnMessageComplete],
+      '4': [Function: bound onParserExecute],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [Circular *2],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      parsingHeadersStart: 0
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    _paused: false,
+    _httpMessage: ServerResponse {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      useChunkedEncodingByDefault: true,
+      sendDate: true,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: null,
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: false,
+      socket: [Circular *1],
+      _header: null,
+      _onPendingData: [Function: bound updateOutgoingData],
+      _sent100: false,
+      _expect_continue: false,
+      req: [Circular *2],
+      locals: [Object: null prototype] {},
+      _startAt: undefined,
+      _startTime: undefined,
+      writeHead: [Function: writeHead],
+      __onFinished: [Function],
+      flush: [Function: flush],
+      write: [Function: write],
+      end: [Function: end],
+      on: [Function: on],
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(isCorked)]: false,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    _peername: { address: '::ffff:127.0.0.1', family: 'IPv6', port: 64563 },
+    [Symbol(res)]: TLSWrap {
+      _parent: [TCP],
+      _parentWrap: [Socket],
+      _secureContext: [SecureContext],
+      reading: true,
+      onhandshakestart: [Function: onhandshakestart],
+      onhandshakedone: [Function: onhandshakedone],
+      onclienthello: [Function: loadSession],
+      oncertcb: [Function: loadSNI],
+      onnewsession: [Function: onnewsession],
+      onkeylog: [Function: onkeylog],
+      lastHandshakeTime: 175487,
+      handshakes: 0,
+      onerror: [Function: onerror],
+      _consumed: true,
+      [Symbol(owner)]: [Circular *1]
+    },
+    [Symbol(asyncId)]: 1508,
+    [Symbol(kHandle)]: TLSWrap {
+      _parent: [TCP],
+      _parentWrap: [Socket],
+      _secureContext: [SecureContext],
+      reading: true,
+      onhandshakestart: [Function: onhandshakestart],
+      onhandshakedone: [Function: onhandshakedone],
+      onclienthello: [Function: loadSession],
+      oncertcb: [Function: loadSNI],
+      onnewsession: [Function: onnewsession],
+      onkeylog: [Function: onkeylog],
+      lastHandshakeTime: 175487,
+      handshakes: 0,
+      onerror: [Function: onerror],
+      _consumed: true,
+      [Symbol(owner)]: [Circular *1]
+    },
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: -1,
+      _idlePrev: null,
+      _idleNext: null,
+      _idleStart: 175487,
+      _onTimeout: null,
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: true,
+      [Symbol(refed)]: null,
+      [Symbol(asyncId)]: 1509,
+      [Symbol(triggerId)]: 148
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(error-emitted)]: false
+  },
+  _consuming: false,
+  _dumped: false,
+  next: [Function: next],
+  baseUrl: '',
+  originalUrl: '/spiele/99999999-9999-9999-9999-999999999999',
+  _parsedUrl: Url {
+    protocol: null,
+    slashes: null,
+    auth: null,
+    host: null,
+    port: null,
+    hostname: null,
+    hash: null,
+    search: null,
+    query: null,
+    pathname: '/spiele/99999999-9999-9999-9999-999999999999',
+    path: '/spiele/99999999-9999-9999-9999-999999999999',
+    href: '/spiele/99999999-9999-9999-9999-999999999999',
+    _raw: '/spiele/99999999-9999-9999-9999-999999999999'
+  },
+  params: {},
+  query: {},
+  res: <ref *3> ServerResponse {
+    _events: [Object: null prototype] {
+      finish: [Array],
+      end: [Function: onevent]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    useChunkedEncodingByDefault: true,
+    sendDate: true,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: null,
+    _hasBody: true,
+    _trailer: '',
+    finished: false,
+    _headerSent: false,
+    socket: <ref *1> TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      _SNICallback: null,
+      servername: false,
+      alpnProtocol: false,
+      authorized: false,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: [Socket],
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: false,
+      _rejectUnauthorized: true,
+      timeout: 0,
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      _paused: false,
+      _httpMessage: [Circular *3],
+      _peername: [Object],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(asyncId)]: 1508,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 175487,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: null,
+        [Symbol(asyncId)]: 1509,
+        [Symbol(triggerId)]: 148
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(error-emitted)]: false
+    },
+    _header: null,
+    _onPendingData: [Function: bound updateOutgoingData],
+    _sent100: false,
+    _expect_continue: false,
+    req: [Circular *2],
+    locals: [Object: null prototype] {},
+    _startAt: undefined,
+    _startTime: undefined,
+    writeHead: [Function: writeHead],
+    __onFinished: [Function: listener] { queue: [Array] },
+    flush: [Function: flush],
+    write: [Function: write],
+    end: [Function: end],
+    on: [Function: on],
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(isCorked)]: false,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      'x-powered-by': [Array],
+      'content-security-policy': [Array],
+      'x-content-security-policy': [Array],
+      'x-webkit-csp': [Array],
+      'x-xss-protection': [Array],
+      'x-frame-options': [Array],
+      'strict-transport-security': [Array],
+      'x-content-type-options': [Array],
+      'surrogate-control': [Array],
+      'cache-control': [Array],
+      pragma: [Array],
+      expires: [Array],
+      'x-ratelimit-limit': [Array],
+      'x-ratelimit-remaining': [Array],
+      date: [Array],
+      'x-ratelimit-reset': [Array]
+    }
+  },
+  _startAt: [ 338545, 55742500 ],
+  _startTime: 2019-11-02T14:30:39.293Z,
+  _remoteAddress: '::ffff:127.0.0.1',
+  rateLimit: {
+    limit: 100,
+    current: 8,
+    remaining: 92,
+    resetTime: 2019-11-02T14:42:45.622Z
+  }
+} {"timestamp":"2019-11-02T14:30:39.309Z"}
+debug: Response time: 1085.9365 ms {"timestamp":"2019-11-02T14:30:40.379Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:30:51.315Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:30:51.315Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:30:51.316Z"}
+debug: Response time: 4.0443999999999996 ms {"timestamp":"2019-11-02T14:30:51.319Z"}
+debug: Request: headers={
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDUwMjMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiZDBlOGUzMDctYmNhZi00YjkyLThjMzYtMGE5ZTlmOTBkNGEzIiwiZXhwIjoxNTcyNzkxNDIzfQ.i_N6a-PeXjn0IwR-A0tt3dn3PGYMixIVoGRVPf2Ff0Jk5bA737em2lUpSfcEdUyIz2nkdNxrCOX_KrDINF9eaaPWAXlTDWMTNml9CtwzekMu84Bhc7HtyMez4KhpJTcRvi-Jv9JsXKZ7Cre8ZDz0I0Cf_bjK5Fvqx43dnQ0oDqrVhTmarCPgPy4vPnQMS5ZxRNLaQQiEz2upUTrgYRUZigRSdjEHQoOxhaGsb1n847rNqTTuoZos8R3y4IxoClvmKKCw5KwNc0m10-_OTiy4uCwsqm62hnYstHKbNxdOjowxFYs9I5_wNRl_IZnsSO8kDqYrT6h4H0vaxqx05cTijg",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "0",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:30:54.931Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:30:54.931Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:30:54.931Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-02T14:30:54.935Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-02T14:30:54.936Z"}
+debug: Response time: 5.1346 ms {"timestamp":"2019-11-02T14:30:54.936Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-02T14:31:00.146Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-02T14:31:00.146Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:31:00.147Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-02T14:31:00.486Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3MDUwNjAsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiY2MzZTRiMjQtNWIyOC00NTFlLThmYzQtNGQ1NDhlNzkxNzMwIiwiZXhwIjoxNTcyNzkxNDYwfQ.Ac7gFfahKTrVeuctDqbCJpYzsRorJ9o6jjQ1UY5iYamq9IFIWI-_fgC8geibo1LdJeRHLNTwgdqifrzdMcr0_IOPn9cSuWAoYNkJOFlLH8UmD_PgdVSujm0WCSl_UWo6eHm5WPbHfD12RNV36YIHhuRckFC7Nyxs6ifnyvCwbNB91JBIoqLKV9TFC2U_kU1Z22-UyBl1S3P4mu7xlp2ndv75fJvRVGbfMq2nTDrIw5BWUA351edZsunaYTehiB81hpc-5O9R1XyUP8T8sHOeA_IwiWmZGx3GsJrThRuf4Cx_RM6Dvi3ah1BOMkCpyPxLjDf6wCStiD5E-IXEGEX9Pw","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-02T14:31:00.488Z"}
+debug: Response time: 341.881601 ms {"timestamp":"2019-11-02T14:31:00.488Z"}
 debug: Request: headers={
   "host": "localhost:8443",
   "connection": "keep-alive",
+  "cache-control": "max-age=0",
   "upgrade-insecure-requests": "1",
   "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
   "sec-fetch-mode": "navigate",
@@ -223,55 +1187,10 @@ debug: Request: headers={
   "sec-fetch-site": "none",
   "accept-encoding": "gzip, deflate, br",
   "accept-language": "en-US,en;q=0.9,de;q=0.8"
-} {"timestamp":"2019-11-02T14:22:56.925Z"}
-debug: Request: protocol="https" {"timestamp":"2019-11-02T14:22:56.926Z"}
-debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:22:56.926Z"}
-debug: Response time: 26.332601 ms {"timestamp":"2019-11-02T14:22:56.951Z"}
-debug: Request: headers={
-  "host": "localhost:8443",
-  "connection": "keep-alive",
-  "sec-fetch-mode": "no-cors",
-  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
-  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
-  "sec-fetch-site": "same-origin",
-  "referer": "https://localhost:8443/",
-  "accept-encoding": "gzip, deflate, br",
-  "accept-language": "en-US,en;q=0.9,de;q=0.8"
-} {"timestamp":"2019-11-02T14:22:57.257Z"}
-debug: Request: protocol="https" {"timestamp":"2019-11-02T14:22:57.257Z"}
-debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:22:57.257Z"}
-debug: Response time: 24.735201 ms {"timestamp":"2019-11-02T14:22:57.281Z"}
-debug: Request: headers={
-  "host": "localhost:8443",
-  "connection": "keep-alive",
-  "upgrade-insecure-requests": "1",
-  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
-  "sec-fetch-mode": "navigate",
-  "sec-fetch-user": "?1",
-  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
-  "purpose": "prefetch",
-  "sec-fetch-site": "none",
-  "accept-encoding": "gzip, deflate, br",
-  "accept-language": "en-US,en;q=0.9,de;q=0.8"
-} {"timestamp":"2019-11-02T14:23:02.286Z"}
-debug: Request: protocol="https" {"timestamp":"2019-11-02T14:23:02.286Z"}
-debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:23:02.286Z"}
-debug: Response time: 70.25479899999999 ms {"timestamp":"2019-11-02T14:23:02.356Z"}
-debug: Request: headers={
-  "host": "localhost:8443",
-  "connection": "keep-alive",
-  "upgrade-insecure-requests": "1",
-  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
-  "sec-fetch-mode": "navigate",
-  "sec-fetch-user": "?1",
-  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
-  "sec-fetch-site": "none",
-  "accept-encoding": "gzip, deflate, br",
-  "accept-language": "en-US,en;q=0.9,de;q=0.8"
-} {"timestamp":"2019-11-02T14:23:02.646Z"}
-debug: Request: protocol="https" {"timestamp":"2019-11-02T14:23:02.646Z"}
-debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:23:02.646Z"}
-debug: Response time: 9.4302 ms {"timestamp":"2019-11-02T14:23:02.655Z"}
+} {"timestamp":"2019-11-03T09:23:22.838Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:23:22.838Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:23:22.838Z"}
+debug: Response time: 28.263199 ms {"timestamp":"2019-11-03T09:23:22.866Z"}
 debug: Request: headers={
   "host": "localhost:8443",
   "connection": "keep-alive",
@@ -285,7 +1204,186 @@ debug: Request: headers={
   "referer": "https://localhost:8443/",
   "accept-encoding": "gzip, deflate, br",
   "accept-language": "en-US,en;q=0.9,de;q=0.8"
-} {"timestamp":"2019-11-02T14:23:03.039Z"}
-debug: Request: protocol="https" {"timestamp":"2019-11-02T14:23:03.039Z"}
-debug: Request: hostname="localhost" {"timestamp":"2019-11-02T14:23:03.039Z"}
-debug: Response time: 114.01310099999999 ms {"timestamp":"2019-11-02T14:23:03.153Z"}
+} {"timestamp":"2019-11-03T09:23:23.397Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:23:23.397Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:23:23.397Z"}
+debug: Response time: 72.4348 ms {"timestamp":"2019-11-03T09:23:23.470Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "pragma": "no-cache",
+  "cache-control": "no-cache",
+  "sec-fetch-mode": "no-cors",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "accept": "image/webp,image/apng,image/*,*/*;q=0.8",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:23:23.481Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:23:23.481Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:23:23.481Z"}
+debug: Response time: 10.978899 ms {"timestamp":"2019-11-03T09:23:23.492Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "932",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:24:04.672Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:24:04.672Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:24:04.672Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:24:04.677Z"}
+debug: Response time: 10.3812 ms {"timestamp":"2019-11-03T09:24:04.682Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "1160",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:28:32.177Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:28:32.178Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:28:32.178Z"}
+debug: SpielService.create(): spielSaved={"schlagwoerter":["TEAM"],"autoren":[],"titel":"Uno","rating":1,"art":"KARTEN","verlag":"SCHMIDT","preis":9.99,"rabatt":0.011,"lieferbar":true,"datum":"1970-01-01T00:00:00.000Z","homepage":"http://uno.de","_id":"d35781d9-5f98-443f-8715-8e3ed95cc437","createdAt":"2019-11-03T09:28:32.208Z","updatedAt":"2019-11-03T09:28:32.208Z","__v":0} {"timestamp":"2019-11-03T09:28:32.220Z"}
+debug: Response time: 42.809900999999996 ms {"timestamp":"2019-11-03T09:28:32.220Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "941",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:29:23.545Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:29:23.546Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:29:23.546Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:29:23.549Z"}
+debug: Response time: 13.141701 ms {"timestamp":"2019-11-03T09:29:23.559Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "929",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:30:11.000Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:30:11.000Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:30:11.000Z"}
+debug: Response time: 3.57 ms {"timestamp":"2019-11-03T09:30:11.004Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "72",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:30:25.128Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:30:25.129Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:30:25.129Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:30:25.133Z"}
+debug: Response time: 12.2721 ms {"timestamp":"2019-11-03T09:30:25.141Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "105",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:31:02.285Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:31:02.285Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:31:02.285Z"}
+debug: SpielService.remove(): id=00000000-0000-0000-0000-000000000004 {"timestamp":"2019-11-03T09:31:02.289Z"}
+debug: SpielService.remove(): geloescht={"schlagwoerter":[],"autoren":[{"nachname":"Delta","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Delta","rating":3,"art":"KARTEN","verlag":"RAVENSBURGER","preis":44.4,"rabatt":0.044,"lieferbar":true,"datum":"2019-02-04T00:00:00.000Z","homepage":"https://hska.de/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-03T09:31:02.300Z"}
+debug: Response time: 15.277299 ms {"timestamp":"2019-11-03T09:31:02.300Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "69",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:31:24.283Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:31:24.284Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:31:24.284Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:31:24.287Z"}
+debug: Response time: 9.7571 ms {"timestamp":"2019-11-03T09:31:24.293Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "105",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:32:10.524Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:32:10.524Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:32:10.524Z"}
+debug: SpielService.remove(): id=00000000-0000-0000-0000-000000000005 {"timestamp":"2019-11-03T09:32:10.526Z"}
+debug: SpielService.remove(): geloescht={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Epsilon","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Epsilon","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":55.5,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://hska.es/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-03T09:32:10.533Z"}
+debug: Response time: 9.941699999999999 ms {"timestamp":"2019-11-03T09:32:10.534Z"}
+debug: Request: headers={
+  "host": "localhost:8443",
+  "connection": "keep-alive",
+  "content-length": "52",
+  "accept": "application/json",
+  "origin": "https://localhost:8443",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36",
+  "sec-fetch-mode": "cors",
+  "content-type": "application/json",
+  "sec-fetch-site": "same-origin",
+  "referer": "https://localhost:8443/",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,de;q=0.8"
+} {"timestamp":"2019-11-03T09:32:21.074Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:32:21.074Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:32:21.074Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:32:21.077Z"}
+debug: Response time: 8.529499999999999 ms {"timestamp":"2019-11-03T09:32:21.082Z"}
