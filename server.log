@@ -1745,3 +1745,5 @@ info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-03T10:00:19.576Z"}
 info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-03T10:00:19.578Z"}
 info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-03T10:00:19.583Z"}
 info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-03T10:00:19.588Z"}
+info: Server wird heruntergefahren... {"timestamp":"2019-11-03T10:09:19.088Z"}
+warn: DB-Verbindung wird geschlossen... {"timestamp":"2019-11-03T10:09:19.093Z"}
