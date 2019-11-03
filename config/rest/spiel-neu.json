@@ -1,18 +1,18 @@
 {
-    "titel": "Test",
+    "titel": "MauMau",
     "rating": 1,
-    "art": "KINDLE",
-    "verlag": "BRETT",
-    "preis": 99.9,
+    "art": "KARTEN",
+    "verlag": "RAVENSBURGER",
+    "preis": 9.99,
     "rabatt": 1,
     "lieferbar": true,
-    "datum": "2017-02-01T00:00:00.000Z",
-    "homepage": "https://test.de/",
-    "schlagwoerter": ["SOLO"],
+    "datum": "2019-07-12T00:00:00.000Z",
+    "homepage": "https://maumau.de/",
+    "schlagwoerter": ["TEAM"],
     "autoren": [
         {
-            "vorname": "Theo",
-            "nachname": "Test"
+            "vorname": "Meli",
+            "nachname": "Maus"
         }
     ]
 }

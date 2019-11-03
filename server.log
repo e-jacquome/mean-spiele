@@ -1387,3 +1387,361 @@ debug: Request: protocol="https" {"timestamp":"2019-11-03T09:32:21.074Z"}
 debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:32:21.074Z"}
 debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:32:21.077Z"}
 debug: Response time: 8.529499999999999 ms {"timestamp":"2019-11-03T09:32:21.082Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:34:27.475Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:34:27.476Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:34:27.476Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-03T09:34:27.832Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3NzM2NjcsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiZGM3ZmE4YzAtYWJiNS00MDAzLTgzNjQtNDI1ZjVjZGYwOWNmIiwiZXhwIjoxNTcyODYwMDY3fQ.NUhwJhjlOnahR-B9CYINaSYceGqsxTEfOpgK_15xjbWZcPwniKCLW_mgR2YiC3RSgOhkqnD4OOBJ8lfxzOWM8u6q-Ym1Y6GzvXRX8vR2O8j_GHMhVUvIIwTHrG54Qm1y3m-DMd_aubEoOq7vDPgPMEKHnLwd_ug84ipvr7qzpkzW4D7FXqplGMH7UomADKjweUvu-VH2c2RYsSZyg_YCEQkSW3M_yS99UfFjQkb0LFw93XHOxZ3ipJiWvfZp2c_2bdynqytW7vXTzVwF9vl8EgiGLahrbz-TtXMgcW_faMEsjbb8M4rDiqzopw-QlLd1_SufETlceU3odIY-eLshkg","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-03T09:34:27.834Z"}
+debug: Response time: 359.0576 ms {"timestamp":"2019-11-03T09:34:27.834Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-03T09:36:16.167Z"}
+debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-03T09:36:16.174Z"}
+debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-03T09:36:16.175Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-03T09:36:23.053Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-03T09:36:23.059Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-03T09:36:23.121Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-03T09:36:23.128Z"}
+info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-03T09:36:25.285Z"}
+info: 
+  _________ _____ ______   
+ |_  | ___   __ | ___   
+   | | |_/ / |  /| |_/ / 
+   | | ___  | __ | ___  
+/__/ / |_/ / |_ | |_/ / 
+____/____/ ____/____/  
+
+ {"timestamp":"2019-11-03T09:36:25.292Z"}
+info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-03T09:36:25.303Z"}
+info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-03T09:36:25.306Z"}
+info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-03T09:36:25.320Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-03T09:36:25.323Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-03T09:36:55.010Z"}
+debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-03T09:36:55.013Z"}
+debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-03T09:36:55.014Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-03T09:36:56.119Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-03T09:36:56.125Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-03T09:36:56.162Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-03T09:36:56.168Z"}
+info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-03T09:36:57.558Z"}
+info: 
+  _________ _____ ______   
+ |_  | ___   __ | ___   
+   | | |_/ / |  /| |_/ / 
+   | | ___  | __ | ___  
+/__/ / |_/ / |_ | |_/ / 
+____/____/ ____/____/  
+
+ {"timestamp":"2019-11-03T09:36:57.564Z"}
+info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-03T09:36:57.576Z"}
+info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-03T09:36:57.578Z"}
+info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-03T09:36:57.583Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-03T09:36:57.587Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-03T09:37:57.362Z"}
+debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-03T09:37:57.366Z"}
+debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-03T09:37:57.366Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-03T09:37:58.474Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-03T09:37:58.481Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-03T09:37:58.539Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-03T09:37:58.545Z"}
+info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-03T09:38:00.182Z"}
+info: 
+  _________ _____ ______   
+ |_  | ___   __ | ___   
+   | | |_/ / |  /| |_/ / 
+   | | ___  | __ | ___  
+/__/ / |_/ / |_ | |_/ / 
+____/____/ ____/____/  
+
+ {"timestamp":"2019-11-03T09:38:00.193Z"}
+info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-03T09:38:00.204Z"}
+info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-03T09:38:00.207Z"}
+info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-03T09:38:00.215Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-03T09:38:00.218Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:38:16.505Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:38:16.506Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:38:16.506Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-03T09:38:16.877Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3NzM4OTYsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiODg5ZTYyNTgtNTlmZC00YjZkLTg2ZGMtNTkzNmVlMTMyNmFiIiwiZXhwIjoxNTcyODYwMjk2fQ.HcrGBLVvCUNJ31JBvGqQcBjAYyHWwBCro9EQwmAGIOAYpPUHtJDHLMZ4eLn_N8qVSJ2MI26intXXFU0NWU6DM4w6PQQ7R4eKxoOyulrDm3MXK6uhIEzu87n5fOEO5v7pvrGMpkUZntLk6onY7yjdknjCTzx7jElcFuBcxsSB1uwPUphjo2SVFO6fenxsL8cjDEtqRMP8V7Lky_fPGXmcAPXLlw4_b7ZwhiBSj9vaZ7ysOI-xK1B8nNq1QygPf2VMHxmqrDDgM3SCe9fTTSRtmhyWXrO0Y8XzZkt0DMXbNadxlCjA2RWXHKBUXV4ma9WUS35OlYKlPydmstz1Uzirdw","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-03T09:38:16.881Z"}
+debug: Response time: 377.785401 ms {"timestamp":"2019-11-03T09:38:16.883Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "30",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:38:22.528Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:38:22.528Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:38:22.529Z"}
+debug: AuthService.checkPassword(): false {"timestamp":"2019-11-03T09:38:22.870Z"}
+debug: AuthRequestHandler.login(): 401 {"timestamp":"2019-11-03T09:38:22.870Z"}
+debug: Response time: 342.7885 ms {"timestamp":"2019-11-03T09:38:22.871Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:38:27.767Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:38:27.767Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:38:27.767Z"}
+debug: SpielRequestHandler.find(): queryParams={} {"timestamp":"2019-11-03T09:38:27.769Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:38:27.769Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"BRETT","verlag":"RAVENSBURGER","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://hska.biz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://hska.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[],"_id":"d35781d9-5f98-443f-8715-8e3ed95cc437","titel":"Uno","rating":1,"art":"KARTEN","verlag":"SCHMIDT","preis":9.99,"rabatt":0.011,"lieferbar":true,"datum":"1970-01-01T00:00:00.000Z","homepage":"http://uno.de","createdAt":"2019-11-03T09:28:32.208Z","updatedAt":"2019-11-03T09:28:32.208Z","__v":0}] {"timestamp":"2019-11-03T09:38:27.795Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-03T09:38:27.795Z"}
+debug: Response time: 51.087599999999995 ms {"timestamp":"2019-11-03T09:38:27.818Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:39:06.643Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:39:06.643Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:39:06.643Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-03T09:39:06.645Z"}
+debug: SpielRequestHandler.findById(): versionHeader= undefined {"timestamp":"2019-11-03T09:39:06.646Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-03T09:39:06.646Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-03T09:39:06.646Z"}
+debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-03T09:39:06.651Z"}
+debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-03T09:39:06.651Z"}
+debug: Response time: 9.067599999999999 ms {"timestamp":"2019-11-03T09:39:06.652Z"}
+debug: Request: headers={
+  "if-none-match": "\"0\"",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:39:23.436Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:39:23.436Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:39:23.436Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-03T09:39:23.439Z"}
+debug: SpielRequestHandler.findById(): versionHeader= "0" {"timestamp":"2019-11-03T09:39:23.439Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-03T09:39:23.439Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-03T09:39:23.439Z"}
+debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-03T09:39:23.442Z"}
+debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-03T09:39:23.442Z"}
+debug: Response time: 7.0812 ms {"timestamp":"2019-11-03T09:39:23.443Z"}
+debug: Request: headers={
+  "if-none-match": "0",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:39:40.687Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:39:40.687Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:39:40.688Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-03T09:39:40.690Z"}
+debug: SpielRequestHandler.findById(): versionHeader= 0 {"timestamp":"2019-11-03T09:39:40.691Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-03T09:39:40.692Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-03T09:39:40.692Z"}
+debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-03T09:39:40.695Z"}
+debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-03T09:39:40.695Z"}
+debug: Response time: 8.621699 ms {"timestamp":"2019-11-03T09:39:40.696Z"}
+debug: Request: headers={
+  "if-none-match": "0",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:40:11.810Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:40:11.811Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:40:11.811Z"}
+debug: SharedRequestHandler.validateUUID(): status=BAD_REQUEST {"timestamp":"2019-11-03T09:40:11.812Z"}
+debug: Response time: 2.3889 ms {"timestamp":"2019-11-03T09:40:11.813Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "0",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:40:21.738Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:40:21.738Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:40:21.739Z"}
+debug: Response time: 5.0466 ms {"timestamp":"2019-11-03T09:40:21.743Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:42:19.714Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:42:19.714Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:42:19.714Z"}
+debug: SharedRequestHandler.validateUUID(): status=BAD_REQUEST {"timestamp":"2019-11-03T09:42:19.717Z"}
+debug: Response time: 3.4254 ms {"timestamp":"2019-11-03T09:42:19.717Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:42:39.817Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:42:39.817Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:42:39.817Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-03T09:42:39.819Z"}
+debug: SpielRequestHandler.findById(): versionHeader= undefined {"timestamp":"2019-11-03T09:42:39.819Z"}
+debug: spielRequestHandler.findById(): id=99999999-9999-9999-9999-999999999999 {"timestamp":"2019-11-03T09:42:39.819Z"}
+debug: SpielService.findById(): id= 99999999-9999-9999-9999-999999999999 {"timestamp":"2019-11-03T09:42:39.819Z"}
+debug: SpielRequestHandler.findById(): status=NOT_FOUND {"timestamp":"2019-11-03T09:42:39.822Z"}
+debug: Response time: 5.1884999999999994 ms {"timestamp":"2019-11-03T09:42:39.822Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:43:13.717Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:43:13.717Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:43:13.717Z"}
+debug: SpielRequestHandler.find(): queryParams={"titel":"a"} {"timestamp":"2019-11-03T09:43:13.719Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:43:13.719Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-03T09:43:13.720Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"BRETT","verlag":"RAVENSBURGER","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://hska.biz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://hska.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-03T09:43:13.729Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object] {"timestamp":"2019-11-03T09:43:13.729Z"}
+debug: Response time: 12.733799 ms {"timestamp":"2019-11-03T09:43:13.730Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:43:53.780Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:43:53.780Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:43:53.781Z"}
+debug: SpielRequestHandler.find(): queryParams={"solo":"true","team":"true"} {"timestamp":"2019-11-03T09:43:53.783Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:43:53.783Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-03T09:43:53.783Z"}
+debug: SpielRequestHandler.find(): spiele=[] {"timestamp":"2019-11-03T09:43:53.786Z"}
+debug: SpieleRequestHandler.find(): status = NOT_FOUND {"timestamp":"2019-11-03T09:43:53.786Z"}
+debug: Response time: 5.8194989999999995 ms {"timestamp":"2019-11-03T09:43:53.786Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:44:14.099Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:44:14.099Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:44:14.099Z"}
+debug: SpielRequestHandler.find(): queryParams={"team":"true"} {"timestamp":"2019-11-03T09:44:14.101Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:44:14.102Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-03T09:44:14.102Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["TEAM"],"autoren":[],"_id":"d35781d9-5f98-443f-8715-8e3ed95cc437","titel":"Uno","rating":1,"art":"KARTEN","verlag":"SCHMIDT","preis":9.99,"rabatt":0.011,"lieferbar":true,"datum":"1970-01-01T00:00:00.000Z","homepage":"http://uno.de","createdAt":"2019-11-03T09:28:32.208Z","updatedAt":"2019-11-03T09:28:32.208Z","__v":0}] {"timestamp":"2019-11-03T09:44:14.105Z"}
+debug: SpielRequestHandler.find(): payload=[object Object] {"timestamp":"2019-11-03T09:44:14.105Z"}
+debug: Response time: 6.6426 ms {"timestamp":"2019-11-03T09:44:14.106Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:45:17.443Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:45:17.443Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:45:17.443Z"}
+debug: SpielRequestHandler.find(): queryParams={"solo":"true"} {"timestamp":"2019-11-03T09:45:17.445Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-03T09:45:17.445Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-03T09:45:17.445Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Alpha","vorname":"Adriana"},{"nachname":"Alpha","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Alpha","rating":4,"art":"KARTEN","verlag":"RAVENSBURGER","preis":11.1,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Beta","vorname":"Brunhilde"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Beta","rating":2,"art":"BRETT","verlag":"RAVENSBURGER","preis":22.2,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://hska.biz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gamma","vorname":"Claus"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Gamma","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":33.3,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://hska.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-03T09:45:17.457Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object] {"timestamp":"2019-11-03T09:45:17.458Z"}
+debug: Response time: 15.354 ms {"timestamp":"2019-11-03T09:45:17.458Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer {{login.response.body.$.token}}",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "387",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:47:36.000Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:47:36.000Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:47:36.000Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Decodieren des Token-Strings liefert kein Token-Objekt {"timestamp":"2019-11-03T09:47:36.004Z"}
+debug: Response time: 4.6027 ms {"timestamp":"2019-11-03T09:47:36.005Z"}
+debug: Request: headers={
+  "content-type": "application/x-www-form-urlencoded",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "25",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:48:05.230Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:48:05.230Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:48:05.230Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-03T09:48:05.573Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3NzQ0ODUsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYTRhYzM2ZmItNjc2ZC00MjJhLTkyOGEtY2RiM2ZmMjEwMWFiIiwiZXhwIjoxNTcyODYwODg1fQ.hGFjm4Xv1qhMsPgv-GXFR1Qls4sPg9zrymP1aEp06udwvlAkZKFiHTBpk4FqaxpsAAFBA5WfOzM-aB9ERFghN0cJD6bCchWx3X-aT0x5oKhkZBGdb3ZxF9hpFEga5D_44PLzVHWFgJN5RB-EkQvuqC0DD9owj8tl79JRadaB_tFgkAqFiFsb9E2x1RqTZf5R5Z11C9_xKW_EVmmCezFkUmj0ahS0o7Tu4hSAWvyUuMQkr-i1xNOPHn3K7n1uD-1BgKCBcullmybZTkte-ybyli2-_S6U79EQz6pzSRx2yzCQAh25gwtksIzzL7iPBwzzEWtIJkVpmE_lbZNdcV-7vg","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-03T09:48:05.576Z"}
+debug: Response time: 345.857099 ms {"timestamp":"2019-11-03T09:48:05.576Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3NzQ0ODUsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYTRhYzM2ZmItNjc2ZC00MjJhLTkyOGEtY2RiM2ZmMjEwMWFiIiwiZXhwIjoxNTcyODYwODg1fQ.hGFjm4Xv1qhMsPgv-GXFR1Qls4sPg9zrymP1aEp06udwvlAkZKFiHTBpk4FqaxpsAAFBA5WfOzM-aB9ERFghN0cJD6bCchWx3X-aT0x5oKhkZBGdb3ZxF9hpFEga5D_44PLzVHWFgJN5RB-EkQvuqC0DD9owj8tl79JRadaB_tFgkAqFiFsb9E2x1RqTZf5R5Z11C9_xKW_EVmmCezFkUmj0ahS0o7Tu4hSAWvyUuMQkr-i1xNOPHn3K7n1uD-1BgKCBcullmybZTkte-ybyli2-_S6U79EQz6pzSRx2yzCQAh25gwtksIzzL7iPBwzzEWtIJkVpmE_lbZNdcV-7vg",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "387",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:48:12.764Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:48:12.764Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:48:12.765Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-03T09:48:12.768Z"}
+debug: Response time: 3.6405 ms {"timestamp":"2019-11-03T09:48:12.768Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3NzQ0ODUsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYTRhYzM2ZmItNjc2ZC00MjJhLTkyOGEtY2RiM2ZmMjEwMWFiIiwiZXhwIjoxNTcyODYwODg1fQ.hGFjm4Xv1qhMsPgv-GXFR1Qls4sPg9zrymP1aEp06udwvlAkZKFiHTBpk4FqaxpsAAFBA5WfOzM-aB9ERFghN0cJD6bCchWx3X-aT0x5oKhkZBGdb3ZxF9hpFEga5D_44PLzVHWFgJN5RB-EkQvuqC0DD9owj8tl79JRadaB_tFgkAqFiFsb9E2x1RqTZf5R5Z11C9_xKW_EVmmCezFkUmj0ahS0o7Tu4hSAWvyUuMQkr-i1xNOPHn3K7n1uD-1BgKCBcullmybZTkte-ybyli2-_S6U79EQz6pzSRx2yzCQAh25gwtksIzzL7iPBwzzEWtIJkVpmE_lbZNdcV-7vg",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "387",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:50:54.118Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:50:54.118Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:50:54.118Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-03T09:50:54.120Z"}
+debug: Response time: 2.113701 ms {"timestamp":"2019-11-03T09:50:54.120Z"}
+debug: Request: headers={
+  "content-type": "application/json",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI3NzQ0ODUsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYTRhYzM2ZmItNjc2ZC00MjJhLTkyOGEtY2RiM2ZmMjEwMWFiIiwiZXhwIjoxNTcyODYwODg1fQ.hGFjm4Xv1qhMsPgv-GXFR1Qls4sPg9zrymP1aEp06udwvlAkZKFiHTBpk4FqaxpsAAFBA5WfOzM-aB9ERFghN0cJD6bCchWx3X-aT0x5oKhkZBGdb3ZxF9hpFEga5D_44PLzVHWFgJN5RB-EkQvuqC0DD9owj8tl79JRadaB_tFgkAqFiFsb9E2x1RqTZf5R5Z11C9_xKW_EVmmCezFkUmj0ahS0o7Tu4hSAWvyUuMQkr-i1xNOPHn3K7n1uD-1BgKCBcullmybZTkte-ybyli2-_S6U79EQz6pzSRx2yzCQAh25gwtksIzzL7iPBwzzEWtIJkVpmE_lbZNdcV-7vg",
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "content-length": "387",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:50:55.650Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:50:55.650Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:50:55.650Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-03T09:50:55.651Z"}
+debug: Response time: 1.7781989999999999 ms {"timestamp":"2019-11-03T09:50:55.652Z"}
+debug: Request: headers={
+  "user-agent": "vscode-restclient",
+  "accept-encoding": "gzip",
+  "host": "localhost:8443",
+  "connection": "close"
+} {"timestamp":"2019-11-03T09:54:02.242Z"}
+debug: Request: protocol="https" {"timestamp":"2019-11-03T09:54:02.242Z"}
+debug: Request: hostname="localhost" {"timestamp":"2019-11-03T09:54:02.242Z"}
+debug: Response time: 4.402901 ms {"timestamp":"2019-11-03T09:54:02.247Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-03T10:00:17.056Z"}
+debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-03T10:00:17.058Z"}
+debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-03T10:00:17.058Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-03T10:00:18.130Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-03T10:00:18.136Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@jbgb.de"}] {"timestamp":"2019-11-03T10:00:18.193Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@jbgb.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@jbgb.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"karl.kunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"karls.kunde@jbgb.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000007","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@jbgb.de"}] {"timestamp":"2019-11-03T10:00:18.199Z"}
+info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-03T10:00:19.558Z"}
+info: 
+  _________ _____ ______   
+ |_  | ___   __ | ___   
+   | | |_/ / |  /| |_/ / 
+   | | ___  | __ | ___  
+/__/ / |_/ / |_ | |_/ / 
+____/____/ ____/____/  
+
+ {"timestamp":"2019-11-03T10:00:19.564Z"}
+info: NodeVersion:     v13.0.0-rc.1 {"timestamp":"2019-11-03T10:00:19.576Z"}
+info: Betriebssystem:  Windows_NT 10.0.17763 {"timestamp":"2019-11-03T10:00:19.578Z"}
+info: Rechnername:     DESKTOP-DTQ3N9A {"timestamp":"2019-11-03T10:00:19.583Z"}
+info: https://localhost:8443 ist gestartet: Herunterfahren durch druch Str<C> {"timestamp":"2019-11-03T10:00:19.588Z"}

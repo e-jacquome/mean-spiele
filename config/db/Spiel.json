@@ -1,10 +1,10 @@
 {
     "_id": "00000000-0000-0000-0000-000000000001",
-    "titel": "Alpha",
+    "titel": "Autoscooter",
     "rating": 4,
-    "art": "KARTEN",
+    "art": "BRETT",
     "verlag": "RAVENSBURGER",
-    "preis": 11.1,
+    "preis": 34.99,
     "rabatt": 0.011,
     "lieferbar": true,
     "datum": {"$date": "2019-02-01T00:00:00.000Z"},
@@ -14,11 +14,11 @@
     ],
     "autoren": [
 		{
-			"nachname": "Alpha",
+			"nachname": "Auto",
 			"vorname": "Adriana"
 		},
 		{
-			"nachname": "Alpha",
+			"nachname": "Auto",
 			"vorname": "Alfred"
 		}
 	],
@@ -28,22 +28,22 @@
 }
 {
     "_id": "00000000-0000-0000-0000-000000000002",
-    "titel": "Beta",
+    "titel": "Bibelquiz",
     "rating": 2,
-    "art": "BRETT",
+    "art": "KARTEN",
     "verlag": "RAVENSBURGER",
-    "preis": 22.2,
+    "preis": 12.99,
     "rabatt": 0.022,
     "lieferbar": true,
     "datum": {"$date": "2019-02-02T00:00:00.000Z"},
-    "homepage": "https://hska.biz/",
+    "homepage": "https://bibel.quiz/",
     "schlagwoerter": [
-        "SOLO"
+        "TEAM"
     ],
     "autoren": [
 		{
-			"nachname": "Beta",
-			"vorname": "Brunhilde"
+			"nachname": "Bibel",
+			"vorname": "Bernd"
 		}
 	],
     "__v": 0,
@@ -52,22 +52,22 @@
 }
 {
     "_id": "00000000-0000-0000-0000-000000000003",
-    "titel": "Gamma",
+    "titel": "Grashuepfer",
     "rating": 1,
     "art": "KARTEN",
     "verlag": "RAVENSBURGER",
-    "preis": 33.3,
+    "preis": 4.20,
     "rabatt": 0.033,
     "lieferbar": true,
     "datum": {"$date": "2019-02-03T00:00:00.000Z"},
-    "homepage": "https://hska.com/",
+    "homepage": "https://gras.com/",
     "schlagwoerter": [
         "SOLO"
     ],
     "autoren":  [
 		{
-			"nachname": "Gamma",
-			"vorname": "Claus"
+			"nachname": "Gras",
+			"vorname": "Gerda"
 		}
 	],
     "__v": 0,
@@ -76,19 +76,21 @@
 }
 {
     "_id": "00000000-0000-0000-0000-000000000004",
-    "titel": "Delta",
+    "titel": "Domino",
     "rating": 3,
-    "art": "KARTEN",
+    "art": "BRETT",
     "verlag": "RAVENSBURGER",
-    "preis": 44.4,
+    "preis": 18.00,
     "rabatt": 0.044,
     "lieferbar": true,
     "datum": {"$date": "2019-02-04T00:00:00.000Z"},
-    "homepage": "https://hska.de/",
-    "schlagwoerter": [],
+    "homepage": "https://domino.day/",
+    "schlagwoerter": [
+        "TEAM"
+    ],
     "autoren": [
 		{
-			"nachname": "Delta",
+			"nachname": "Domino",
 			"vorname": "Dieter"
 		}
 	],
@@ -98,21 +100,21 @@
 }
 {
     "_id": "00000000-0000-0000-0000-000000000005",
-    "titel": "Epsilon",
+    "titel": "Elfenland",
     "rating": 2,
-    "art": "KARTEN",
-    "verlag": "RAVENSBURGER",
-    "preis": 55.5,
+    "art": "BRETT",
+    "verlag": "SCHMIDT",
+    "preis": 99.99,
     "rabatt": 0.055,
     "lieferbar": true,
     "datum": {"$date": "2019-02-05T00:00:00.000Z"},
-    "homepage": "https://hska.es/",
+    "homepage": "https://elfen.land/",
     "schlagwoerter": [
         "SOLO"
     ],
     "autoren": [
 		{
-			"nachname": "Epsilon",
+			"nachname": "Elfe",
 			"vorname": "Elfriede"
 		}
 	],
