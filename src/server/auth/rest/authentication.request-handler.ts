@@ -77,5 +77,5 @@ export const login = (req: Request, res: Response) => handler.login(req, res);
 export const validateJwt = (req: Request, res: Response, next: NextFunction) =>
     handler.validateJwt(req, res, next);
 
-export const isLoggedIN = (req: Request, res: Response, next: NextFunction) =>
+export const isLoggedIn = (req: Request, res: Response, next: NextFunction) =>
     handler.isLoggedIn(req, res, next);

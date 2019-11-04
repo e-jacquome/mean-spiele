@@ -15,7 +15,7 @@
         "_id": "20000000-0000-0000-0000-000000000002",
         "username": "eric.jacquome",
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
-        "email": "eric.jacquome@jbgb.de",
+        "email": "eric.jacquome@hska.de",
         "roles": [
             "admin",
             "mitarbeiter",
@@ -27,7 +27,7 @@
         "_id": "20000000-0000-0000-0000-000000000003",
         "username": "bene.bender",
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
-        "email": "bene.bender@jbgb.de",
+        "email": "bene.bender@hska.de",
         "roles": [
             "mitarbeiter"
         ]
@@ -36,7 +36,7 @@
         "_id": "20000000-0000-0000-0000-000000000004",
         "username": "raphael.brand",
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
-        "email": "raphael.brand@jbgb.de",
+        "email": "raphael.brand@hska.de",
         "roles": [
             "kunde"
         ]
@@ -45,24 +45,15 @@
         "_id": "20000000-0000-0000-0000-000000000005",
         "username": "hjördis.goettsche",
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
-        "email": "hjördis.goettsche@jbgb.de",
+        "email": "hjördis.goettsche@hska.de",
         "roles": [
             "kunde"
         ]
     },
     {
         "_id": "20000000-0000-0000-0000-000000000006",
-        "username": "karl.kunde",
-        "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
-        "email": "karls.kunde@jbgb.de",
-        "roles": [
-            "kunde"
-        ]
-    },
-    {
-        "_id": "20000000-0000-0000-0000-000000000007",
         "username": "nils.nichtkunde",
         "password": "$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O",
-        "email": "nils.nichtkunde@jbgb.de"
+        "email": "nils.nichtkunde@hska.de"
     }
 ]
