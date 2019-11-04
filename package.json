@@ -1,5 +1,5 @@
 {
-  "name": "spiel",
+  "name": "beispiel",
   "version": "1.0.0",
   "description": "Beispiel",
   "main": "dist/server/index.js",

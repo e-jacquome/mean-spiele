@@ -221,9 +221,9 @@ describe('GET /spiele?...', () => {
                 // response.body ist ein JSON-Array mit mind. 1 JSON-Objekt
                 body.should.be.not.empty;
 
-                // Jedes Buch hat einen Titel mit dem Teilstring 'a'
+                // Jedes Spiel hat einen Titel mit dem Teilstring 'e'
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-                body.map((buch: any) => buch.titel).forEach((titel: string) =>
+                body.map((spiel: any) => spiel.titel).forEach((titel: string) =>
                     titel.should.contain(teilTitel),
                 );
                 done();
@@ -258,7 +258,7 @@ describe('GET /spiele?...', () => {
                 // response.body ist ein JSON-Array mit mind. 1 JSON-Objekt
                 body.should.be.not.empty;
 
-                // Jedes Buch hat im Array der Schlagwoerter "javascript"
+                // Jedes Spiel hat im Array der Schlagwoerter "solo"
                 // eslint-disable-next-line @typescript-eslint/no-explicit-any
                 body.map((spiel: any) => spiel.schlagwoerter).forEach(
                     (s: Array<string>) =>
@@ -353,11 +353,11 @@ describe('POST /spiele', () => {
 
                 const { body } = response;
                 body.art.should.be.equal(
-                    'Die Art eines Buches muss BRETT oder KARTEN sein.',
+                    'Die Art eines Spieles muss BRETT oder KARTEN sein.',
                 );
                 body.rating.should.endWith('ist keine gueltige Bewertung.');
                 body.verlag.should.be.equal(
-                    'Der Verlag eines Buches muss RAVENSBURGER oder HSKA_VERLAG sein.',
+                    'Der Verlag eines Spieles muss RAVENSBURGER oder HSKA_VERLAG sein.',
                 );
                 done();
             });
@@ -475,7 +475,7 @@ describe('PUT /spiele/:id', () => {
                 );
                 body.rating.should.endWith('ist keine gueltige Bewertung.');
                 body.verlag.should.be.equal(
-                    'Der Verlag eines Buches muss RAVENSBURGER oder SCHMIDT sein.',
+                    'Der Verlag eines Spieles muss RAVENSBURGER oder SCHMIDT sein.',
                 );
                 done();
             });

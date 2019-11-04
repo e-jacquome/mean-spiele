@@ -44,7 +44,7 @@ const mongoimport = () => {
 const mongoexport = () => {
     shell.exec(
         `mongoexport --verbose ${db} ${auth} ${ssl} --collection Spiel ` +
-            '--out EXPORT.Buch.json --pretty',
+            '--out EXPORT.Spiel.json --pretty',
     );
 };
 

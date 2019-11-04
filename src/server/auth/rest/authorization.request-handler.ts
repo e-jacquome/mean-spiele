@@ -38,7 +38,7 @@ class AuthorizationRequestHandler {
         logger.debug(`Rollen = ${JSON.stringify(roles)}`);
 
         if (!this.authService.isLoggedIn(req)) {
-            logger.debug('AuthRequestHAndler.hasRolle(): 401');
+            logger.debug('AuthRequestHandler.hasRolle(): 401');
             res.sendStatus(HttpStatus.UNAUTHORIZED);
             return false;
         }

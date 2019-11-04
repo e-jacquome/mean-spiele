@@ -1,278 +1,358 @@
-debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-04T11:56:29.348Z"}
-debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-04T11:56:29.352Z"}
-debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-04T11:56:29.352Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@hska.de"}] {"timestamp":"2019-11-04T11:56:30.580Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@hska.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@hska.de"}] {"timestamp":"2019-11-04T11:56:30.589Z"}
-error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@hska.de"}] {"timestamp":"2019-11-04T11:56:30.661Z"}
-info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@hska.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@hska.de"}] {"timestamp":"2019-11-04T11:56:30.689Z"}
-info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-04T11:56:32.505Z"}
-info: Node v13.0.0-rc.1 {"timestamp":"2019-11-04T11:56:32.517Z"}
-info: Testserver läuft: http://localhost:64781 {"timestamp":"2019-11-04T11:56:32.519Z"}
+debug: Logging durch Winston ist konfiguriert: Level Info {"timestamp":"2019-11-04T15:54:50.653Z"}
+debug: Upload-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\upload {"timestamp":"2019-11-04T15:54:50.656Z"}
+debug: Download-Verzeichnis: C:\Users\admin\Documents\SWE\mean-spiele\dist\temp\download {"timestamp":"2019-11-04T15:54:50.657Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@hska.de"}] {"timestamp":"2019-11-04T15:54:51.250Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@hska.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@hska.de"}] {"timestamp":"2019-11-04T15:54:51.257Z"}
+error: [{"keyword":"format","dataPath":"[4].email","schemaPath":"#/items/properties/email/format","params":{"format":"email"},"message":"should match format \"email\"","schema":"email","parentSchema":{"type":"string","format":"email"},"data":"hjördis.goettsche@hska.de"}] {"timestamp":"2019-11-04T15:54:51.300Z"}
+info: UsersService: Die Benutzerkennungen sind eingelesen: [{"_id":"20000000-0000-0000-0000-000000000001","username":"admin","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"admin@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000002","username":"eric.jacquome","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"eric.jacquome@hska.de","roles":["admin","mitarbeiter","abteilungsleiter","kunde"]},{"_id":"20000000-0000-0000-0000-000000000003","username":"bene.bender","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"bene.bender@hska.de","roles":["mitarbeiter"]},{"_id":"20000000-0000-0000-0000-000000000004","username":"raphael.brand","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"raphael.brand@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000005","username":"hjördis.goettsche","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"hjördis.goettsche@hska.de","roles":["kunde"]},{"_id":"20000000-0000-0000-0000-000000000006","username":"nils.nichtkunde","password":"$2b$12$jC0vLwqFtvikW9hrKL4RZ.ZMeaW5r/jYrNkm.ub23bMWL/mE2O20O","email":"nils.nichtkunde@hska.de"}] {"timestamp":"2019-11-04T15:54:51.307Z"}
+info: DB-Verbindung konnte aufgebaut werden. DB-Name: hska {"timestamp":"2019-11-04T15:54:52.653Z"}
+info: Node v13.0.0-rc.1 {"timestamp":"2019-11-04T15:54:52.664Z"}
+info: Testserver läuft: http://localhost:53379 {"timestamp":"2019-11-04T15:54:52.666Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:32.581Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:32.584Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:32.584Z"}
-debug: SpielRequestHandler.find(): queryParams={} {"timestamp":"2019-11-04T11:56:32.611Z"}
-debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T11:56:32.612Z"}
-debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Bibel","vorname":"Bernd"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Bibelquiz","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":12.99,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://bibel.quiz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Domino","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Domino","rating":3,"art":"BRETT","verlag":"RAVENSBURGER","preis":18,"rabatt":0.044,"lieferbar":true,"datum":"2019-02-04T00:00:00.000Z","homepage":"https://domino.day/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Elfe","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Elfenland","rating":2,"art":"BRETT","verlag":"SCHMIDT","preis":99.99,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://elfen.land/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gras","vorname":"Gerda"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Grashuepfer","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":4.2,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://gras.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-04T11:56:32.739Z"}
-debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-04T11:56:32.740Z"}
-debug: Response time: 169.134401 ms {"timestamp":"2019-11-04T11:56:32.750Z"}
+} {"timestamp":"2019-11-04T15:54:52.685Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.685Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.685Z"}
+debug: SpielRequestHandler.find(): queryParams={} {"timestamp":"2019-11-04T15:54:52.697Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T15:54:52.698Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Bibel","vorname":"Bernd"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Bibelquiz","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":12.99,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://bibel.quiz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Domino","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Domino","rating":3,"art":"BRETT","verlag":"RAVENSBURGER","preis":18,"rabatt":0.044,"lieferbar":true,"datum":"2019-02-04T00:00:00.000Z","homepage":"https://domino.day/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Elfe","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Elfenland","rating":2,"art":"BRETT","verlag":"SCHMIDT","preis":99.99,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://elfen.land/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gras","vorname":"Gerda"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Grashuepfer","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":4.2,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://gras.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-04T15:54:52.766Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-04T15:54:52.767Z"}
+debug: Response time: 89.173099 ms {"timestamp":"2019-11-04T15:54:52.774Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:32.861Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:32.861Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:32.862Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:32.867Z"}
-debug: SpielRequestHandler.findById(): versionHeader= undefined {"timestamp":"2019-11-04T11:56:32.867Z"}
-debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T11:56:32.867Z"}
-debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T11:56:32.868Z"}
-debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-04T11:56:32.882Z"}
-debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-04T11:56:32.882Z"}
-debug: Response time: 21.999599 ms {"timestamp":"2019-11-04T11:56:32.883Z"}
+} {"timestamp":"2019-11-04T15:54:52.800Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.800Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.801Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:52.803Z"}
+debug: SpielRequestHandler.findById(): versionHeader= undefined {"timestamp":"2019-11-04T15:54:52.803Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:52.803Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:52.804Z"}
+debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-04T15:54:52.822Z"}
+debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-04T15:54:52.822Z"}
+debug: Response time: 22.2687 ms {"timestamp":"2019-11-04T15:54:52.822Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:32.896Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:32.896Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:32.896Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:32.900Z"}
-debug: SpielRequestHandler.findById(): versionHeader= undefined {"timestamp":"2019-11-04T11:56:32.900Z"}
-debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000999 {"timestamp":"2019-11-04T11:56:32.901Z"}
-debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000999 {"timestamp":"2019-11-04T11:56:32.901Z"}
-debug: SpielRequestHandler.findById(): status=NOT_FOUND {"timestamp":"2019-11-04T11:56:32.904Z"}
-debug: Response time: 8.8296 ms {"timestamp":"2019-11-04T11:56:32.905Z"}
+} {"timestamp":"2019-11-04T15:54:52.833Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.833Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.833Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:52.835Z"}
+debug: SpielRequestHandler.findById(): versionHeader= undefined {"timestamp":"2019-11-04T15:54:52.835Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000999 {"timestamp":"2019-11-04T15:54:52.836Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000999 {"timestamp":"2019-11-04T15:54:52.836Z"}
+debug: SpielRequestHandler.findById(): status=NOT_FOUND {"timestamp":"2019-11-04T15:54:52.838Z"}
+debug: Response time: 6.0117009999999995 ms {"timestamp":"2019-11-04T15:54:52.839Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "if-none-match": "\"0\"",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:32.915Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:32.915Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:32.915Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:32.918Z"}
-debug: SpielRequestHandler.findById(): versionHeader= "0" {"timestamp":"2019-11-04T11:56:32.918Z"}
-debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T11:56:32.919Z"}
-debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T11:56:32.919Z"}
-debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-04T11:56:32.923Z"}
-debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-04T11:56:32.923Z"}
-debug: Response time: 9.7275 ms {"timestamp":"2019-11-04T11:56:32.924Z"}
+} {"timestamp":"2019-11-04T15:54:52.849Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.849Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.849Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:52.851Z"}
+debug: SpielRequestHandler.findById(): versionHeader= "0" {"timestamp":"2019-11-04T15:54:52.851Z"}
+debug: spielRequestHandler.findById(): id=00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:52.851Z"}
+debug: SpielService.findById(): id= 00000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:52.851Z"}
+debug: SpielRequestHandler.findById(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-04T15:54:52.854Z"}
+debug: SpielRequestHandler.findById(): VerisionDb=0 {"timestamp":"2019-11-04T15:54:52.854Z"}
+debug: Response time: 5.262398999999999 ms {"timestamp":"2019-11-04T15:54:52.854Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:32.942Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:32.942Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:32.942Z"}
-debug: SpielRequestHandler.find(): queryParams={"titel":"e"} {"timestamp":"2019-11-04T11:56:32.946Z"}
-debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T11:56:32.947Z"}
-debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-04T11:56:32.947Z"}
-debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Bibel","vorname":"Bernd"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Bibelquiz","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":12.99,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://bibel.quiz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Elfe","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Elfenland","rating":2,"art":"BRETT","verlag":"SCHMIDT","preis":99.99,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://elfen.land/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gras","vorname":"Gerda"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Grashuepfer","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":4.2,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://gras.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-04T11:56:32.956Z"}
-debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-04T11:56:32.956Z"}
-debug: Response time: 15.669099999999998 ms {"timestamp":"2019-11-04T11:56:32.957Z"}
+} {"timestamp":"2019-11-04T15:54:52.867Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.867Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.867Z"}
+debug: SpielRequestHandler.find(): queryParams={"titel":"e"} {"timestamp":"2019-11-04T15:54:52.869Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T15:54:52.869Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-04T15:54:52.870Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Bibel","vorname":"Bernd"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Bibelquiz","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":12.99,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://bibel.quiz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Elfe","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Elfenland","rating":2,"art":"BRETT","verlag":"SCHMIDT","preis":99.99,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://elfen.land/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gras","vorname":"Gerda"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Grashuepfer","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":4.2,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://gras.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-04T15:54:52.875Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object],[object Object] {"timestamp":"2019-11-04T15:54:52.875Z"}
+debug: Response time: 8.612898999999999 ms {"timestamp":"2019-11-04T15:54:52.876Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:32.972Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:32.972Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:32.972Z"}
-debug: SpielRequestHandler.find(): queryParams={"titel":"XX"} {"timestamp":"2019-11-04T11:56:32.976Z"}
-debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T11:56:32.976Z"}
-debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-04T11:56:32.976Z"}
-debug: SpielRequestHandler.find(): spiele=[] {"timestamp":"2019-11-04T11:56:32.981Z"}
-debug: SpieleRequestHandler.find(): status = NOT_FOUND {"timestamp":"2019-11-04T11:56:32.981Z"}
-debug: Response time: 9.406601 ms {"timestamp":"2019-11-04T11:56:32.981Z"}
+} {"timestamp":"2019-11-04T15:54:52.886Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.886Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.886Z"}
+debug: SpielRequestHandler.find(): queryParams={"titel":"XX"} {"timestamp":"2019-11-04T15:54:52.888Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T15:54:52.888Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-04T15:54:52.888Z"}
+debug: SpielRequestHandler.find(): spiele=[] {"timestamp":"2019-11-04T15:54:52.890Z"}
+debug: SpieleRequestHandler.find(): status = NOT_FOUND {"timestamp":"2019-11-04T15:54:52.890Z"}
+debug: Response time: 4.888299 ms {"timestamp":"2019-11-04T15:54:52.891Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:32.992Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:32.992Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:32.992Z"}
-debug: SpielRequestHandler.find(): queryParams={"solo":"true"} {"timestamp":"2019-11-04T11:56:32.996Z"}
-debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T11:56:32.996Z"}
-debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-04T11:56:32.997Z"}
-debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gras","vorname":"Gerda"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Grashuepfer","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":4.2,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://gras.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Elfe","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Elfenland","rating":2,"art":"BRETT","verlag":"SCHMIDT","preis":99.99,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://elfen.land/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-04T11:56:33.004Z"}
-debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object] {"timestamp":"2019-11-04T11:56:33.005Z"}
-debug: Response time: 13.720998999999999 ms {"timestamp":"2019-11-04T11:56:33.006Z"}
+} {"timestamp":"2019-11-04T15:54:52.898Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.898Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.899Z"}
+debug: SpielRequestHandler.find(): queryParams={"solo":"true"} {"timestamp":"2019-11-04T15:54:52.901Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T15:54:52.902Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-04T15:54:52.902Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Auto","vorname":"Adriana"},{"nachname":"Auto","vorname":"Alfred"}],"_id":"00000000-0000-0000-0000-000000000001","titel":"Autoscooter","rating":4,"art":"BRETT","verlag":"RAVENSBURGER","preis":34.99,"rabatt":0.011,"lieferbar":true,"datum":"2019-02-01T00:00:00.000Z","homepage":"https://hska.at/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Gras","vorname":"Gerda"}],"_id":"00000000-0000-0000-0000-000000000003","titel":"Grashuepfer","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":4.2,"rabatt":0.033,"lieferbar":true,"datum":"2019-02-03T00:00:00.000Z","homepage":"https://gras.com/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Elfe","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Elfenland","rating":2,"art":"BRETT","verlag":"SCHMIDT","preis":99.99,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://elfen.land/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-04T15:54:52.909Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object],[object Object] {"timestamp":"2019-11-04T15:54:52.909Z"}
+debug: Response time: 11.446 ms {"timestamp":"2019-11-04T15:54:52.910Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:33.017Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:33.017Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:33.017Z"}
-debug: SpielRequestHandler.find(): queryParams={"team":"true"} {"timestamp":"2019-11-04T11:56:33.024Z"}
-debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T11:56:33.024Z"}
-debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-04T11:56:33.024Z"}
-debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Bibel","vorname":"Bernd"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Bibelquiz","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":12.99,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://bibel.quiz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Domino","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Domino","rating":3,"art":"BRETT","verlag":"RAVENSBURGER","preis":18,"rabatt":0.044,"lieferbar":true,"datum":"2019-02-04T00:00:00.000Z","homepage":"https://domino.day/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-04T11:56:33.030Z"}
-debug: SpielRequestHandler.find(): payload=[object Object],[object Object] {"timestamp":"2019-11-04T11:56:33.030Z"}
-debug: Response time: 13.475299999999999 ms {"timestamp":"2019-11-04T11:56:33.031Z"}
+} {"timestamp":"2019-11-04T15:54:52.920Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.920Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.920Z"}
+debug: SpielRequestHandler.find(): queryParams={"team":"true"} {"timestamp":"2019-11-04T15:54:52.924Z"}
+debug: SpielService.find(): query= [object Object] {"timestamp":"2019-11-04T15:54:52.924Z"}
+debug: SpielService.find(): dbQuery=[object Object] {"timestamp":"2019-11-04T15:54:52.925Z"}
+debug: SpielRequestHandler.find(): spiele=[{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Bibel","vorname":"Bernd"}],"_id":"00000000-0000-0000-0000-000000000002","titel":"Bibelquiz","rating":2,"art":"KARTEN","verlag":"RAVENSBURGER","preis":12.99,"rabatt":0.022,"lieferbar":true,"datum":"2019-02-02T00:00:00.000Z","homepage":"https://bibel.quiz/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"},{"schlagwoerter":["TEAM"],"autoren":[{"nachname":"Domino","vorname":"Dieter"}],"_id":"00000000-0000-0000-0000-000000000004","titel":"Domino","rating":3,"art":"BRETT","verlag":"RAVENSBURGER","preis":18,"rabatt":0.044,"lieferbar":true,"datum":"2019-02-04T00:00:00.000Z","homepage":"https://domino.day/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"}] {"timestamp":"2019-11-04T15:54:52.929Z"}
+debug: SpielRequestHandler.find(): payload=[object Object],[object Object] {"timestamp":"2019-11-04T15:54:52.930Z"}
+debug: Response time: 10.2966 ms {"timestamp":"2019-11-04T15:54:52.930Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "content-type": "application/x-www-form-urlencoded",
   "content-length": "25",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:33.048Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:33.049Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:33.049Z"}
-debug: AuthService.checkPassword(): true {"timestamp":"2019-11-04T11:56:33.528Z"}
-debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiM2MzZjQ5NTYtMDQzZi00NTY3LWFiZWEtNmMzMTAwMjkxOWUzIiwiZXhwIjoxNTcyOTU0OTkzfQ.n4J98GE_-A1ImYmuNk1LDKVVOGlOZYj1pw4w9LvfEg9fkEW4R4M2BdodzgmJry5_WULQYoTm-L46bVh45Bd__ohTCtU69cYh_5KUu2JE-2xCRl15_kCcNdFjMlvzXoSLxL2Lwmgr9_UgVVwTr7POR4cnuPZhbtfs4psjisJtIU_dnYsFkS2_kdevZplucYzAbLTuVbwXB18tMWc70WAWXIjAvSw97N0fOl5dnLlgQ1E47frroyEVRUYFcWTuRv8torlyF0wxWi3knm30HSGH0hw5t_RrorJ6hVH7vWwK8tnfR5chvAqWOlVEVmjgLMwtM2jHkMTzv_hQ7uWqBLsaoQ","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-04T11:56:33.534Z"}
-debug: Response time: 486.177199 ms {"timestamp":"2019-11-04T11:56:33.535Z"}
+} {"timestamp":"2019-11-04T15:54:52.941Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:52.942Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:52.942Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-04T15:54:53.276Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMzUyNGUxZTMtMTBlOS00NjE3LWJhM2YtOTA3ZDFhYWZjMTI1IiwiZXhwIjoxNTcyOTY5MjkzfQ.ShfTYm9Ynxy9H-ETvGPUHpAUf-MrjG7J4fDWsdUwNztE9Jy1eovXBCUH9gZQZL0LFSrewYEWkPC0k5bKUlP5ooyH68bpG_ikIg9e5bnqJdMxzXiGnx0BNFRRRByskOu-jCxgTj8d7rElrdvFNdiASbuT_6CWy1DOwfYVhjQwIlceKnSNz02aYGn2NytF1WH_e2A86Oee389Bit2AgbB07aUR4HrZDHNBHLL6AUgUawqymFmVzDyBKOPxON0znNaLCsG2nHk6FegBPnIF6Ih1EDaofmioWMGUXhwJVt2zH5cjDNuuIrnjIHLRO64_oDauaaqfefcwqU8MCMhWKt1O6Q","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-04T15:54:53.279Z"}
+debug: Response time: 337.732599 ms {"timestamp":"2019-11-04T15:54:53.279Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
-  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiM2MzZjQ5NTYtMDQzZi00NTY3LWFiZWEtNmMzMTAwMjkxOWUzIiwiZXhwIjoxNTcyOTU0OTkzfQ.n4J98GE_-A1ImYmuNk1LDKVVOGlOZYj1pw4w9LvfEg9fkEW4R4M2BdodzgmJry5_WULQYoTm-L46bVh45Bd__ohTCtU69cYh_5KUu2JE-2xCRl15_kCcNdFjMlvzXoSLxL2Lwmgr9_UgVVwTr7POR4cnuPZhbtfs4psjisJtIU_dnYsFkS2_kdevZplucYzAbLTuVbwXB18tMWc70WAWXIjAvSw97N0fOl5dnLlgQ1E47frroyEVRUYFcWTuRv8torlyF0wxWi3knm30HSGH0hw5t_RrorJ6hVH7vWwK8tnfR5chvAqWOlVEVmjgLMwtM2jHkMTzv_hQ7uWqBLsaoQ",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMzUyNGUxZTMtMTBlOS00NjE3LWJhM2YtOTA3ZDFhYWZjMTI1IiwiZXhwIjoxNTcyOTY5MjkzfQ.ShfTYm9Ynxy9H-ETvGPUHpAUf-MrjG7J4fDWsdUwNztE9Jy1eovXBCUH9gZQZL0LFSrewYEWkPC0k5bKUlP5ooyH68bpG_ikIg9e5bnqJdMxzXiGnx0BNFRRRByskOu-jCxgTj8d7rElrdvFNdiASbuT_6CWy1DOwfYVhjQwIlceKnSNz02aYGn2NytF1WH_e2A86Oee389Bit2AgbB07aUR4HrZDHNBHLL6AUgUawqymFmVzDyBKOPxON0znNaLCsG2nHk6FegBPnIF6Ih1EDaofmioWMGUXhwJVt2zH5cjDNuuIrnjIHLRO64_oDauaaqfefcwqU8MCMhWKt1O6Q",
   "content-type": "application/json",
   "content-length": "247",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:33.549Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:33.549Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:33.549Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-04T11:56:33.563Z"}
-debug: Response time: 14.577599999999999 ms {"timestamp":"2019-11-04T11:56:33.564Z"}
+} {"timestamp":"2019-11-04T15:54:53.286Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.286Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.286Z"}
+debug: AuthService.validateJwt(): userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:53.288Z"}
+debug: AuthRequestHandler.validateJwt(): ok {"timestamp":"2019-11-04T15:54:53.288Z"}
+debug: SharedRequestHandler.validateContentType(): ok {"timestamp":"2019-11-04T15:54:53.289Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2019-11-04T15:54:53.289Z"}
+debug: AuthService.isLoggedIn(): ok {"timestamp":"2019-11-04T15:54:53.289Z"}
+debug: RolesService.getNormalizedRoles(): admin,mitarbeiter {"timestamp":"2019-11-04T15:54:53.289Z"}
+debug: AuthService.hasAnyRole(): true {"timestamp":"2019-11-04T15:54:53.289Z"}
+debug: AuthRequestHandler.hasRolle(): ok {"timestamp":"2019-11-04T15:54:53.289Z"}
+debug: AuthRequestHandler.isAdminMitarbeiter(): ok {"timestamp":"2019-11-04T15:54:53.289Z"}
+debug: SpielRequestHandler.create(): body={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Halli","vorname":"Galli"}],"titel":"Halli Galli","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":80.04,"rabatt":0.099,"lieferbar":true,"datum":"2017-05-20T00:00:00.000Z","homepage":"https://halli.de/"} {"timestamp":"2019-11-04T15:54:53.293Z"}
+debug: SpielService.create(): spielSaved={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Halli","vorname":"Galli"}],"titel":"Halli Galli","rating":1,"art":"KARTEN","verlag":"RAVENSBURGER","preis":80.04,"rabatt":0.099,"lieferbar":true,"datum":"2017-05-20T00:00:00.000Z","homepage":"https://halli.de/","_id":"3768226f-b81f-49cd-b2b3-2063e5a72456","createdAt":"2019-11-04T15:54:53.304Z","updatedAt":"2019-11-04T15:54:53.304Z","__v":0} {"timestamp":"2019-11-04T15:54:53.311Z"}
+debug: SpielRequestHandler.create(): location=http://127.0.0.1:8443/spiele/3768226f-b81f-49cd-b2b3-2063e5a72456 {"timestamp":"2019-11-04T15:54:53.311Z"}
+debug: Response time: 25.9528 ms {"timestamp":"2019-11-04T15:54:53.312Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
-  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiM2MzZjQ5NTYtMDQzZi00NTY3LWFiZWEtNmMzMTAwMjkxOWUzIiwiZXhwIjoxNTcyOTU0OTkzfQ.n4J98GE_-A1ImYmuNk1LDKVVOGlOZYj1pw4w9LvfEg9fkEW4R4M2BdodzgmJry5_WULQYoTm-L46bVh45Bd__ohTCtU69cYh_5KUu2JE-2xCRl15_kCcNdFjMlvzXoSLxL2Lwmgr9_UgVVwTr7POR4cnuPZhbtfs4psjisJtIU_dnYsFkS2_kdevZplucYzAbLTuVbwXB18tMWc70WAWXIjAvSw97N0fOl5dnLlgQ1E47frroyEVRUYFcWTuRv8torlyF0wxWi3knm30HSGH0hw5t_RrorJ6hVH7vWwK8tnfR5chvAqWOlVEVmjgLMwtM2jHkMTzv_hQ7uWqBLsaoQ",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMzUyNGUxZTMtMTBlOS00NjE3LWJhM2YtOTA3ZDFhYWZjMTI1IiwiZXhwIjoxNTcyOTY5MjkzfQ.ShfTYm9Ynxy9H-ETvGPUHpAUf-MrjG7J4fDWsdUwNztE9Jy1eovXBCUH9gZQZL0LFSrewYEWkPC0k5bKUlP5ooyH68bpG_ikIg9e5bnqJdMxzXiGnx0BNFRRRByskOu-jCxgTj8d7rElrdvFNdiASbuT_6CWy1DOwfYVhjQwIlceKnSNz02aYGn2NytF1WH_e2A86Oee389Bit2AgbB07aUR4HrZDHNBHLL6AUgUawqymFmVzDyBKOPxON0znNaLCsG2nHk6FegBPnIF6Ih1EDaofmioWMGUXhwJVt2zH5cjDNuuIrnjIHLRO64_oDauaaqfefcwqU8MCMhWKt1O6Q",
   "content-type": "application/json",
   "content-length": "210",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:33.574Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:33.574Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:33.574Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-04T11:56:33.580Z"}
-debug: Response time: 6.2977 ms {"timestamp":"2019-11-04T11:56:33.580Z"}
+} {"timestamp":"2019-11-04T15:54:53.321Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.321Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.321Z"}
+debug: AuthService.validateJwt(): userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: AuthRequestHandler.validateJwt(): ok {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: SharedRequestHandler.validateContentType(): ok {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: AuthService.isLoggedIn(): ok {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: RolesService.getNormalizedRoles(): admin,mitarbeiter {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: AuthService.hasAnyRole(): true {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: AuthRequestHandler.hasRolle(): ok {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: AuthRequestHandler.isAdminMitarbeiter(): ok {"timestamp":"2019-11-04T15:54:53.323Z"}
+debug: SpielRequestHandler.create(): body={"schlagwoerter":[],"autoren":[{"nachname":"Falsches","vorname":"Spiel"}],"titel":"FalschesSpiel","rating":-1,"art":"COMPUTER","verlag":"NICHT_VERLAG","preis":0,"rabatt":0,"lieferbar":true,"datum":"2016-02-01T00:00:00.000Z"} {"timestamp":"2019-11-04T15:54:53.324Z"}
+debug: SpielService.create(): Vaidation Message: {"art":"Die Art eines Spiels muss BRETT oder KARTEN sein.","rating":"-1 ist keine gueltige Bewertung.","verlag":"Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein."} {"timestamp":"2019-11-04T15:54:53.325Z"}
+debug: ValidationError.constructor(): {"art":"Die Art eines Spiels muss BRETT oder KARTEN sein.","rating":"-1 ist keine gueltige Bewertung.","verlag":"Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein."} {"timestamp":"2019-11-04T15:54:53.325Z"}
+debug: Response time: 4.628 ms {"timestamp":"2019-11-04T15:54:53.325Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
-  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiM2MzZjQ5NTYtMDQzZi00NTY3LWFiZWEtNmMzMTAwMjkxOWUzIiwiZXhwIjoxNTcyOTU0OTkzfQ.n4J98GE_-A1ImYmuNk1LDKVVOGlOZYj1pw4w9LvfEg9fkEW4R4M2BdodzgmJry5_WULQYoTm-L46bVh45Bd__ohTCtU69cYh_5KUu2JE-2xCRl15_kCcNdFjMlvzXoSLxL2Lwmgr9_UgVVwTr7POR4cnuPZhbtfs4psjisJtIU_dnYsFkS2_kdevZplucYzAbLTuVbwXB18tMWc70WAWXIjAvSw97N0fOl5dnLlgQ1E47frroyEVRUYFcWTuRv8torlyF0wxWi3knm30HSGH0hw5t_RrorJ6hVH7vWwK8tnfR5chvAqWOlVEVmjgLMwtM2jHkMTzv_hQ7uWqBLsaoQ",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiMzUyNGUxZTMtMTBlOS00NjE3LWJhM2YtOTA3ZDFhYWZjMTI1IiwiZXhwIjoxNTcyOTY5MjkzfQ.ShfTYm9Ynxy9H-ETvGPUHpAUf-MrjG7J4fDWsdUwNztE9Jy1eovXBCUH9gZQZL0LFSrewYEWkPC0k5bKUlP5ooyH68bpG_ikIg9e5bnqJdMxzXiGnx0BNFRRRByskOu-jCxgTj8d7rElrdvFNdiASbuT_6CWy1DOwfYVhjQwIlceKnSNz02aYGn2NytF1WH_e2A86Oee389Bit2AgbB07aUR4HrZDHNBHLL6AUgUawqymFmVzDyBKOPxON0znNaLCsG2nHk6FegBPnIF6Ih1EDaofmioWMGUXhwJVt2zH5cjDNuuIrnjIHLRO64_oDauaaqfefcwqU8MCMhWKt1O6Q",
   "content-type": "application/json",
   "content-length": "223",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:33.590Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:33.590Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:33.590Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-04T11:56:33.602Z"}
-debug: Response time: 13.0176 ms {"timestamp":"2019-11-04T11:56:33.603Z"}
+} {"timestamp":"2019-11-04T15:54:53.335Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.335Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.335Z"}
+debug: AuthService.validateJwt(): userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: AuthRequestHandler.validateJwt(): ok {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: SharedRequestHandler.validateContentType(): ok {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: AuthService.isLoggedIn(): ok {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: RolesService.getNormalizedRoles(): admin,mitarbeiter {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: AuthService.hasAnyRole(): true {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: AuthRequestHandler.hasRolle(): ok {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: AuthRequestHandler.isAdminMitarbeiter(): ok {"timestamp":"2019-11-04T15:54:53.337Z"}
+debug: SpielRequestHandler.create(): body={"schlagwoerter":["SOLO","TEAM"],"autoren":[{"nachname":"Poker","vorname":"Primo"}],"titel":"Autoscooter","rating":1,"art":"KARTEN","verlag":"POKER_VERLAG","preis":99.99,"rabatt":0.099,"lieferbar":true,"datum":"2016-02-28T00:00:00.000Z"} {"timestamp":"2019-11-04T15:54:53.338Z"}
+debug: SpielService.create(): Vaidation Message: {"verlag":"Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein."} {"timestamp":"2019-11-04T15:54:53.338Z"}
+debug: ValidationError.constructor(): {"verlag":"Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein."} {"timestamp":"2019-11-04T15:54:53.338Z"}
+debug: Response time: 3.314399 ms {"timestamp":"2019-11-04T15:54:53.339Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "content-type": "application/json",
   "content-length": "247",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:33.652Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:33.652Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:33.652Z"}
-debug: AuthRequestHandler.validateJwt(): 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2019-11-04T11:56:33.655Z"}
-debug: Response time: 3.7527 ms {"timestamp":"2019-11-04T11:56:33.656Z"}
+} {"timestamp":"2019-11-04T15:54:53.349Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.349Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.349Z"}
+debug: AuthRequestHandler.validateJwt(): 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2019-11-04T15:54:53.353Z"}
+debug: Response time: 4.6756 ms {"timestamp":"2019-11-04T15:54:53.353Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "authorization": "Bearer x",
   "content-type": "application/json",
   "content-length": "247",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:33.678Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:33.679Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:33.679Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2019-11-04T11:56:33.686Z"}
-debug: Response time: 8.4817 ms {"timestamp":"2019-11-04T11:56:33.687Z"}
+} {"timestamp":"2019-11-04T15:54:53.376Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.376Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.376Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2019-11-04T15:54:53.377Z"}
+debug: Response time: 1.4003999999999999 ms {"timestamp":"2019-11-04T15:54:53.378Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "content-type": "application/x-www-form-urlencoded",
   "content-length": "25",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:33.722Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:33.722Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:33.722Z"}
-debug: AuthService.checkPassword(): true {"timestamp":"2019-11-04T11:56:34.202Z"}
-debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTQsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjg3ZGFiNmMtZjhlNC00M2FjLTlkZGMtNzEzYThmNzVkZjZjIiwiZXhwIjoxNTcyOTU0OTk0fQ.M8TAx1IS9DtMKviXq6hfCKMgkaZLKpKj_WCyzY9OTPA3f32P1iB4lAbSmfaE-UTzq4CGoYrMV_IBpcnxvWZrEdAdULAdu5LAi7QgaEOHQbXf4Yg6qmnSUQqPQn71xF-jw9Z94WpGNn9VM6Ggh-gH0D0lVmlZQ0pvWfxk9ogaU23SJ6W9AMGH3MwfQw0PGHwLR1lPlNrQBphaf7lcvKdVbBfbPeqQ-Qa47JOp4Hz5PwbOJPwX-wxKExBYj_ZHVoJ_NApEf8M8YzwsKrn8Ead7Bh1RHPKPZQ2BwGft87A82UhkEfltDq3deHZIyVssthifef5X-yTs67XkgtMAqtrZvA","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-04T11:56:34.206Z"}
-debug: Response time: 484.979899 ms {"timestamp":"2019-11-04T11:56:34.207Z"}
+} {"timestamp":"2019-11-04T15:54:53.391Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.391Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.391Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-04T15:54:53.710Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiOGRjM2YxNjgtZmY5NS00MGNhLWE5YTMtOTk4NWQyNDdjYWNlIiwiZXhwIjoxNTcyOTY5MjkzfQ.vRFR3SR7Uh9pm1qi3jZYEjIp6MBWKt1jaXXx01oJbmeQckTinEhCHFywahIKQH3IwFjxm3LbfA7kcgvY7gMrbONzD_Mq_LZYJ382pXxdmUjpc3-VqixSw26avE_A6Y3Ij99xmdICfXJrYRYQgctDzLuZ4rpULNqBojXzbqbnoz0u497fJ9Qm3qbRe1b61eesmqgpmGxZz-ZOXlO5Nf0djaYk1KT-mt4HlYeN7P1hU-yYZCrLR9yWEDhVZsDuqKZhd93CCxLIRZGcedbVzDxAL9PtgHrcVmzquoc3aOdEk85kQD_FtljmhlMFkF6Mve7kddhQocaHjYj62_AHItajwg","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-04T15:54:53.712Z"}
+debug: Response time: 321.47589999999997 ms {"timestamp":"2019-11-04T15:54:53.713Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
-  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTQsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjg3ZGFiNmMtZjhlNC00M2FjLTlkZGMtNzEzYThmNzVkZjZjIiwiZXhwIjoxNTcyOTU0OTk0fQ.M8TAx1IS9DtMKviXq6hfCKMgkaZLKpKj_WCyzY9OTPA3f32P1iB4lAbSmfaE-UTzq4CGoYrMV_IBpcnxvWZrEdAdULAdu5LAi7QgaEOHQbXf4Yg6qmnSUQqPQn71xF-jw9Z94WpGNn9VM6Ggh-gH0D0lVmlZQ0pvWfxk9ogaU23SJ6W9AMGH3MwfQw0PGHwLR1lPlNrQBphaf7lcvKdVbBfbPeqQ-Qa47JOp4Hz5PwbOJPwX-wxKExBYj_ZHVoJ_NApEf8M8YzwsKrn8Ead7Bh1RHPKPZQ2BwGft87A82UhkEfltDq3deHZIyVssthifef5X-yTs67XkgtMAqtrZvA",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiOGRjM2YxNjgtZmY5NS00MGNhLWE5YTMtOTk4NWQyNDdjYWNlIiwiZXhwIjoxNTcyOTY5MjkzfQ.vRFR3SR7Uh9pm1qi3jZYEjIp6MBWKt1jaXXx01oJbmeQckTinEhCHFywahIKQH3IwFjxm3LbfA7kcgvY7gMrbONzD_Mq_LZYJ382pXxdmUjpc3-VqixSw26avE_A6Y3Ij99xmdICfXJrYRYQgctDzLuZ4rpULNqBojXzbqbnoz0u497fJ9Qm3qbRe1b61eesmqgpmGxZz-ZOXlO5Nf0djaYk1KT-mt4HlYeN7P1hU-yYZCrLR9yWEDhVZsDuqKZhd93CCxLIRZGcedbVzDxAL9PtgHrcVmzquoc3aOdEk85kQD_FtljmhlMFkF6Mve7kddhQocaHjYj62_AHItajwg",
   "if-match": "\"0\"",
   "content-type": "application/json",
   "content-length": "244",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.213Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.213Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.213Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:34.216Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-04T11:56:34.217Z"}
-debug: Response time: 3.8474009999999996 ms {"timestamp":"2019-11-04T11:56:34.217Z"}
+} {"timestamp":"2019-11-04T15:54:53.719Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.719Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.719Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:53.720Z"}
+debug: AuthService.validateJwt(): userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: AuthRequestHandler.validateJwt(): ok {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: SharedRequestHandler.validateContentType(): ok {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: AuthService.isLoggedIn(): ok {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: RolesService.getNormalizedRoles(): admin,mitarbeiter {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: AuthService.hasAnyRole(): true {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: AuthRequestHandler.hasRolle(): ok {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: AuthRequestHandler.isAdminMitarbeiter(): ok {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: SpielRequestHandler.update(): id=00000000-0000-0000-0000-000000000003 {"timestamp":"2019-11-04T15:54:53.721Z"}
+debug: SpielRequestHandler.update() versionHeader="0" {"timestamp":"2019-11-04T15:54:53.722Z"}
+debug: SpielRequestHandler.update(): spiel={"schlagwoerter":["SOLO","TEAM"],"autoren":[{"nachname":"Geandert","vorname":"Brett"}],"titel":"Geaendert","rating":1,"art":"BRETT","verlag":"","preis":33.33,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","homepage":"https://geänder.te","_id":"00000000-0000-0000-0000-000000000003"} {"timestamp":"2019-11-04T15:54:53.722Z"}
+debug: SpielService.update(): version0 {"timestamp":"2019-11-04T15:54:53.723Z"}
+debug: SpielService.update(): spiel={"schlagwoerter":["SOLO","TEAM"],"autoren":[{"nachname":"Geandert","vorname":"Brett"}],"titel":"Geaendert","rating":1,"art":"BRETT","verlag":"","preis":33.33,"rabatt":0.033,"lieferbar":true,"datum":"2016-02-03T00:00:00.000Z","homepage":"https://geänder.te","_id":"00000000-0000-0000-0000-000000000003"}  {"timestamp":"2019-11-04T15:54:53.723Z"}
+debug: SpielService.update(): Validation Message: {"verlag":"Der Verlag des Spiels muss gesetzt sein."} {"timestamp":"2019-11-04T15:54:53.723Z"}
+debug: ValidationError.constructor(): {"verlag":"Der Verlag des Spiels muss gesetzt sein."} {"timestamp":"2019-11-04T15:54:53.723Z"}
+debug: SpielRequestHandler.update(): error={"message":"{\"verlag\":\"Der Verlag des Spiels muss gesetzt sein.\"}","name":"ValidationError"} {"timestamp":"2019-11-04T15:54:53.723Z"}
+debug: Response time: 4.199399 ms {"timestamp":"2019-11-04T15:54:53.723Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
-  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTQsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjg3ZGFiNmMtZjhlNC00M2FjLTlkZGMtNzEzYThmNzVkZjZjIiwiZXhwIjoxNTcyOTU0OTk0fQ.M8TAx1IS9DtMKviXq6hfCKMgkaZLKpKj_WCyzY9OTPA3f32P1iB4lAbSmfaE-UTzq4CGoYrMV_IBpcnxvWZrEdAdULAdu5LAi7QgaEOHQbXf4Yg6qmnSUQqPQn71xF-jw9Z94WpGNn9VM6Ggh-gH0D0lVmlZQ0pvWfxk9ogaU23SJ6W9AMGH3MwfQw0PGHwLR1lPlNrQBphaf7lcvKdVbBfbPeqQ-Qa47JOp4Hz5PwbOJPwX-wxKExBYj_ZHVoJ_NApEf8M8YzwsKrn8Ead7Bh1RHPKPZQ2BwGft87A82UhkEfltDq3deHZIyVssthifef5X-yTs67XkgtMAqtrZvA",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiOGRjM2YxNjgtZmY5NS00MGNhLWE5YTMtOTk4NWQyNDdjYWNlIiwiZXhwIjoxNTcyOTY5MjkzfQ.vRFR3SR7Uh9pm1qi3jZYEjIp6MBWKt1jaXXx01oJbmeQckTinEhCHFywahIKQH3IwFjxm3LbfA7kcgvY7gMrbONzD_Mq_LZYJ382pXxdmUjpc3-VqixSw26avE_A6Y3Ij99xmdICfXJrYRYQgctDzLuZ4rpULNqBojXzbqbnoz0u497fJ9Qm3qbRe1b61eesmqgpmGxZz-ZOXlO5Nf0djaYk1KT-mt4HlYeN7P1hU-yYZCrLR9yWEDhVZsDuqKZhd93CCxLIRZGcedbVzDxAL9PtgHrcVmzquoc3aOdEk85kQD_FtljmhlMFkF6Mve7kddhQocaHjYj62_AHItajwg",
   "if-match": "\"0\"",
   "content-type": "application/json",
   "content-length": "222",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.225Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.226Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.226Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:34.237Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-04T11:56:34.238Z"}
-debug: Response time: 12.635399999999999 ms {"timestamp":"2019-11-04T11:56:34.238Z"}
+} {"timestamp":"2019-11-04T15:54:53.730Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.730Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.731Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:53.732Z"}
+debug: AuthService.validateJwt(): userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:53.732Z"}
+debug: AuthRequestHandler.validateJwt(): ok {"timestamp":"2019-11-04T15:54:53.732Z"}
+debug: SharedRequestHandler.validateContentType(): ok {"timestamp":"2019-11-04T15:54:53.732Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2019-11-04T15:54:53.733Z"}
+debug: AuthService.isLoggedIn(): ok {"timestamp":"2019-11-04T15:54:53.733Z"}
+debug: RolesService.getNormalizedRoles(): admin,mitarbeiter {"timestamp":"2019-11-04T15:54:53.733Z"}
+debug: AuthService.hasAnyRole(): true {"timestamp":"2019-11-04T15:54:53.733Z"}
+debug: AuthRequestHandler.hasRolle(): ok {"timestamp":"2019-11-04T15:54:53.733Z"}
+debug: AuthRequestHandler.isAdminMitarbeiter(): ok {"timestamp":"2019-11-04T15:54:53.733Z"}
+debug: SpielRequestHandler.update(): id=00000000-0000-0000-0000-000000000999 {"timestamp":"2019-11-04T15:54:53.733Z"}
+debug: SpielRequestHandler.update() versionHeader="0" {"timestamp":"2019-11-04T15:54:53.734Z"}
+debug: SpielRequestHandler.update(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Nicht","vorname":"Vorhanden"}],"titel":"Nichtvorhanden","rating":1,"art":"BRETT","verlag":"RAVENSBURGER","preis":14.56,"rabatt":0.033,"lieferbar":true,"datum":"2014-08-13T00:00:00.000Z","_id":"00000000-0000-0000-0000-000000000999"} {"timestamp":"2019-11-04T15:54:53.735Z"}
+debug: SpielService.update(): version0 {"timestamp":"2019-11-04T15:54:53.735Z"}
+debug: SpielService.update(): spiel={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Nicht","vorname":"Vorhanden"}],"titel":"Nichtvorhanden","rating":1,"art":"BRETT","verlag":"RAVENSBURGER","preis":14.56,"rabatt":0.033,"lieferbar":true,"datum":"2014-08-13T00:00:00.000Z","_id":"00000000-0000-0000-0000-000000000999"}  {"timestamp":"2019-11-04T15:54:53.736Z"}
+debug: SpielNotExistsError.constructor(): Kein Spiel mit ID 00000000-0000-0000-0000-000000000999 {"timestamp":"2019-11-04T15:54:53.743Z"}
+debug: SpielRequestHandler.update(): error={"message":"Kein Spiel mit ID 00000000-0000-0000-0000-000000000999","name":"SpielNotExistsError"} {"timestamp":"2019-11-04T15:54:53.743Z"}
+debug: Response time: 13.314001 ms {"timestamp":"2019-11-04T15:54:53.744Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
-  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTQsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYjg3ZGFiNmMtZjhlNC00M2FjLTlkZGMtNzEzYThmNzVkZjZjIiwiZXhwIjoxNTcyOTU0OTk0fQ.M8TAx1IS9DtMKviXq6hfCKMgkaZLKpKj_WCyzY9OTPA3f32P1iB4lAbSmfaE-UTzq4CGoYrMV_IBpcnxvWZrEdAdULAdu5LAi7QgaEOHQbXf4Yg6qmnSUQqPQn71xF-jw9Z94WpGNn9VM6Ggh-gH0D0lVmlZQ0pvWfxk9ogaU23SJ6W9AMGH3MwfQw0PGHwLR1lPlNrQBphaf7lcvKdVbBfbPeqQ-Qa47JOp4Hz5PwbOJPwX-wxKExBYj_ZHVoJ_NApEf8M8YzwsKrn8Ead7Bh1RHPKPZQ2BwGft87A82UhkEfltDq3deHZIyVssthifef5X-yTs67XkgtMAqtrZvA",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTMsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiOGRjM2YxNjgtZmY5NS00MGNhLWE5YTMtOTk4NWQyNDdjYWNlIiwiZXhwIjoxNTcyOTY5MjkzfQ.vRFR3SR7Uh9pm1qi3jZYEjIp6MBWKt1jaXXx01oJbmeQckTinEhCHFywahIKQH3IwFjxm3LbfA7kcgvY7gMrbONzD_Mq_LZYJ382pXxdmUjpc3-VqixSw26avE_A6Y3Ij99xmdICfXJrYRYQgctDzLuZ4rpULNqBojXzbqbnoz0u497fJ9Qm3qbRe1b61eesmqgpmGxZz-ZOXlO5Nf0djaYk1KT-mt4HlYeN7P1hU-yYZCrLR9yWEDhVZsDuqKZhd93CCxLIRZGcedbVzDxAL9PtgHrcVmzquoc3aOdEk85kQD_FtljmhlMFkF6Mve7kddhQocaHjYj62_AHItajwg",
   "if-match": "\"0\"",
   "content-type": "application/json",
   "content-length": "197",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.248Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.248Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.250Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:34.253Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-04T11:56:34.253Z"}
-debug: Response time: 5.7753 ms {"timestamp":"2019-11-04T11:56:34.254Z"}
+} {"timestamp":"2019-11-04T15:54:53.753Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.753Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.753Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: AuthService.validateJwt(): userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: AuthRequestHandler.validateJwt(): ok {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: SharedRequestHandler.validateContentType(): ok {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: Rollen = ["admin","mitarbeiter"] {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: AuthService.isLoggedIn(): ok {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: RolesService.getNormalizedRoles(): admin,mitarbeiter {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: AuthService.hasAnyRole(): true {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: AuthRequestHandler.hasRolle(): ok {"timestamp":"2019-11-04T15:54:53.754Z"}
+debug: AuthRequestHandler.isAdminMitarbeiter(): ok {"timestamp":"2019-11-04T15:54:53.755Z"}
+debug: SpielRequestHandler.update(): id=00000000-0000-0000-0000-000000000003 {"timestamp":"2019-11-04T15:54:53.755Z"}
+debug: SpielRequestHandler.update() versionHeader="0" {"timestamp":"2019-11-04T15:54:53.755Z"}
+debug: SpielRequestHandler.update(): spiel={"schlagwoerter":[],"autoren":[{"nachname":"Skat","vorname":"Susi"}],"titel":"Skat","rating":-1,"art":"UNSICHTBAR","verlag":"NO_VERLAG","preis":0.01,"rabatt":0,"lieferbar":true,"datum":"2017-01-27T23:00:00.000Z","_id":"00000000-0000-0000-0000-000000000003"} {"timestamp":"2019-11-04T15:54:53.755Z"}
+debug: SpielService.update(): version0 {"timestamp":"2019-11-04T15:54:53.755Z"}
+debug: SpielService.update(): spiel={"schlagwoerter":[],"autoren":[{"nachname":"Skat","vorname":"Susi"}],"titel":"Skat","rating":-1,"art":"UNSICHTBAR","verlag":"NO_VERLAG","preis":0.01,"rabatt":0,"lieferbar":true,"datum":"2017-01-27T23:00:00.000Z","_id":"00000000-0000-0000-0000-000000000003"}  {"timestamp":"2019-11-04T15:54:53.756Z"}
+debug: SpielService.update(): Validation Message: {"art":"Die Art eines Spiels muss BRETT oder KARTEN sein.","rating":"-1 ist keine gueltige Bewertung.","verlag":"Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein."} {"timestamp":"2019-11-04T15:54:53.756Z"}
+debug: ValidationError.constructor(): {"art":"Die Art eines Spiels muss BRETT oder KARTEN sein.","rating":"-1 ist keine gueltige Bewertung.","verlag":"Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein."} {"timestamp":"2019-11-04T15:54:53.756Z"}
+debug: SpielRequestHandler.update(): error={"message":"{\"art\":\"Die Art eines Spiels muss BRETT oder KARTEN sein.\",\"rating\":\"-1 ist keine gueltige Bewertung.\",\"verlag\":\"Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein.\"}","name":"ValidationError"} {"timestamp":"2019-11-04T15:54:53.756Z"}
+debug: Response time: 3.556301 ms {"timestamp":"2019-11-04T15:54:53.756Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "if-match": "\"0\"",
   "content-type": "application/json",
   "content-length": "244",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.269Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.269Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.270Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:34.273Z"}
-debug: AuthRequestHandler.validateJwt(): 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2019-11-04T11:56:34.274Z"}
-debug: Response time: 5.0785 ms {"timestamp":"2019-11-04T11:56:34.274Z"}
+} {"timestamp":"2019-11-04T15:54:53.765Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.765Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.765Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:53.767Z"}
+debug: AuthRequestHandler.validateJwt(): 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2019-11-04T15:54:53.767Z"}
+debug: Response time: 2.2677009999999997 ms {"timestamp":"2019-11-04T15:54:53.767Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "authorization": "Bearer x",
@@ -280,57 +360,68 @@ debug: Request: headers={
   "content-type": "application/json",
   "content-length": "244",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.295Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.295Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.296Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:34.298Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2019-11-04T11:56:34.298Z"}
-debug: Response time: 2.9926999999999997 ms {"timestamp":"2019-11-04T11:56:34.298Z"}
+} {"timestamp":"2019-11-04T15:54:53.773Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.773Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.773Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:53.775Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2019-11-04T15:54:53.775Z"}
+debug: Response time: 1.802101 ms {"timestamp":"2019-11-04T15:54:53.775Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "content-type": "application/x-www-form-urlencoded",
   "content-length": "25",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.329Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.329Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.329Z"}
-debug: AuthService.checkPassword(): true {"timestamp":"2019-11-04T11:56:34.795Z"}
-debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTQsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiNGNkOTllYTAtMjYwOC00YmUzLTk3NTItOWQyYmJjOGQyY2JkIiwiZXhwIjoxNTcyOTU0OTk0fQ.NPcilb2GINAd0wRg92ipxQQvC_-TKdMcg8RIUeRgNLcmOixwvdQNBys2QYCA1fBRw7ge1n48uH9mMaaHZgh5HhAQR9LrT8FCM-qFk3GuKBdPvhCF8mwhGcceRqIqjV-iJcQ5o-ytrITF2xzkjoCYUmjyuccqH2CBHIk-Y7e1-lfVK8GZoFK3SebY3GWtJOYQz0njht4drh_JAovylobyyGS3gnfbeE_g3CxOnHkoW2kSem2L-rVLAj4cwwLVfPhTt9Z-3mlV0ZK0VF_wSPAaA4ncAxtJAd6tfnTK-Xn8jP-zA9p068i1ZvDA4_EpDA7dFk-TxGo0EaElXJO4nlXI-g","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-04T11:56:34.799Z"}
-debug: Response time: 470.5515 ms {"timestamp":"2019-11-04T11:56:34.799Z"}
+} {"timestamp":"2019-11-04T15:54:53.787Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:53.787Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:53.787Z"}
+debug: AuthService.checkPassword(): true {"timestamp":"2019-11-04T15:54:54.103Z"}
+debug: AuthRequestHandler.login(): {"token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTQsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYWJmMmZlYjUtNjk1Zi00MWFhLThiMWYtZjUzOTgyNDFlNGJiIiwiZXhwIjoxNTcyOTY5Mjk0fQ.Smld97FGCwxghgaMSSvoGJPpkNTUQAKtUhNqa1wk4cA-pMNeRVh3yvYhAqIZ679T6ThKLNaJVCuo6QD8ZoKQJ2dkEmyur6_rgse82xsMBgeDdV8rJJ_qsnPR8PUMSerJD1DWW1RbbCIMklDluIsN7u7lE5OKpUBrSx0zTRfyoe5QEHbg4lkpGuNEoq2xtm1yCetDsM01YgKIhWhuVxZpu2RlHU1aZ4BGe9ECP6iYnJ1LWEtlER2Y2NGYsUh0HbfM3m_cI2ggDqntRag3UYpFDqxNQvjxrADVqlQr34_HRrdqnIngn4vrgPxtKZiGKlDQBQgs7mmyVB_GKppyQdFibQ","token_type":"Bearer","expires_in":86400,"roles":["admin","mitarbeiter","abteilungsleiter","kunde"]} {"timestamp":"2019-11-04T15:54:54.105Z"}
+debug: Response time: 318.5218 ms {"timestamp":"2019-11-04T15:54:54.105Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
-  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4Njg1OTQsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiNGNkOTllYTAtMjYwOC00YmUzLTk3NTItOWQyYmJjOGQyY2JkIiwiZXhwIjoxNTcyOTU0OTk0fQ.NPcilb2GINAd0wRg92ipxQQvC_-TKdMcg8RIUeRgNLcmOixwvdQNBys2QYCA1fBRw7ge1n48uH9mMaaHZgh5HhAQR9LrT8FCM-qFk3GuKBdPvhCF8mwhGcceRqIqjV-iJcQ5o-ytrITF2xzkjoCYUmjyuccqH2CBHIk-Y7e1-lfVK8GZoFK3SebY3GWtJOYQz0njht4drh_JAovylobyyGS3gnfbeE_g3CxOnHkoW2kSem2L-rVLAj4cwwLVfPhTt9Z-3mlV0ZK0VF_wSPAaA4ncAxtJAd6tfnTK-Xn8jP-zA9p068i1ZvDA4_EpDA7dFk-TxGo0EaElXJO4nlXI-g",
+  "authorization": "Bearer eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE1NzI4ODI4OTQsImlzcyI6Imh0dHBzOi8vaHNrYS5kZS9zaG9wL0p1ZXJnZW5aaW1tZXJtYW5uIiwic3ViIjoiMjAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAxIiwianRpIjoiYWJmMmZlYjUtNjk1Zi00MWFhLThiMWYtZjUzOTgyNDFlNGJiIiwiZXhwIjoxNTcyOTY5Mjk0fQ.Smld97FGCwxghgaMSSvoGJPpkNTUQAKtUhNqa1wk4cA-pMNeRVh3yvYhAqIZ679T6ThKLNaJVCuo6QD8ZoKQJ2dkEmyur6_rgse82xsMBgeDdV8rJJ_qsnPR8PUMSerJD1DWW1RbbCIMklDluIsN7u7lE5OKpUBrSx0zTRfyoe5QEHbg4lkpGuNEoq2xtm1yCetDsM01YgKIhWhuVxZpu2RlHU1aZ4BGe9ECP6iYnJ1LWEtlER2Y2NGYsUh0HbfM3m_cI2ggDqntRag3UYpFDqxNQvjxrADVqlQr34_HRrdqnIngn4vrgPxtKZiGKlDQBQgs7mmyVB_GKppyQdFibQ",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.806Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.807Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.807Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:34.808Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token-String ist mit RS256 nicht verifizierbar {"timestamp":"2019-11-04T11:56:34.809Z"}
-debug: Response time: 3.1494 ms {"timestamp":"2019-11-04T11:56:34.810Z"}
+} {"timestamp":"2019-11-04T15:54:54.111Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:54.111Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:54.111Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:54.112Z"}
+debug: AuthService.validateJwt(): userId: 20000000-0000-0000-0000-000000000001 {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: AuthRequestHandler.validateJwt(): ok {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: Rollen = ["admin"] {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: AuthService.isLoggedIn(): ok {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: RolesService.getNormalizedRoles(): admin {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: AuthService.hasAnyRole(): true {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: AuthRequestHandler.hasRolle(): ok {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: AuthRequestHandler.isAdmin(): ok {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: SpielRequestHandler.delete(): id=00000000-0000-0000-0000-000000000005 {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: SpielService.remove(): id=00000000-0000-0000-0000-000000000005 {"timestamp":"2019-11-04T15:54:54.113Z"}
+debug: SpielService.remove(): geloescht={"schlagwoerter":["SOLO"],"autoren":[{"nachname":"Elfe","vorname":"Elfriede"}],"_id":"00000000-0000-0000-0000-000000000005","titel":"Elfenland","rating":2,"art":"BRETT","verlag":"SCHMIDT","preis":99.99,"rabatt":0.055,"lieferbar":true,"datum":"2019-02-05T00:00:00.000Z","homepage":"https://elfen.land/","__v":0,"createdAt":"2019-02-01T00:00:00.000Z","updatedAt":"2019-02-01T00:00:00.000Z"} {"timestamp":"2019-11-04T15:54:54.117Z"}
+debug: SpielRequestHandler.delete(): NO_CONTENT {"timestamp":"2019-11-04T15:54:54.117Z"}
+debug: Response time: 6.455101 ms {"timestamp":"2019-11-04T15:54:54.118Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.818Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.818Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.818Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:34.824Z"}
-debug: AuthRequestHandler.validateJwt(): 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2019-11-04T11:56:34.824Z"}
-debug: Response time: 6.967999 ms {"timestamp":"2019-11-04T11:56:34.825Z"}
+} {"timestamp":"2019-11-04T15:54:54.127Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:54.127Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:54.128Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:54.129Z"}
+debug: AuthRequestHandler.validateJwt(): 401: AuthorizationInvalidError, Kein Header-Field Authorization {"timestamp":"2019-11-04T15:54:54.129Z"}
+debug: Response time: 2.3912009999999997 ms {"timestamp":"2019-11-04T15:54:54.130Z"}
 debug: Request: headers={
-  "host": "127.0.0.1:64781",
+  "host": "127.0.0.1:53379",
   "accept-encoding": "gzip, deflate",
   "user-agent": "node-superagent/3.8.3",
   "authorization": "Bearer x",
   "connection": "close"
-} {"timestamp":"2019-11-04T11:56:34.836Z"}
-debug: Request: protocol="http" {"timestamp":"2019-11-04T11:56:34.836Z"}
-debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T11:56:34.836Z"}
-debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T11:56:34.838Z"}
-debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2019-11-04T11:56:34.838Z"}
-debug: Response time: 3.688199 ms {"timestamp":"2019-11-04T11:56:34.839Z"}
+} {"timestamp":"2019-11-04T15:54:54.139Z"}
+debug: Request: protocol="http" {"timestamp":"2019-11-04T15:54:54.139Z"}
+debug: Request: hostname="127.0.0.1" {"timestamp":"2019-11-04T15:54:54.139Z"}
+debug: SharedRequestHandler.validateUUID(): isUUID {"timestamp":"2019-11-04T15:54:54.140Z"}
+debug: AuthRequestHandler.validateJwt(): 401: TokenInvalidError, Der Token besteht nicht aus 3 Teilen. {"timestamp":"2019-11-04T15:54:54.140Z"}
+debug: Response time: 1.309801 ms {"timestamp":"2019-11-04T15:54:54.140Z"}
