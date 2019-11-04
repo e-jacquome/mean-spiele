@@ -53,16 +53,16 @@ export const validateSpiel = (spiel: any) => {
     if (isEmpty(art)) {
         err.art = 'Die Art eines Spieles muss gesetzt sein';
     } else if (art !== 'BRETT' && spiel.art !== 'KARTEN') {
-        err.art = 'Die Art eines Spiels muss BRETT oder KARTEN sein.';
+        err.art = 'Die Art eines Spieles muss BRETT oder KARTEN sein.';
     }
     if (isPresent(rating) && (rating < 0 || rating > MAX_RATING)) {
         err.rating = `${rating} ist keine gueltige Bewertung.`;
     }
     if (isEmpty(verlag)) {
-        err.verlag = 'Der Verlag des Spiels muss gesetzt sein.';
+        err.verlag = 'Der Verlag des Spieles muss gesetzt sein.';
     } else if (verlag !== 'RAVENSBURGER' && verlag !== 'SCHMIDT') {
         err.verlag =
-            'Der Verlag eines Spiels muss RAVENSBURGER oder SCHMIDT sein.';
+            'Der Verlag eines Spieles muss RAVENSBURGER oder SCHMIDT sein.';
     }
     if (isPresent(homepage) && !isURL(homepage)) {
         err.homepage = `${homepage} ist keine gueltige URL.`;
