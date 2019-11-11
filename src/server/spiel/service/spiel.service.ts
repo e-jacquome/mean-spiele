@@ -87,7 +87,7 @@ export class SpielService {
         session.startTransaction();
 
         const { titel }: { titel: string } = spiel as any;
-        let tmp = await Spiel.findOne({ titel });
+        const tmp = await Spiel.findOne({ titel });
         if (tmp !== null) {
             return Promise.reject(
                 new TitelExistsError(`Der Titel "${titel}" existiert bereits.`),

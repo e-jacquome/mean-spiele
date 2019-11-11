@@ -434,11 +434,11 @@ describe('PUT /spiele/:id', () => {
             .set('If-Match', '"0"')
             .send(geaendertesSpiel)
             .expect(HttpStatus.BAD_REQUEST)
-            .end((error) => {
+            .end(error => {
                 if (error) {
                     return done(error);
                 }
-                //response.body.should.be.empty;
+                // response.body.should.be.empty;
                 done();
             });
     });
