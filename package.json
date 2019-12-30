@@ -144,7 +144,7 @@
     "mocha": "6.2.1",
     "mocha-allure-reporter": "1.4.0",
     "mochawesome": "4.1.0",
-    "mongo-express": "0.53.0",
+    "mongo-express": "0.54.0",
     "prettier": "1.18.2",
     "rimraf": "3.0.0",
     "shelljs": "0.8.3",
