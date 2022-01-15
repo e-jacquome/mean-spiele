@@ -147,7 +147,7 @@
     "mongo-express": "0.53.0",
     "prettier": "1.18.2",
     "rimraf": "3.0.0",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.5",
     "slash": "3.0.0",
     "source-map-support": "0.5.13",
     "supertest": "4.0.2",
